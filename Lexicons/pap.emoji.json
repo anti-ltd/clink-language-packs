@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "aliases": {
+    "🇨🇼": ["korsou", "curacao", "curaçao"],
+    "😀": ["sonrisa", "kontentu", "smile", "happy"],
+    "😂": ["hari", "gracioso", "laugh", "funny"],
+    "❤️": ["amor", "kurason", "love", "heart"],
+    "🔥": ["candela", "fire"],
+    "🐶": ["kachó", "dog"],
+    "🐱": ["pushi", "cat"],
+    "🐦": ["para", "bird"],
+    "🐔": ["gai", "chicken"],
+    "🐟": ["piska", "fish"]
+  },
+  "stopwords": ["e", "di", "pa", "ku", "na", "den", "un", "ta", "esaki", "esei"]
+}

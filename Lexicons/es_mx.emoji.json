@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "aliases": {
+    "🇲🇽": ["méxico", "mexico"],
+    "😀": ["sonrisa", "feliz", "smile", "happy"],
+    "😂": ["risa", "chistoso", "laugh", "funny"],
+    "❤️": ["amor", "corazón", "love", "heart"],
+    "🔥": ["fuego", "fire"],
+    "🐶": ["perro", "dog"],
+    "🐱": ["gato", "cat"],
+    "🐦": ["pájaro", "ave", "bird"],
+    "🐔": ["gallina", "pollo", "chicken"],
+    "🐟": ["pez", "pescado", "fish"]
+  },
+  "stopwords": ["el", "la", "los", "las", "y", "de", "en", "con", "por", "para"]
+}

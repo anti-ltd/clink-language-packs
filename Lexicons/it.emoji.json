@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "aliases": {
+    "🇮🇹": ["italia", "italy"],
+    "😀": ["sorriso", "felice", "smile", "happy"],
+    "😂": ["risata", "divertente", "laugh", "funny"],
+    "❤️": ["amore", "cuore", "love", "heart"],
+    "🔥": ["fuoco", "fire"],
+    "🐶": ["cane", "dog"],
+    "🐱": ["gatto", "cat"],
+    "🐦": ["uccello", "bird"],
+    "🐔": ["gallina", "pollo", "chicken"],
+    "🐟": ["pesce", "fish"]
+  },
+  "stopwords": ["il", "lo", "la", "i", "gli", "le", "e", "di", "in", "con"]
+}

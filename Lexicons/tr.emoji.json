@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "aliases": {
+    "🇹🇷": ["türkiye", "türkiye cumhuriyeti", "turkey"],
+    "😀": ["gülümseme", "mutlu", "smile", "happy"],
+    "😂": ["kahkaha", "komik", "laugh", "funny"],
+    "❤️": ["aşk", "kalp", "love", "heart"],
+    "🔥": ["ateş", "fire"],
+    "🐶": ["köpek", "dog"],
+    "🐱": ["kedi", "cat"],
+    "🐦": ["kuş", "bird"],
+    "🐔": ["tavuk", "chicken"],
+    "🐟": ["balık", "fish"]
+  },
+  "stopwords": ["ve", "bir", "bu", "şu", "için", "ile", "de", "da", "ne", "gibi"]
+}

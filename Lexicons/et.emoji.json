@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "aliases": {
+    "🇪🇪": ["eesti", "estonia"],
+    "😀": ["naeratus", "õnnelik", "smile", "happy"],
+    "😂": ["naer", "naljakas", "laugh", "funny"],
+    "❤️": ["armastus", "süda", "love", "heart"],
+    "🔥": ["tuli", "fire"],
+    "🐶": ["koer", "dog"],
+    "🐱": ["kass", "cat"],
+    "🐦": ["lind", "bird"],
+    "🐔": ["kana", "chicken"],
+    "🐟": ["kala", "fish"]
+  },
+  "stopwords": ["ja", "on", "ei", "see", "et", "kui", "oma", "ning", "või", "sest"]
+}

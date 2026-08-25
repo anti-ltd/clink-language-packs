@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "aliases": {
+    "🇭🇺": ["magyarország", "hungary"],
+    "😀": ["mosoly", "boldog", "smile", "happy"],
+    "😂": ["nevetés", "vicces", "laugh", "funny"],
+    "❤️": ["szerelem", "szív", "love", "heart"],
+    "🔥": ["tűz", "fire"],
+    "🐶": ["kutya", "dog"],
+    "🐱": ["macska", "cat"],
+    "🐦": ["madár", "bird"],
+    "🐔": ["csirke", "chicken"],
+    "🐟": ["hal", "fish"]
+  },
+  "stopwords": ["a", "az", "és", "hogy", "nem", "egy", "van", "meg", "is", "de"]
+}

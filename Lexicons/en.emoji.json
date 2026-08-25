@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "aliases": {
+    "🇺🇸": ["united states", "usa", "america"],
+    "😀": ["smile", "happy"],
+    "😂": ["laugh", "funny"],
+    "❤️": ["love", "heart"],
+    "🔥": ["fire", "flame"],
+    "🐶": ["dog", "puppy"],
+    "🐱": ["cat", "kitten"],
+    "🐦": ["bird"],
+    "🐔": ["chicken", "hen"],
+    "🐟": ["fish"]
+  },
+  "stopwords": ["the", "and", "for", "are", "but", "not", "you", "with", "this", "that"]
+}

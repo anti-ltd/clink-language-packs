@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "aliases": {
+    "🇵🇹": ["portugal"],
+    "😀": ["sorriso", "feliz", "smile", "happy"],
+    "😂": ["risada", "engraçado", "laugh", "funny"],
+    "❤️": ["amor", "coração", "love", "heart"],
+    "🔥": ["fogo", "fire"],
+    "🐶": ["cachorro", "cão", "dog"],
+    "🐱": ["gato", "cat"],
+    "🐦": ["pássaro", "ave", "bird"],
+    "🐔": ["galinha", "frango", "chicken"],
+    "🐟": ["peixe", "fish"]
+  },
+  "stopwords": ["o", "a", "os", "as", "e", "de", "em", "para", "com", "que"]
+}

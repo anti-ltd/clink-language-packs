@@ -6,7 +6,7 @@
 
 <p align="center">Open language resources for Clink keyboards.</p>
 
-Clink ships English in the app, then downloads the languages you choose. A pack contains its lexicon, prediction data, and where available its neural model or input-method tables. Everything stays on the device once installed.
+Clink ships English in the app, then downloads the languages you choose. A pack contains its lexicon, prediction data, optional emoji metadata, and where available its neural model or input-method tables. Everything stays on the device once installed.
 
 ## Official Clink repositories
 
@@ -28,6 +28,8 @@ Clink ships English in the app, then downloads the languages you choose. A pack 
 | 🇵🇹 Portuguese | 🇧🇷 Brazilian Portuguese | 🇷🇴 Romanian |
 | 🇷🇺 Russian | 🇷🇸 Serbian | 🇪🇸 Spanish |
 | 🇹🇷 Turkish | 🇺🇦 Ukrainian | 🇻🇳 Vietnamese |
+
+Every included language has an emoji metadata file. The metadata is optional for community packs, but recommended for every language because it lets the predictive bar recognize local words and phrases such as animal names, feelings, and country names.
 
 ## Make your first pack
 
@@ -55,18 +57,76 @@ You do **not** need to understand machine learning, binary files, or GitHub rele
 5. Run `./update.sh` when you are ready to publish. It commits your changes, creates a version tag, and pushes it. GitHub Actions builds the release manifest, calculates every SHA-256 hash and file size, then publishes the files.
 6. In Clink, open **General → Repositories**, add your public GitHub URL, then visit **Languages**. Your language appears under **Community**.
 
-That is enough to ship. Add the optional assets below only when you have the data and a reason to use them.
+That is enough to ship. Add the optional assets below when you have the data and a reason to use them.
 
 ## Which files do I need?
 
 | File | What it gives people | Do I need it? |
 |---|---|---|
 | `<code>.clex` | Dictionary words, completions, spelling help | Yes |
+| `<code>.emoji.json` | Localized emoji aliases and phrase stopwords | Recommended |
 | `<code>.cngm` | Better next-word suggestions from real sentences | Recommended when you have a sentence corpus |
 | `<code>.bpevocab` + `<code>.mlmodelc` | Neural ranking that uses more of the sentence context | Optional and advanced |
 | `<code>.cime` | Reading-to-character conversion, such as Pinyin → Hanzi | Only for an IME language |
 
-Everything lives in `Lexicons/`. The filename must begin with the same code: a Japanese pack uses `ja.clex`, `ja.cngm`, and, if applicable, `ja.cime`.
+Everything lives in `Lexicons/`. The filename must begin with the same code: a Japanese pack uses `ja.clex`, `ja.emoji.json`, `ja.cngm`, and, if applicable, `ja.cime`.
+
+## Add emoji metadata
+
+Emoji metadata is language-pack data, not Clink application code. Add it at:
+
+```text
+Lexicons/<code>.emoji.json
+```
+
+Clink merges the metadata with Unicode emoji names and its built-in CLDR keyword tables. The same file works for bundled development resources and downloaded releases. Adding aliases for a language must not require a Swift change in Clink.
+
+The file uses version 1 of this schema:
+
+```json
+{
+  "version": 1,
+  "aliases": {
+    "🐔": ["chicken", "hen"],
+    "🐦": ["bird"],
+    "🇻🇳": ["việt nam", "vietnam"]
+  },
+  "stopwords": ["the", "and", "with"]
+}
+```
+
+### `aliases`
+
+`aliases` maps a neutral emoji glyph to the words users type in that language. Use the actual emoji character as the key. Do not use skin-tone variants or variation-selector variants as separate keys; Clink normalizes those forms to the neutral glyph.
+
+Include common local words first, then useful international synonyms when they are genuinely used by speakers. Multi-word aliases are supported. Keep aliases focused on the emoji's meaning rather than adding broad or ambiguous words that would make the predictive bar noisy.
+
+Country names can be included as aliases for their flag. This is especially useful when the system locale does not provide the localized country name through `Locale`.
+
+### `stopwords`
+
+`stopwords` contains language function words that should not trigger emoji suggestions on their own or dominate short phrases. Examples include articles, conjunctions, pronouns, and common prepositions.
+
+These values are normalized for case and diacritics before matching. Store the natural language spelling in the file, including accents or tone marks where appropriate.
+
+### Authoring guidance
+
+Start with a small, high-confidence set:
+
+- smile, laugh, love, fire, and a few common reactions
+- dog, cat, bird, chicken, fish, and other everyday animals
+- the language's main country or region names
+- the most common function words as stopwords
+
+Expand the list from real language usage and review every alias for ambiguity. Do not copy machine-generated translations into a release without checking them with a native speaker or a trusted linguistic source. State the source and licence in the pack's change description when the data comes from a third-party corpus.
+
+Validate the metadata together with the dictionary:
+
+```sh
+python3 tools/validate-pack.py vi
+```
+
+The validator checks the required `.clex`, optional binary resources, neural-model pairing, JSON encoding, metadata version, alias shape, and stopword shape. Run it once for every language code you add or change.
 
 ## Add next-word prediction
 
@@ -111,7 +171,7 @@ This makes `Lexicons/ja.cime`. Clink shows at most the first 16 choices per read
 
 ## Add a neural model
 
-This is optional. Do it only after the dictionary and `.cngm` model feel good. Training needs a Mac, Xcode command-line tools, Python 3, a large sentence corpus, free disk space, and usually hours of processing. The output is two matching assets: the compiled Core ML model folder and its vocabulary. Never copy a vocabulary from one training run beside a model from another.
+This is optional. Do it only after the dictionary, emoji metadata, and `.cngm` model feel good. Training needs a Mac, Xcode command-line tools, Python 3, a large sentence corpus, free disk space, and usually hours of processing. The output is two matching assets: the compiled Core ML model folder and its vocabulary. Never copy a vocabulary from one training run beside a model from another.
 
 1. Put one sentence per line in `source/tok_sentences.tsv`. The filename has an underscore here because it is the neural trainer's convention. The file can be plain sentences; a Tatoeba-style tab-separated export also works because the final column is treated as the sentence.
 2. Install the training requirements once:
@@ -133,7 +193,7 @@ This is optional. Do it only after the dictionary and `.cngm` model feel good. T
    python3 tools/validate-pack.py tok
    ```
 
-The tool writes `Lexicons/tok.mlmodelc/` and `Lexicons/tok.bpevocab`. Keep both. Do not rename, edit, or mix them. If the training step is too much for your project, skip it: Clink still works with the dictionary and next-word model.
+The tool writes `Lexicons/tok.mlmodelc/` and `Lexicons/tok.bpevocab`. Keep both. Do not rename, edit, or mix them. If the training step is too much for your project, skip it: Clink still works with the dictionary, emoji metadata, and next-word model.
 
 ## Add your repository to Clink
 
@@ -147,7 +207,7 @@ After the GitHub Action publishes your first release, open **General → Reposit
 Read PROMPT.md and create a language pack for [language and locale], starting with this word-list source: [describe or provide it].
 ```
 
-The prompt starts with a generated dictionary—the only required asset—and adds prediction, IME, or neural assets only when the requested language and licensed source data warrant them. Review the language data, quality, and licensing before publishing.
+The prompt starts with a generated dictionary—the only required asset—and adds emoji metadata, prediction, IME, or neural assets only when the requested language and licensed source data warrant them. Review the language data, quality, and licensing before publishing.
 
 ## What Clink verifies
 
@@ -155,8 +215,10 @@ Clink only accepts public HTTPS GitHub release manifests. It derives the manifes
 
 Files are downloaded into a staging directory. Clink activates a pack only after every file has passed verification and the required `.clex` file exists. If a release fails at any point, the previous verified pack remains active.
 
+Emoji metadata is optional at install time. A pack without `<code>.emoji.json` still works with Unicode names and Clink's built-in CLDR tables; a pack with it adds language-specific aliases and phrase filtering at runtime.
+
 Adding a repository is still a trust decision. Only add repositories run by people or communities you trust to publish language data.
 
 ## Publishing is automatic
 
-Keep `Lexicons/`, `tools/`, and `.github/workflows/` in your fork. Build or update a language pack, run the validation tools, and push to `main`. GitHub Actions builds the release manifest and refreshes the release assets so Clink can download the verified pack.
+Keep `Lexicons/`, `tools/`, and `.github/workflows/` in your fork. Build or update a language pack, add or update `<code>.emoji.json` with the same code prefix as the dictionary, run the validation tools, and push to `main`. GitHub Actions includes every `Lexicons/<code>.*` asset in the release manifest, calculates its SHA-256 hash and byte count, and publishes the verified files.

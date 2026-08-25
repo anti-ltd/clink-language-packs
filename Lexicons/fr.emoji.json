@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "aliases": {
+    "🇫🇷": ["france"],
+    "😀": ["sourire", "heureux", "smile", "happy"],
+    "😂": ["rire", "drôle", "laugh", "funny"],
+    "❤️": ["amour", "cœur", "love", "heart"],
+    "🔥": ["feu", "fire"],
+    "🐶": ["chien", "dog"],
+    "🐱": ["chat", "cat"],
+    "🐦": ["oiseau", "bird"],
+    "🐔": ["poule", "poulet", "chicken"],
+    "🐟": ["poisson", "fish"]
+  },
+  "stopwords": ["le", "la", "les", "un", "une", "et", "de", "dans", "pour", "avec"]
+}

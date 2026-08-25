@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "aliases": {
+    "🇿🇦": ["suid afrika", "south africa"],
+    "😀": ["glimlag", "smile", "happy"],
+    "😂": ["lag", "laugh", "funny"],
+    "❤️": ["liefde", "love", "hart", "heart"],
+    "🔥": ["vuur", "fire"],
+    "🐶": ["hond", "dog"],
+    "🐱": ["kat", "cat"],
+    "🐦": ["voel", "bird"],
+    "🐔": ["hoender", "chicken"],
+    "🐟": ["vis", "fish"]
+  },
+  "stopwords": ["die", "n", "en", "van", "vir", "met", "op", "in", "te", "is"]
+}

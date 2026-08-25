@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "aliases": {
+    "🇭🇷": ["hrvatska", "croatia"],
+    "😀": ["osmijeh", "sretan", "smile", "happy"],
+    "😂": ["smijeh", "smiješno", "laugh", "funny"],
+    "❤️": ["ljubav", "srce", "love", "heart"],
+    "🔥": ["vatra", "fire"],
+    "🐶": ["pas", "dog"],
+    "🐱": ["mačka", "cat"],
+    "🐦": ["ptica", "bird"],
+    "🐔": ["kokoš", "chicken"],
+    "🐟": ["riba", "fish"]
+  },
+  "stopwords": ["i", "u", "na", "za", "s", "od", "do", "je", "se", "što"]
+}

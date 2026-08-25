@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "aliases": {
+    "🇨🇿": ["česko", "česká republika", "czechia"],
+    "😀": ["úsměv", "šťastný", "smile", "happy"],
+    "😂": ["smích", "legrační", "laugh", "funny"],
+    "❤️": ["láska", "srdce", "love", "heart"],
+    "🔥": ["oheň", "fire"],
+    "🐶": ["pes", "dog"],
+    "🐱": ["kočka", "cat"],
+    "🐦": ["pták", "bird"],
+    "🐔": ["kuře", "chicken"],
+    "🐟": ["ryba", "fish"]
+  },
+  "stopwords": ["a", "v", "na", "pro", "s", "z", "do", "že", "to", "se"]
+}

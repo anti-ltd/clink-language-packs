@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "aliases": {
+    "🇲🇾": ["malaysia"],
+    "😀": ["senyum", "gembira", "smile", "happy"],
+    "😂": ["ketawa", "lucu", "laugh", "funny"],
+    "❤️": ["cinta", "hati", "love", "heart"],
+    "🔥": ["api", "fire"],
+    "🐶": ["anjing", "dog"],
+    "🐱": ["kucing", "cat"],
+    "🐦": ["burung", "bird"],
+    "🐔": ["ayam", "chicken"],
+    "🐟": ["ikan", "fish"]
+  },
+  "stopwords": ["yang", "dan", "di", "ke", "dari", "untuk", "dengan", "ini", "itu", "adalah"]
+}

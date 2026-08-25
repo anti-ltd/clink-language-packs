@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "aliases": {
+    "🇻🇳": ["việt nam", "viet nam", "vietnam"],
+    "😀": ["nụ cười", "vui", "smile", "happy"],
+    "😂": ["cười", "buồn cười", "laugh", "funny"],
+    "❤️": ["tình yêu", "trái tim", "love", "heart"],
+    "🔥": ["lửa", "fire"],
+    "🐔": ["gà", "gà mái", "chicken", "hen", "poultry"],
+    "🐓": ["gà trống", "gà", "rooster", "cock"],
+    "🐥": ["gà con", "chick"],
+    "🐦": ["chim", "bird"],
+    "🐣": ["chim non", "gà con", "chick"],
+    "🐤": ["chim non", "gà con", "chick"],
+    "🐶": ["chó", "dog"],
+    "🐱": ["mèo", "cat"],
+    "🐟": ["cá", "fish"],
+    "🐖": ["lợn", "heo", "pig"],
+    "🐄": ["bò", "cow"],
+    "🐎": ["ngựa", "horse"]
+  },
+  "stopwords": ["con", "là", "một", "và", "của", "những", "các", "cho", "trong", "được"]
+}

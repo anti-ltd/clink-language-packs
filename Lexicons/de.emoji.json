@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "aliases": {
+    "🇩🇪": ["deutschland", "germany"],
+    "😀": ["lächeln", "glücklich", "smile", "happy"],
+    "😂": ["lachen", "lustig", "laugh", "funny"],
+    "❤️": ["liebe", "herz", "love", "heart"],
+    "🔥": ["feuer", "fire"],
+    "🐶": ["hund", "dog"],
+    "🐱": ["katze", "cat"],
+    "🐦": ["vogel", "bird"],
+    "🐔": ["huhn", "chicken"],
+    "🐟": ["fisch", "fish"]
+  },
+  "stopwords": ["der", "die", "das", "und", "in", "von", "zu", "mit", "auf", "ist"]
+}

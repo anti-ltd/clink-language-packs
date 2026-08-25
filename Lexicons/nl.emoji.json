@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "aliases": {
+    "🇳🇱": ["nederland", "holland"],
+    "😀": ["glimlach", "blij", "smile", "happy"],
+    "😂": ["lachen", "grappig", "laugh", "funny"],
+    "❤️": ["liefde", "hart", "love", "heart"],
+    "🔥": ["vuur", "fire"],
+    "🐶": ["hond", "dog"],
+    "🐱": ["kat", "cat"],
+    "🐦": ["vogel", "bird"],
+    "🐔": ["kip", "chicken"],
+    "🐟": ["vis", "fish"]
+  },
+  "stopwords": ["de", "het", "een", "en", "van", "in", "op", "voor", "met", "is"]
+}

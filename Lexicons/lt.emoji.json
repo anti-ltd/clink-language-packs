@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "aliases": {
+    "🇱🇹": ["lietuva", "lithuania"],
+    "😀": ["šypsena", "laimingas", "smile", "happy"],
+    "😂": ["juokas", "juokinga", "laugh", "funny"],
+    "❤️": ["meilė", "širdis", "love", "heart"],
+    "🔥": ["ugnis", "fire"],
+    "🐶": ["šuo", "dog"],
+    "🐱": ["katė", "cat"],
+    "🐦": ["paukštis", "bird"],
+    "🐔": ["višta", "chicken"],
+    "🐟": ["žuvis", "fish"]
+  },
+  "stopwords": ["ir", "į", "iš", "su", "kad", "tai", "yra", "bet", "kaip", "už"]
+}

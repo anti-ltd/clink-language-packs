@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "aliases": {
+    "🇷🇴": ["românia", "romania"],
+    "😀": ["zâmbet", "fericit", "smile", "happy"],
+    "😂": ["râs", "amuzant", "laugh", "funny"],
+    "❤️": ["iubire", "inimă", "love", "heart"],
+    "🔥": ["foc", "fire"],
+    "🐶": ["câine", "dog"],
+    "🐱": ["pisică", "cat"],
+    "🐦": ["pasăre", "bird"],
+    "🐔": ["găină", "chicken"],
+    "🐟": ["pește", "fish"]
+  },
+  "stopwords": ["și", "în", "la", "de", "cu", "pentru", "din", "un", "o", "este"]
+}

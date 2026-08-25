@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "aliases": {
+    "🇱🇺": ["lëtzebuerg", "luxembourg"],
+    "😀": ["laachen", "glécklech", "smile", "happy"],
+    "😂": ["laachen", "witzeg", "laugh", "funny"],
+    "❤️": ["léift", "häerz", "love", "heart"],
+    "🔥": ["feier", "fire"],
+    "🐶": ["hond", "dog"],
+    "🐱": ["kaz", "cat"],
+    "🐦": ["vull", "bird"],
+    "🐔": ["hong", "chicken"],
+    "🐟": ["fësch", "fish"]
+  },
+  "stopwords": ["an", "déi", "den", "d'", "vun", "mat", "fir", "op", "zu", "ass"]
+}
