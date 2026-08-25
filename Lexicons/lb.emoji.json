@@ -1,16 +1,8587 @@
 {
   "version": 1,
   "aliases": {
-    "🇱🇺": ["lëtzebuerg", "luxembourg"],
-    "😀": ["laachen", "glécklech", "smile", "happy"],
-    "😂": ["laachen", "witzeg", "laugh", "funny"],
-    "❤️": ["léift", "häerz", "love", "heart"],
-    "🔥": ["feier", "fire"],
-    "🐶": ["hond", "dog"],
-    "🐱": ["kaz", "cat"],
-    "🐦": ["vull", "bird"],
-    "🐔": ["hong", "chicken"],
-    "🐟": ["fësch", "fish"]
+    "0⃣": [
+      "0",
+      "keycap",
+      "null"
+    ],
+    "1⃣": [
+      "1",
+      "eent",
+      "keycap"
+    ],
+    "2⃣": [
+      "2",
+      "keycap",
+      "zwee"
+    ],
+    "3⃣": [
+      "3",
+      "dräi",
+      "keycap"
+    ],
+    "4⃣": [
+      "4",
+      "keycap",
+      "véier"
+    ],
+    "5⃣": [
+      "5",
+      "fënnef",
+      "keycap"
+    ],
+    "6⃣": [
+      "6",
+      "keycap",
+      "sechs"
+    ],
+    "7⃣": [
+      "7",
+      "keycap",
+      "siwen"
+    ],
+    "8⃣": [
+      "8",
+      "aacht",
+      "keycap"
+    ],
+    "9⃣": [
+      "9",
+      "keycap",
+      "néng"
+    ],
+    "©": [
+      "Copyright"
+    ],
+    "®": [
+      "agedroen"
+    ],
+    "‼": [
+      "Ausruff",
+      "duebelt Ausruffzeechen",
+      "Interpunktioun",
+      "Zeechen"
+    ],
+    "⁉": [
+      "Ausruff",
+      "Ausrufffragezeechen",
+      "Fragezeechen",
+      "Fro",
+      "Interpunktioun",
+      "Zeechen"
+    ],
+    "™": [
+      "Markenzeechen",
+      "TM",
+      "Trademark",
+      "Zeechen"
+    ],
+    "ℹ": [
+      "I",
+      "Informatioun"
+    ],
+    "↔": [
+      "Feil no lénks a riets",
+      "Feiler"
+    ],
+    "↕": [
+      "Feil no uewen an ënnen",
+      "Feiler"
+    ],
+    "↖": [
+      "Feil",
+      "Feil no uewen a lénks",
+      "Himmelsrichtung",
+      "Nordwesten",
+      "Richtung"
+    ],
+    "↗": [
+      "Feil",
+      "Feil no uewen a riets",
+      "Himmelsrichtung",
+      "Nordosten",
+      "Richtung"
+    ],
+    "↘": [
+      "Feil",
+      "Feil no ënnen a riets",
+      "Himmelsrichtung",
+      "Richtung",
+      "Südosten"
+    ],
+    "↙": [
+      "Feil",
+      "Feil no ënnen a lénks",
+      "Himmelsrichtung",
+      "Richtung",
+      "Südwesten"
+    ],
+    "↩": [
+      "Feiler",
+      "Rietsfeil mat Lénkskéier"
+    ],
+    "↪": [
+      "Feiler",
+      "Lénksfeil mat Rietskéier"
+    ],
+    "⌚": [
+      "Auer"
+    ],
+    "⌛": [
+      "Auer",
+      "Sand",
+      "Sandauer",
+      "Zäit"
+    ],
+    "⌨": [
+      "Computer",
+      "Tastatur"
+    ],
+    "⏏": [
+      "auswerfen",
+      "Auswerfknäppchen"
+    ],
+    "⏩": [
+      "duebel",
+      "Feil",
+      "schnell",
+      "Schnellvirlafknäppchen",
+      "Virlaf"
+    ],
+    "⏪": [
+      "duebel",
+      "Feil",
+      "Récklaf",
+      "Schnellrécklafknäppchen"
+    ],
+    "⏫": [
+      "duebel",
+      "Feil",
+      "Knäppchen „Séier no uewen“"
+    ],
+    "⏬": [
+      "duebel",
+      "Feil",
+      "Knäppchen „Séier no ënnen“",
+      "no ënnen"
+    ],
+    "⏭": [
+      "Dräieck",
+      "Feil",
+      "Knäppche „Nächst Lidd“",
+      "nächst Kapitel",
+      "nächst Lidd"
+    ],
+    "⏮": [
+      "Dräieck",
+      "Feil",
+      "Knäppchen „Lescht Lidd“",
+      "viregt Kapitel",
+      "viregt Lidd"
+    ],
+    "⏯": [
+      "Dräieck",
+      "Feil",
+      "Ofspill- oder Pausknäppchen",
+      "ofspillen",
+      "pausen",
+      "riets"
+    ],
+    "⏰": [
+      "Auer",
+      "Wecker"
+    ],
+    "⏱": [
+      "Auer",
+      "Stoppauer"
+    ],
+    "⏲": [
+      "Auer",
+      "Timer"
+    ],
+    "⏳": [
+      "Auer",
+      "Sand",
+      "Sandauer",
+      "Sandauer mat lafendem Sand",
+      "Zäit"
+    ],
+    "⏸": [
+      "duebel",
+      "Paus",
+      "Pausknäppchen",
+      "Stréch",
+      "vertikal"
+    ],
+    "⏹": [
+      "Quadrat",
+      "Stop",
+      "Stoppknäppchen"
+    ],
+    "⏺": [
+      "Krees",
+      "ophuelen",
+      "Opnamknäppchen"
+    ],
+    "Ⓜ": [
+      "agekreesten M",
+      "Krees",
+      "M"
+    ],
+    "▪": [
+      "geometresch",
+      "klenge schwaarze Quadrat",
+      "Quadrat"
+    ],
+    "▫": [
+      "geometresch",
+      "klenge wäisse Quadrat",
+      "Quadrat"
+    ],
+    "▶": [
+      "Dräieck",
+      "Feil",
+      "ofspillen",
+      "Ofspillknäppchen",
+      "riets"
+    ],
+    "◀": [
+      "Dräieck",
+      "Feil",
+      "lénks",
+      "Récklaf",
+      "Récklafknäppchen"
+    ],
+    "◻": [
+      "geometresch",
+      "mëttelgrousse wäisse Quadrat",
+      "Quadrat"
+    ],
+    "◼": [
+      "geometresch",
+      "mëttelgrousse schwaarze Quadrat",
+      "Quadrat"
+    ],
+    "◽": [
+      "geometresch",
+      "Quadrat",
+      "wäisse mëttelklenge Quadrat"
+    ],
+    "◾": [
+      "geometresch",
+      "Quadrat",
+      "schwaarze mëttelklenge Quadrat"
+    ],
+    "☀": [
+      "hell",
+      "Sonn",
+      "sonneg",
+      "Stralen"
+    ],
+    "☁": [
+      "Wieder",
+      "Wollek"
+    ],
+    "☂": [
+      "Kleedung",
+      "Prabbeli",
+      "Reen"
+    ],
+    "☃": [
+      "kal",
+      "Schnéi",
+      "Schnéimännchen"
+    ],
+    "☄": [
+      "Komet",
+      "Weltall"
+    ],
+    "☎": [
+      "Telefon"
+    ],
+    "☑": [
+      "Këscht",
+      "Kreepchen",
+      "Krop",
+      "Urn",
+      "Urn mat Kreepchen"
+    ],
+    "☔": [
+      "Drëps",
+      "Kleedung",
+      "Prabbeli",
+      "Prabbeli mat Reendrëpsen",
+      "Reen"
+    ],
+    "☕": [
+      "dämpend",
+      "drénken",
+      "Gedrénks",
+      "Kaffi",
+      "Téi",
+      "waarm",
+      "waarmt Gedrénks"
+    ],
+    "☘": [
+      "Kléi",
+      "Planz"
+    ],
+    "☝": [
+      "Fanger",
+      "Hand",
+      "no uewe weisende Fanger",
+      "no uewen",
+      "weisen",
+      "Zeigefanger",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "☠": [
+      "Doud",
+      "Doudekapp",
+      "Doudekapp a gekräizt Schanken",
+      "gekräizt Schanken",
+      "Gesiicht",
+      "Monster"
+    ],
+    "☢": [
+      "radioaktiv",
+      "Zeechen"
+    ],
+    "☣": [
+      "Ëmweltgefor",
+      "Zeechen"
+    ],
+    "☦": [
+      "chrëschtlech",
+      "Kräiz",
+      "orthodoxt Kräiz",
+      "Relioun"
+    ],
+    "☪": [
+      "Islam",
+      "Moslem",
+      "Relioun",
+      "Stär an Hallefmound"
+    ],
+    "☮": [
+      "Fridden",
+      "Friddenszeechen"
+    ],
+    "☯": [
+      "Relioun",
+      "Tao",
+      "Taoist",
+      "Yang",
+      "Yin",
+      "Yin-Yang"
+    ],
+    "☸": [
+      "Buddhist",
+      "Dharma",
+      "Dharma-Rad",
+      "Rad",
+      "Relioun"
+    ],
+    "☹": [
+      "d’Stir fronzend",
+      "Gesiicht",
+      "Stir fronzen"
+    ],
+    "☺": [
+      "Gesiicht",
+      "Laachen",
+      "laachend Gesiicht",
+      "relax",
+      "stiliséiert"
+    ],
+    "♀": [
+      "Fra",
+      "weiblecht Zeechen"
+    ],
+    "♂": [
+      "Mann",
+      "männlecht Zeechen"
+    ],
+    "♈": [
+      "Stärzeechen",
+      "Widder",
+      "Widder (Stärzeechen)"
+    ],
+    "♉": [
+      "Ochs",
+      "Stärzeechen",
+      "Stéier"
+    ],
+    "♊": [
+      "Stärzeechen",
+      "Zwilling"
+    ],
+    "♋": [
+      "Kriibs",
+      "Kriibs (Stärzeechen)",
+      "Stärzeechen"
+    ],
+    "♌": [
+      "Léif",
+      "Stärzeechen"
+    ],
+    "♍": [
+      "Jongfra",
+      "Stärzeechen"
+    ],
+    "♎": [
+      "Geriicht",
+      "Justiz",
+      "Stärzeechen",
+      "Wo",
+      "Wo (Stärzeechen)"
+    ],
+    "♏": [
+      "Skorpioun",
+      "Skorpioun (Stärzeechen)",
+      "Stärzeechen"
+    ],
+    "♐": [
+      "Bouschéisser",
+      "Schütze",
+      "Stärzeechen"
+    ],
+    "♑": [
+      "Gees",
+      "Stärzeechen",
+      "Steebock"
+    ],
+    "♒": [
+      "Stärzeechen",
+      "Träger",
+      "Waasser",
+      "Waassermann"
+    ],
+    "♓": [
+      "Fësch",
+      "Fësch (Stärzeechen)",
+      "Stärzeechen"
+    ],
+    "♠": [
+      "Kaart",
+      "Schëppen",
+      "Spill"
+    ],
+    "♣": [
+      "Kaart",
+      "Kräizer",
+      "Spill"
+    ],
+    "♥": [
+      "Häerzer",
+      "Kaart",
+      "Spill"
+    ],
+    "♦": [
+      "Kaart",
+      "Rauten",
+      "Spill"
+    ],
+    "♨": [
+      "dämpend",
+      "Quellen",
+      "waarm"
+    ],
+    "♻": [
+      "Recycling-Zeechen",
+      "recyléieren"
+    ],
+    "♿": [
+      "Rollstullzeechen",
+      "Zougank"
+    ],
+    "⚒": [
+      "Handwierksgeschir",
+      "Hummer",
+      "Hummer a Piosch",
+      "Piosch"
+    ],
+    "⚓": [
+      "Anker",
+      "Handwierksgeschir",
+      "Schëff"
+    ],
+    "⚔": [
+      "gekräizt",
+      "Schwäerter",
+      "Waff"
+    ],
+    "⚕": [
+      "Asklepios",
+      "Medezin",
+      "medezinescht Symbol",
+      "Personal"
+    ],
+    "⚖": [
+      "Apparat",
+      "Gewiicht",
+      "Gläichgewiicht",
+      "Justiz",
+      "Riichter",
+      "Stärzeechen",
+      "Wo"
+    ],
+    "⚗": [
+      "Alembique",
+      "Chimie",
+      "Handwierksgeschir"
+    ],
+    "⚙": [
+      "Handwierksgeschir",
+      "Zännrad"
+    ],
+    "⚛": [
+      "Atheist",
+      "Atom",
+      "Atomzeechen"
+    ],
+    "⚜": [
+      "Lilie"
+    ],
+    "⚠": [
+      "Warnung"
+    ],
+    "⚡": [
+      "Blëtz",
+      "elektresch",
+      "Gefor",
+      "Héichspannung",
+      "Spannung",
+      "Stroum"
+    ],
+    "⚪": [
+      "geometresch",
+      "Krees",
+      "wäisse Krees"
+    ],
+    "⚫": [
+      "geometresch",
+      "Krees",
+      "schwaarze Krees"
+    ],
+    "⚰": [
+      "Doud",
+      "Sarg"
+    ],
+    "⚱": [
+      "Äschen",
+      "Begriefnis",
+      "Doud",
+      "Urn"
+    ],
+    "⚽": [
+      "Ball",
+      "Fussball"
+    ],
+    "⚾": [
+      "Ball",
+      "Baseball"
+    ],
+    "⛄": [
+      "kal",
+      "Schnéi",
+      "Schnéimännchen",
+      "Schnéimännchen ouni Schnéi"
+    ],
+    "⛅": [
+      "Sonn",
+      "Sonn hannert Wolleken",
+      "Wollek"
+    ],
+    "⛈": [
+      "Donnerwieder",
+      "Reen",
+      "Wollek",
+      "Wollek mat Blëtz a Reen"
+    ],
+    "⛎": [
+      "Schlaang",
+      "Schlaangenträger",
+      "Schlaangenträger (Ophiuchus)",
+      "Stärzeechen",
+      "Träger"
+    ],
+    "⛏": [
+      "Grouf",
+      "Handwierksgeschir",
+      "Piosch"
+    ],
+    "⛑": [
+      "Gesiicht",
+      "Hëllef",
+      "Helm",
+      "Hutt",
+      "Kräiz",
+      "Rettungsdéngscht"
+    ],
+    "⛓": [
+      "Ketten"
+    ],
+    "⛔": [
+      "Accès",
+      "keen",
+      "neen",
+      "net",
+      "verbueden",
+      "Verkéier"
+    ],
+    "⛩": [
+      "Relioun",
+      "Schräin",
+      "Shinto",
+      "Shinto-Schräin"
+    ],
+    "⛪": [
+      "chrëschtlech",
+      "Kierch",
+      "Kräiz",
+      "Relioun"
+    ],
+    "⛰": [
+      "Bierg"
+    ],
+    "⛱": [
+      "Prabbeli",
+      "Prabbeli um Buedem",
+      "Reen",
+      "Sonn"
+    ],
+    "⛲": [
+      "Sprangbuer"
+    ],
+    "⛳": [
+      "Golf",
+      "Golflach mat Fändel",
+      "Lach"
+    ],
+    "⛴": [
+      "Boot",
+      "Fähr",
+      "Passagéier"
+    ],
+    "⛵": [
+      "Boot",
+      "Mier",
+      "Resort",
+      "Segelboot",
+      "Yacht"
+    ],
+    "⛷": [
+      "Schnéi",
+      "Ski",
+      "Skifuerer"
+    ],
+    "⛸": [
+      "Äis",
+      "Schlittschong"
+    ],
+    "⛹": [
+      "Ball",
+      "mam Ball dribbelend Persoun",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "⛹‍♀": [
+      "Ball",
+      "Fra",
+      "mam Ball dribbelend Fra",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "⛹‍♂": [
+      "Ball",
+      "mam Ball dribbelende Mann",
+      "Mann",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "⛺": [
+      "Camping",
+      "Zelt"
+    ],
+    "⛽": [
+      "Bensin",
+      "Pompel",
+      "Statioun",
+      "Tankstell"
+    ],
+    "✂": [
+      "Handwierksgeschir",
+      "Schéier",
+      "schneiden"
+    ],
+    "✅": [
+      "fettgedréckte wäisse Kreepchen",
+      "Kreepchen",
+      "Krop"
+    ],
+    "✈": [
+      "Fliger"
+    ],
+    "✉": [
+      "Bréif",
+      "E-Mail",
+      "Enveloppe"
+    ],
+    "✊": [
+      "boxen",
+      "Fauscht",
+      "Hand",
+      "héichgehale Fauscht",
+      "zouen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "✋": [
+      "Hand",
+      "héichgehalen Hand",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "✌": [
+      "Hand",
+      "V",
+      "Victoire",
+      "Victoire-Handzeechen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "✍": [
+      "Hand",
+      "schreiwen",
+      "schreiwend Hand",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "✏": [
+      "Bläistëft"
+    ],
+    "✒": [
+      "Bic",
+      "Fieder",
+      "schwaarz Fieder",
+      "Spëtz"
+    ],
+    "✔": [
+      "fettgedréckte Kreepchen",
+      "Kreepchen",
+      "Krop"
+    ],
+    "✖": [
+      "fettgedrécktent Multiplikatiounszeechen",
+      "Multiplikatioun",
+      "multiplizéieren",
+      "ofbriechen",
+      "x"
+    ],
+    "✝": [
+      "chrëschtlech",
+      "Kräiz",
+      "latäinescht Kräiz",
+      "Relioun"
+    ],
+    "✡": [
+      "David",
+      "Davidstär",
+      "jiddesch",
+      "Judd",
+      "Relioun",
+      "Stär"
+    ],
+    "✨": [
+      "fonkelend Stären",
+      "Fonken",
+      "Stär"
+    ],
+    "✳": [
+      "aachtzackege Stärchen",
+      "Asterisk"
+    ],
+    "✴": [
+      "aachtzackege Stär",
+      "Stär"
+    ],
+    "❄": [
+      "kal",
+      "Schnéi",
+      "Schnéiflack"
+    ],
+    "❇": [
+      "Fonken"
+    ],
+    "❌": [
+      "Kräizzeechen",
+      "Multiplikatioun",
+      "multiplizéieren",
+      "ofbriechen",
+      "x",
+      "Zeechen"
+    ],
+    "❎": [
+      "Quadrat",
+      "X-Knäppchen",
+      "Zeechen"
+    ],
+    "❓": [
+      "Fragezeechen",
+      "Fro",
+      "Interpunktioun",
+      "Zeechen"
+    ],
+    "❔": [
+      "Fro",
+      "Interpunktioun",
+      "Kontur",
+      "wäisst Fragezeechen",
+      "Zeechen"
+    ],
+    "❕": [
+      "Ausruff",
+      "Interpunktioun",
+      "Kontur",
+      "wäisst Ausruffzeechen",
+      "Zeechen"
+    ],
+    "❗": [
+      "Ausruff",
+      "Ausruffzeechen",
+      "Interpunktioun",
+      "Zeechen"
+    ],
+    "❣": [
+      "Ausruff",
+      "fettgedréckt Häerzausruffzeechen",
+      "Interpunktioun",
+      "Zeechen"
+    ],
+    "❤": [
+      "Häerz",
+      "rout Häerz"
+    ],
+    "❤️": [
+      "léift",
+      "häerz",
+      "love",
+      "heart"
+    ],
+    "➕": [
+      "fettgedrécktent Pluszeechen",
+      "Mathematik",
+      "Plus"
+    ],
+    "➖": [
+      "fettgedrécktent Minuszeechen",
+      "Mathematik",
+      "Minus"
+    ],
+    "➗": [
+      "Divisioun",
+      "fettgedrécktent Divisiounszeechen",
+      "Mathematik"
+    ],
+    "➡": [
+      "Feil",
+      "Feil no riets",
+      "Himmelsrichtung",
+      "Osten",
+      "Richtung"
+    ],
+    "➰": [
+      "Kréngel",
+      "Schleef"
+    ],
+    "➿": [
+      "duebel",
+      "Kréngel",
+      "Schleef"
+    ],
+    "⤴": [
+      "Feiler",
+      "Rietsfeil mat Kéier no uewen"
+    ],
+    "⤵": [
+      "Feil",
+      "no ënnen",
+      "Rietsfeil mat Kéier no ënnen"
+    ],
+    "⬅": [
+      "Feil",
+      "Feil no lénks",
+      "Himmelsrichtung",
+      "Richtung",
+      "Westen"
+    ],
+    "⬆": [
+      "Feil",
+      "Feil no uewen",
+      "Himmelsrichtung",
+      "Norden",
+      "Richtung"
+    ],
+    "⬇": [
+      "Feil",
+      "Feil no ënnen",
+      "Himmelsrichtung",
+      "no ënnen",
+      "Richtung",
+      "Süden"
+    ],
+    "⬛": [
+      "geometresch",
+      "Quadrat",
+      "schwaarze grousse Quadrat"
+    ],
+    "⬜": [
+      "geometresch",
+      "Quadrat",
+      "wäisse grousse Quadrat"
+    ],
+    "⭐": [
+      "mëttelgrousse wäisse Stär",
+      "Stär"
+    ],
+    "⭕": [
+      "groussen décke Krees",
+      "Krees",
+      "o"
+    ],
+    "〰": [
+      "gewellt",
+      "gewellte Stréch",
+      "Interpunktioun",
+      "Stréch"
+    ],
+    "〽": [
+      "deelen",
+      "Deelzeechen",
+      "Zeechen"
+    ],
+    "㊗": [
+      "’Gléckwënsch’",
+      "Ideograf",
+      "japanesch",
+      "japanesche Knäppchen ’Gléckwënsch’"
+    ],
+    "㊙": [
+      "’Geheimnis’",
+      "Ideograf",
+      "japanesch",
+      "japanesche Knäppchen ’Geheimnis’"
+    ],
+    "🀄": [
+      "Mahjong",
+      "Rouden Draach (Mahjong)",
+      "rout",
+      "Spill"
+    ],
+    "🃏": [
+      "Jocker",
+      "Joker",
+      "Kaart",
+      "Spill"
+    ],
+    "🅰": [
+      "A",
+      "A-Knäppchen (Bluttgrupp)",
+      "Bluttgrupp"
+    ],
+    "🅱": [
+      "B",
+      "B-Knäppchen (Bluttgrupp)",
+      "Bluttgrupp"
+    ],
+    "🅾": [
+      "Bluttgrupp",
+      "O",
+      "O-Knäppchen (Bluttgrupp)"
+    ],
+    "🅿": [
+      "P-Knäppchen",
+      "Parking"
+    ],
+    "🆎": [
+      "AB",
+      "AB-Knäppchen (Bluttgrupp)",
+      "Bluttgrupp"
+    ],
+    "🆑": [
+      "CL",
+      "CL-Knäppchen"
+    ],
+    "🆒": [
+      "cool",
+      "COOL-Knäppchen"
+    ],
+    "🆓": [
+      "fräi",
+      "FRÄI-Knäppchen"
+    ],
+    "🆔": [
+      "ID",
+      "ID-Knäppchen",
+      "Identitéit"
+    ],
+    "🆕": [
+      "nei",
+      "NEI-Knäppchen"
+    ],
+    "🆖": [
+      "NG",
+      "NG-Knäppchen"
+    ],
+    "🆗": [
+      "OK",
+      "OK-Knäppchen"
+    ],
+    "🆘": [
+      "Hëllef",
+      "SOS",
+      "SOS-Knäppchen"
+    ],
+    "🆙": [
+      "no uewen",
+      "UP!-Knäppchen",
+      "Zeechen"
+    ],
+    "🆚": [
+      "versus",
+      "VS",
+      "VS-Knäppchen"
+    ],
+    "🇱🇺": [
+      "lëtzebuerg",
+      "luxembourg"
+    ],
+    "🈁": [
+      "’hei’",
+      "japanesch",
+      "japanesche Knäppchen ’hei’",
+      "Katakana"
+    ],
+    "🈂": [
+      "’Serviceännerung’",
+      "japanesch",
+      "japanesche Knäppchen ’Serviceännerung’",
+      "Katakana"
+    ],
+    "🈚": [
+      "’gratis’",
+      "Ideograf",
+      "japanesch",
+      "japanesche Knäppchen ’gratis’"
+    ],
+    "🈯": [
+      "’reservéiert’",
+      "Ideograf",
+      "japanesch",
+      "japanesche Knäppchen ’reservéiert’"
+    ],
+    "🈲": [
+      "’verbueden’",
+      "Ideograf",
+      "japanesch",
+      "japanesche Knäppchen ’verbueden’"
+    ],
+    "🈳": [
+      "’fräi’",
+      "Ideograf",
+      "japanesch",
+      "japanesche Knäppchen ’fräi’"
+    ],
+    "🈴": [
+      "’Ofkommes’",
+      "Ideograf",
+      "japanesch",
+      "japanesche Knäppchen ’Ofkommes’"
+    ],
+    "🈵": [
+      "’net fräi’",
+      "Ideograf",
+      "japanesch",
+      "japanesche Knäppchen ’net fräi’"
+    ],
+    "🈶": [
+      "’net gratis’",
+      "Ideograf",
+      "japanesch",
+      "japanesche Knäppchen ’net gratis’"
+    ],
+    "🈷": [
+      "’mountleche Betrag’",
+      "Ideograf",
+      "japanesch",
+      "japanesche Knäppchen ’mountleche Betrag’"
+    ],
+    "🈸": [
+      "’Applikatioun’",
+      "Ideograf",
+      "japanesch",
+      "japanesche Knäppchen ’Applikatioun’"
+    ],
+    "🈹": [
+      "’Rabatt’",
+      "Ideograf",
+      "japanesch",
+      "japanesche Knäppchen ’Rabatt’"
+    ],
+    "🈺": [
+      "’op fir Geschäfter’",
+      "Ideograf",
+      "japanesch",
+      "japanesche Knäppchen ’op fir Geschäfter’"
+    ],
+    "🉐": [
+      "’Schnäppchen’",
+      "Ideograf",
+      "japanesch",
+      "japanesche Knäppchen ’Schnäppchen’"
+    ],
+    "🉑": [
+      "’acceptabel’",
+      "Ideograf",
+      "japanesch",
+      "japanesche Knäppchen ’acceptabel’"
+    ],
+    "🌀": [
+      "Schwindel",
+      "Taifun",
+      "Twister",
+      "Zyklon"
+    ],
+    "🌁": [
+      "Niwwel",
+      "niwweleg"
+    ],
+    "🌂": [
+      "Kleedung",
+      "Prabbeli",
+      "Reen",
+      "zoue Prabbeli"
+    ],
+    "🌃": [
+      "Himmel",
+      "Nuecht",
+      "Stär",
+      "Stärenhimmel"
+    ],
+    "🌄": [
+      "Bierg",
+      "Moien",
+      "Sonn",
+      "Sonnenopgang",
+      "Sonnenopgang an de Bierger"
+    ],
+    "🌅": [
+      "Moien",
+      "Sonn",
+      "Sonnenopgang"
+    ],
+    "🌆": [
+      "Dämmerung",
+      "Landschaft",
+      "Owend",
+      "Sonn",
+      "Sonnenënnergang",
+      "Stad",
+      "Stad an der Dämmerung"
+    ],
+    "🌇": [
+      "Dämmerung",
+      "Sonn",
+      "Sonnenënnergang"
+    ],
+    "🌈": [
+      "Reebou",
+      "Reen"
+    ],
+    "🌉": [
+      "Bréck",
+      "Nuecht",
+      "nuets"
+    ],
+    "🌊": [
+      "Ozean",
+      "Waasser",
+      "Waasserwell",
+      "Well"
+    ],
+    "🌋": [
+      "Bierg",
+      "Eruptioun",
+      "Vulkan"
+    ],
+    "🌌": [
+      "Mëllechstrooss",
+      "Weltall"
+    ],
+    "🌍": [
+      "Äerd",
+      "Afrika",
+      "Europa",
+      "Globus",
+      "Globus (zentréiert op Europa an Afrika)",
+      "Welt"
+    ],
+    "🌎": [
+      "Äerd",
+      "Globus",
+      "Globus (zentréiert op Nord-/Südamerika)",
+      "Nordamerika",
+      "Südamerika",
+      "Welt"
+    ],
+    "🌏": [
+      "Äerd",
+      "Asien",
+      "Australien",
+      "Globus",
+      "Globus (zentréiert op Asien an Australien)",
+      "Welt"
+    ],
+    "🌐": [
+      "Äerd",
+      "Globus",
+      "Meridian",
+      "Meridianglobus",
+      "Welt"
+    ],
+    "🌑": [
+      "däischter",
+      "Mound",
+      "Neimound"
+    ],
+    "🌒": [
+      "éischte Véierel",
+      "Mound",
+      "Séchelmound",
+      "Séchelmound am éischte Véierel"
+    ],
+    "🌓": [
+      "Hallef",
+      "Mound",
+      "Véierel",
+      "zouhuelenden Hallefmound"
+    ],
+    "🌔": [
+      "Mound",
+      "Séchelmound",
+      "Séchelmound am zweete Véierel",
+      "zweete Véierel"
+    ],
+    "🌕": [
+      "Mound",
+      "voll",
+      "Vollmound"
+    ],
+    "🌖": [
+      "drëtte Véierel",
+      "Mound",
+      "Séchelmound",
+      "Séchelmound am drëtte Véierel"
+    ],
+    "🌗": [
+      "Hallef",
+      "Mound",
+      "ofhuelenden Hallefmound",
+      "Véierel"
+    ],
+    "🌘": [
+      "leschte Véierel",
+      "Mound",
+      "Séchelmound",
+      "Séchelmound am leschte Véierel"
+    ],
+    "🌙": [
+      "Mound",
+      "Moundséchel",
+      "Séchel"
+    ],
+    "🌚": [
+      "Gesiicht",
+      "Mound",
+      "Neimoundgesiicht"
+    ],
+    "🌛": [
+      "Gesiicht",
+      "Hallef",
+      "Mound",
+      "Véierel",
+      "zouhuelenden Hallefmoundgesiicht"
+    ],
+    "🌜": [
+      "Gesiicht",
+      "Hallef",
+      "Mound",
+      "ofhuelenden Hallefmoundgesiicht",
+      "Véierel"
+    ],
+    "🌝": [
+      "Gesiicht",
+      "hell",
+      "Mound",
+      "voll",
+      "Vollmoundgesiicht"
+    ],
+    "🌞": [
+      "Gesiicht",
+      "hell",
+      "Sonn",
+      "Sonnegesiicht"
+    ],
+    "🌟": [
+      "blénkeg",
+      "blénken",
+      "glënnerend",
+      "liichtend",
+      "liichtende Stär",
+      "Stär"
+    ],
+    "🌠": [
+      "falend",
+      "Stär",
+      "Stäreschnäiz"
+    ],
+    "🌡": [
+      "Thermometer",
+      "Wieder"
+    ],
+    "🌤": [
+      "Sonn",
+      "Sonn hannert kleng Wolleken",
+      "Wollek"
+    ],
+    "🌥": [
+      "Sonn",
+      "Sonn hannert grouss Wolleken",
+      "Wollek"
+    ],
+    "🌦": [
+      "Reen",
+      "Sonn",
+      "Sonn hannert Reewollek",
+      "Wollek"
+    ],
+    "🌧": [
+      "Reen",
+      "Wollek",
+      "Wollek mat Reen"
+    ],
+    "🌨": [
+      "kal",
+      "Schnéi",
+      "Wollek",
+      "Wollek mat Schnéi"
+    ],
+    "🌩": [
+      "Blëtz",
+      "Wollek",
+      "Wollek mat Blëtz"
+    ],
+    "🌪": [
+      "Tornado",
+      "Wirbelwand",
+      "Wollek"
+    ],
+    "🌫": [
+      "Niwwel",
+      "Wollek"
+    ],
+    "🌬": [
+      "blosen",
+      "Gesiicht",
+      "Wand",
+      "Wandgesiicht",
+      "Wollek"
+    ],
+    "🌭": [
+      "Frankfurter",
+      "Hot Dog",
+      "Hotdog",
+      "Wurscht"
+    ],
+    "🌮": [
+      "mexikanesch",
+      "Taco"
+    ],
+    "🌯": [
+      "Burrito",
+      "mexikanesch",
+      "Wrap"
+    ],
+    "🌰": [
+      "Käscht",
+      "Planz"
+    ],
+    "🌱": [
+      "jonk",
+      "Keimling"
+    ],
+    "🌲": [
+      "Bam",
+      "Dännebam"
+    ],
+    "🌳": [
+      "Bam",
+      "falen",
+      "Laf",
+      "Lafbam"
+    ],
+    "🌴": [
+      "Bam",
+      "Palm"
+    ],
+    "🌵": [
+      "Kaktus",
+      "Planz"
+    ],
+    "🌶": [
+      "Peperoni",
+      "schaarf"
+    ],
+    "🌷": [
+      "Blumm",
+      "Tulp"
+    ],
+    "🌸": [
+      "Bléi",
+      "Blumm",
+      "Kiischt",
+      "Kiischtebléi"
+    ],
+    "🌹": [
+      "Blumm",
+      "Rous"
+    ],
+    "🌺": [
+      "Blumm",
+      "Hibiskus"
+    ],
+    "🌻": [
+      "Blumm",
+      "Sonn",
+      "Sonneblumm"
+    ],
+    "🌼": [
+      "Blumm",
+      "Margréitchen"
+    ],
+    "🌽": [
+      "Kolben",
+      "Labyrinth",
+      "Mais"
+    ],
+    "🌾": [
+      "Hallem",
+      "Kär",
+      "Räis",
+      "Räishallem"
+    ],
+    "🌿": [
+      "Blat",
+      "Kräider"
+    ],
+    "🍀": [
+      "4",
+      "Blat",
+      "Kléi",
+      "véier",
+      "véierbliederegt Kléiblat"
+    ],
+    "🍁": [
+      "Ahorn",
+      "Ahornblat",
+      "Blat",
+      "falend"
+    ],
+    "🍂": [
+      "Blat",
+      "falend",
+      "Hierschtblat"
+    ],
+    "🍃": [
+      "am Wand fléiend Blat",
+      "Blat",
+      "blosen",
+      "fléien",
+      "Wand"
+    ],
+    "🍄": [
+      "Champignon",
+      "Gëftpilz",
+      "Pilz"
+    ],
+    "🍅": [
+      "Geméis",
+      "Tomat",
+      "Uebst"
+    ],
+    "🍆": [
+      "Aubergine",
+      "Geméis"
+    ],
+    "🍇": [
+      "Drauf",
+      "Drauwen",
+      "Uebst"
+    ],
+    "🍈": [
+      "Meloun",
+      "Uebst"
+    ],
+    "🍉": [
+      "Uebst",
+      "Waassermeloun"
+    ],
+    "🍊": [
+      "Mandarine",
+      "Orange",
+      "Uebst"
+    ],
+    "🍋": [
+      "Uebst",
+      "Zitroun",
+      "Zitrusfriicht"
+    ],
+    "🍌": [
+      "Banann",
+      "Uebst"
+    ],
+    "🍍": [
+      "Ananas",
+      "Uebst"
+    ],
+    "🍎": [
+      "Apel",
+      "rouden Apel",
+      "rout",
+      "Uebst"
+    ],
+    "🍏": [
+      "Apel",
+      "gréng",
+      "gréngen Apel",
+      "Uebst"
+    ],
+    "🍐": [
+      "Bir (Fruucht)",
+      "Uebst"
+    ],
+    "🍑": [
+      "Piisch",
+      "Uebst"
+    ],
+    "🍒": [
+      "Kiischt",
+      "Kiischten",
+      "Uebst"
+    ],
+    "🍓": [
+      "Äerdbier",
+      "Bier",
+      "Uebst"
+    ],
+    "🍔": [
+      "Burger",
+      "Hamburger"
+    ],
+    "🍕": [
+      "Kéis",
+      "Pizza",
+      "Stéck"
+    ],
+    "🍖": [
+      "Fleesch",
+      "Fleeschschank",
+      "Schank"
+    ],
+    "🍗": [
+      "Been",
+      "Poulet",
+      "Pouletssträmpel",
+      "Schank",
+      "Stämpel"
+    ],
+    "🍘": [
+      "Kichelchen",
+      "Räis",
+      "Räiskichelcher"
+    ],
+    "🍙": [
+      "Ball",
+      "japanesch",
+      "Räis",
+      "Räisball"
+    ],
+    "🍚": [
+      "gekacht",
+      "gekachte Räis",
+      "Räis"
+    ],
+    "🍛": [
+      "Curry",
+      "Curry mat Räis",
+      "Räis"
+    ],
+    "🍜": [
+      "dämpend",
+      "Nuddelen",
+      "Ramen",
+      "Schossel",
+      "Schossel mat Nuddelen"
+    ],
+    "🍝": [
+      "Pasta",
+      "Spagetti"
+    ],
+    "🍞": [
+      "Brout"
+    ],
+    "🍟": [
+      "Fritten"
+    ],
+    "🍠": [
+      "gebroden",
+      "Gromper",
+      "séiss",
+      "Séissgromper"
+    ],
+    "🍡": [
+      "Brochett",
+      "Dango",
+      "Dessert",
+      "japanesch",
+      "séiss"
+    ],
+    "🍢": [
+      "Broschett",
+      "Kebab",
+      "Mieresfriichten",
+      "Oden"
+    ],
+    "🍣": [
+      "Sushi"
+    ],
+    "🍤": [
+      "Crevette",
+      "frittéiert",
+      "Scampi",
+      "Scampi-Tempura",
+      "Tempura"
+    ],
+    "🍥": [
+      "Fësch",
+      "gerullt",
+      "gerullte Fëschkichelchen",
+      "Kichelchen",
+      "Kuch"
+    ],
+    "🍦": [
+      "Äis",
+      "Crème",
+      "Dessert",
+      "Glace",
+      "séiss",
+      "Softice"
+    ],
+    "🍧": [
+      "Dessert",
+      "Glace",
+      "séiss",
+      "Waasser",
+      "Waasserglace"
+    ],
+    "🍨": [
+      "Äis",
+      "Dessert",
+      "Glace",
+      "séiss"
+    ],
+    "🍩": [
+      "Dessert",
+      "Donut",
+      "séiss"
+    ],
+    "🍪": [
+      "Dessert",
+      "Kichelchen",
+      "séiss"
+    ],
+    "🍫": [
+      "Dessert",
+      "Schokela",
+      "séiss",
+      "Tablett",
+      "Tablett Schockela"
+    ],
+    "🍬": [
+      "Dessert",
+      "Kamell",
+      "séiss"
+    ],
+    "🍭": [
+      "Dessert",
+      "Kamell",
+      "Lutsch",
+      "séiss"
+    ],
+    "🍮": [
+      "Dessert",
+      "Pudding",
+      "séiss"
+    ],
+    "🍯": [
+      "Glas",
+      "Hunneg",
+      "Hunnegglas",
+      "séiss"
+    ],
+    "🍰": [
+      "Dessert",
+      "Gebäck",
+      "Kuch",
+      "séiss",
+      "Stéck"
+    ],
+    "🍱": [
+      "Bento",
+      "Bento-Box",
+      "Box",
+      "Këscht"
+    ],
+    "🍲": [
+      "Eintopf",
+      "Kasseroll",
+      "Plat an enger Kasseroll"
+    ],
+    "🍳": [
+      "broden",
+      "Ee",
+      "Pan",
+      "Pan mat Spigelee"
+    ],
+    "🍴": [
+      "Forschett",
+      "Forschett a Messer",
+      "kachend",
+      "Messer"
+    ],
+    "🍵": [
+      "drénken",
+      "Gedrénks",
+      "Taass",
+      "Taass ouni Hänk",
+      "Téi",
+      "Téitaass"
+    ],
+    "🍶": [
+      "Bar",
+      "drénken",
+      "Fläsch",
+      "Gedrénks",
+      "Sake",
+      "Taass"
+    ],
+    "🍷": [
+      "Bar",
+      "drénken",
+      "Gedrénks",
+      "Glas",
+      "Wäiglas",
+      "Wäin"
+    ],
+    "🍸": [
+      "Bar",
+      "Cocktail",
+      "Cocktailglas",
+      "Gedrénks",
+      "Glas"
+    ],
+    "🍹": [
+      "Bar",
+      "exotesch",
+      "exotescht Gedrénks",
+      "Gedrénks"
+    ],
+    "🍺": [
+      "Bar",
+      "Béier",
+      "Gedrénks",
+      "Klensch"
+    ],
+    "🍻": [
+      "Bar",
+      "Béier",
+      "Gedrénks",
+      "Klensch",
+      "prosten",
+      "prostend Béierklenschen"
+    ],
+    "🍼": [
+      "Biberon",
+      "drénken",
+      "Fläsch",
+      "Mëllech",
+      "Puppelchen"
+    ],
+    "🍽": [
+      "Forschett",
+      "Forschett a Messer mat Teller",
+      "kachend",
+      "Messer",
+      "Teller"
+    ],
+    "🍾": [
+      "Bar",
+      "drénken",
+      "Fläsch",
+      "Fläsch mat knallendem Stopp",
+      "knallend",
+      "Stopp"
+    ],
+    "🍿": [
+      "Popcorn"
+    ],
+    "🎀": [
+      "Band",
+      "Feier"
+    ],
+    "🎁": [
+      "agepak",
+      "Feier",
+      "Geschenk",
+      "Kaddo",
+      "Këscht"
+    ],
+    "🎂": [
+      "Dessert",
+      "Feier",
+      "Gebäck",
+      "Gebuertsdag",
+      "Gebuertsdagskuch",
+      "Kuch",
+      "séiss"
+    ],
+    "🎃": [
+      "Feier",
+      "Halloween",
+      "Halloweenkürbis",
+      "Kürbis",
+      "Lampion"
+    ],
+    "🎄": [
+      "Bam",
+      "Chrëschtbeemchen",
+      "Chrëschtdag",
+      "Feier"
+    ],
+    "🎅": [
+      "Chrëschtdag",
+      "Feier",
+      "Kleeschen",
+      "Papp",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🎆": [
+      "Feier",
+      "Freedefeier"
+    ],
+    "🎇": [
+      "Feier",
+      "Fonken",
+      "Freedefeier",
+      "Späizmännchen"
+    ],
+    "🎈": [
+      "Ballon",
+      "Feier"
+    ],
+    "🎉": [
+      "Feier",
+      "Iwwerraschung",
+      "Party",
+      "Pochette",
+      "Pochette-surprise",
+      "Surprise"
+    ],
+    "🎊": [
+      "Ball",
+      "Feier",
+      "Konfetti",
+      "Konfettiball"
+    ],
+    "🎋": [
+      "Bam",
+      "Banner",
+      "Feier",
+      "japanesch",
+      "Tanabata-Bam"
+    ],
+    "🎌": [
+      "Feier",
+      "gekräizt",
+      "gekräizt Fändelen",
+      "japanesch",
+      "Kräiz"
+    ],
+    "🎍": [
+      "Bambus",
+      "Dänn",
+      "Dännendekoratioun",
+      "Feier",
+      "japanesch"
+    ],
+    "🎎": [
+      "Feier",
+      "Festival",
+      "japanesch",
+      "Japanesch Poppen",
+      "Popp"
+    ],
+    "🎏": [
+      "Fändel",
+      "Feier",
+      "Kaarp",
+      "Koi-Kaarpe-Fändelen"
+    ],
+    "🎐": [
+      "Feier",
+      "Klack",
+      "Klackespill",
+      "Wand",
+      "Wandspill"
+    ],
+    "🎑": [
+      "Feier",
+      "Mound",
+      "Moundbetruechtungszeremonie",
+      "Zeremonie"
+    ],
+    "🎒": [
+      "Posch",
+      "Schoul",
+      "Schoulsak"
+    ],
+    "🎓": [
+      "Diplomiwwerreechung",
+      "Diplomiwwerreechungshutt",
+      "Feier",
+      "Hutt",
+      "Kap",
+      "Kleedung"
+    ],
+    "🎖": [
+      "Feier",
+      "Medail",
+      "Militär",
+      "Militärmedail"
+    ],
+    "🎗": [
+      "Band",
+      "Commemoratioun",
+      "Commemoratiounsband",
+      "Erënnerung",
+      "Feier"
+    ],
+    "🎙": [
+      "Mikro",
+      "Musek",
+      "Studio",
+      "Studiosmikro"
+    ],
+    "🎚": [
+      "Musek",
+      "Niveau",
+      "Reegler"
+    ],
+    "🎛": [
+      "Knäppercher",
+      "Musek",
+      "Steierung",
+      "Steierungsknäppercher"
+    ],
+    "🎞": [
+      "Film",
+      "Filmklappen",
+      "Kino",
+      "Klappen"
+    ],
+    "🎟": [
+      "Billjee",
+      "Entrée",
+      "Entréesticket",
+      "Ticket"
+    ],
+    "🎠": [
+      "Karussell",
+      "Karussellpäerdchen",
+      "Päerdchen"
+    ],
+    "🎡": [
+      "Fouer",
+      "Fräizäitpark",
+      "Rad",
+      "Riserad"
+    ],
+    "🎢": [
+      "Achterbahn",
+      "Fräizäitpark"
+    ],
+    "🎣": [
+      "Aangel",
+      "Fësch",
+      "Fëscheraangel"
+    ],
+    "🎤": [
+      "Karaoke",
+      "Mikro"
+    ],
+    "🎥": [
+      "Film",
+      "Kamera",
+      "Kino"
+    ],
+    "🎦": [
+      "Film",
+      "Kamera",
+      "Kino"
+    ],
+    "🎧": [
+      "Kopfhörer"
+    ],
+    "🎨": [
+      "Bild",
+      "Faarfpalett",
+      "Konscht",
+      "Musée",
+      "Palett",
+      "Tableau"
+    ],
+    "🎩": [
+      "héich",
+      "Hutt",
+      "Kleedung",
+      "Zilinder"
+    ],
+    "🎪": [
+      "Zelt",
+      "Zirkus",
+      "Zirkuszelt"
+    ],
+    "🎫": [
+      "Billjee",
+      "Entrée"
+    ],
+    "🎬": [
+      "Film",
+      "Filmklapp",
+      "Klapp"
+    ],
+    "🎭": [
+      "duerstellend",
+      "Konscht",
+      "Mask",
+      "Theater"
+    ],
+    "🎮": [
+      "Controller",
+      "Manette",
+      "Spill",
+      "Videospill"
+    ],
+    "🎯": [
+      "an d’Mëtt getraff",
+      "Dart",
+      "Match",
+      "Mëtt",
+      "Spill",
+      "treffen",
+      "Volltreffer",
+      "Zilscheif"
+    ],
+    "🎰": [
+      "Automat",
+      "Spill",
+      "Spillautomat"
+    ],
+    "🎱": [
+      "8",
+      "8-Ball",
+      "aacht",
+      "Billardkugel",
+      "Billiard",
+      "Kugel",
+      "Spill"
+    ],
+    "🎲": [
+      "Spill",
+      "Spillwierfel",
+      "Wierfel",
+      "wierfelen"
+    ],
+    "🎳": [
+      "Bowling",
+      "Kugel",
+      "Spill"
+    ],
+    "🎴": [
+      "Blumm",
+      "japanesch",
+      "Kaart",
+      "Spill",
+      "spillen",
+      "Spillkaarte mat Blummen"
+    ],
+    "🎵": [
+      "Musek",
+      "Museksnout",
+      "Nout"
+    ],
+    "🎶": [
+      "Musek",
+      "Museksnouten",
+      "Nout",
+      "Nouten"
+    ],
+    "🎷": [
+      "Instrument",
+      "Musek",
+      "Sax",
+      "Saxofon"
+    ],
+    "🎸": [
+      "Gittar",
+      "Instrument",
+      "Musek"
+    ],
+    "🎹": [
+      "Instrument",
+      "Keyboard",
+      "Musek",
+      "Piano"
+    ],
+    "🎺": [
+      "Instrument",
+      "Musek",
+      "Trompett"
+    ],
+    "🎻": [
+      "Gei",
+      "Instrument",
+      "Musek"
+    ],
+    "🎼": [
+      "Musek",
+      "Partitioun"
+    ],
+    "🎽": [
+      "lafen",
+      "Laftricot",
+      "Schärp",
+      "Sport",
+      "Tricot"
+    ],
+    "🎾": [
+      "Ball",
+      "Rackett",
+      "Tennis"
+    ],
+    "🎿": [
+      "Schnéi",
+      "Ski",
+      "Skier"
+    ],
+    "🏀": [
+      "Ball",
+      "Basketball",
+      "Kuerf",
+      "Reef"
+    ],
+    "🏁": [
+      "Course",
+      "karéiert",
+      "karéierte Fändel"
+    ],
+    "🏂": [
+      "Schnéi",
+      "Ski",
+      "Snowboard",
+      "Snowboarder",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🏃": [
+      "lafen",
+      "lafend Persoun",
+      "Marathon",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🏃‍♀": [
+      "Course",
+      "Fra",
+      "lafen",
+      "lafend Fra",
+      "Marathon",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🏃‍♂": [
+      "Course",
+      "lafen",
+      "lafende Mann",
+      "Mann",
+      "Marathon",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🏄": [
+      "Surfen",
+      "Surfer(in)",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🏄‍♀": [
+      "Fra",
+      "Surfen",
+      "Surferin",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🏄‍♂": [
+      "Mann",
+      "Surfen",
+      "Surfer",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🏅": [
+      "Medail",
+      "Sportsmedail"
+    ],
+    "🏆": [
+      "Coupe",
+      "Präis"
+    ],
+    "🏇": [
+      "Course",
+      "Coursepäerd",
+      "Jockey",
+      "Päerd",
+      "Päerdscourse",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🏈": [
+      "American Football",
+      "amerikanesch",
+      "Ball",
+      "Fussball"
+    ],
+    "🏉": [
+      "Ball",
+      "Fussball",
+      "Rugby"
+    ],
+    "🏊": [
+      "schwammen",
+      "Schwëmmer(in)",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🏊‍♀": [
+      "Fra",
+      "schwammen",
+      "Schwëmmerin",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🏊‍♂": [
+      "Mann",
+      "schwammen",
+      "Schwëmmer",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🏋": [
+      "Gewiicht",
+      "Gewiichthiewer(in)",
+      "Hiewer",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🏋‍♀": [
+      "Fra",
+      "Gewiichthiewer",
+      "Gewiichthiewerin",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🏋‍♂": [
+      "Gewiichthiewer",
+      "Mann",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🏌": [
+      "Ball",
+      "Golf",
+      "Golferspiller",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🏌‍♀": [
+      "Fra",
+      "Golf",
+      "Golferin",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🏌‍♂": [
+      "Golf",
+      "Golfer",
+      "Mann",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🏍": [
+      "Course",
+      "Motorrad"
+    ],
+    "🏎": [
+      "Auto",
+      "Course",
+      "Courseauto"
+    ],
+    "🏏": [
+      "Ball",
+      "Cricketmatch",
+      "Match",
+      "Schléier",
+      "Spill"
+    ],
+    "🏐": [
+      "Kugel",
+      "Spill",
+      "Volleyball"
+    ],
+    "🏑": [
+      "Ball",
+      "Feld",
+      "Feldhockey",
+      "Hockey",
+      "Match",
+      "Schléier",
+      "Spill"
+    ],
+    "🏒": [
+      "Äis",
+      "Äishockey",
+      "Hockey",
+      "Match",
+      "Puck",
+      "Schléier",
+      "Spill"
+    ],
+    "🏓": [
+      "Ball",
+      "Dëschtennis",
+      "Match",
+      "Pingpong",
+      "Rackett",
+      "Schléier",
+      "Spill"
+    ],
+    "🏔": [
+      "Bierg",
+      "kal",
+      "mat Schnéi bedeckte Bierg",
+      "Schnéi"
+    ],
+    "🏕": [
+      "Camping"
+    ],
+    "🏖": [
+      "Plage",
+      "Plage mat Sonneprabbeli",
+      "Prabbeli"
+    ],
+    "🏗": [
+      "Aarbechten",
+      "Kran",
+      "Stroossebarrière"
+    ],
+    "🏘": [
+      "Haiser"
+    ],
+    "🏙": [
+      "Stad",
+      "Stadlandschaft"
+    ],
+    "🏚": [
+      "eidel",
+      "eidelt Haus",
+      "Haus"
+    ],
+    "🏛": [
+      "klassesch",
+      "klassescht Gebai"
+    ],
+    "🏜": [
+      "Wüst"
+    ],
+    "🏝": [
+      "Insel",
+      "Wüst",
+      "Wüsteninsel"
+    ],
+    "🏞": [
+      "Nationalpark",
+      "Park"
+    ],
+    "🏟": [
+      "Stadion"
+    ],
+    "🏠": [
+      "Doheem",
+      "Haus"
+    ],
+    "🏡": [
+      "Doheem",
+      "Gaart",
+      "Haus",
+      "Haus mat Gaart"
+    ],
+    "🏢": [
+      "Bürosgebai",
+      "Gebai"
+    ],
+    "🏣": [
+      "japanesch",
+      "japanesche Postbüro",
+      "Post"
+    ],
+    "🏤": [
+      "europäesch",
+      "Post",
+      "Postbüro"
+    ],
+    "🏥": [
+      "Dokter",
+      "Medezin",
+      "Spidol"
+    ],
+    "🏦": [
+      "Bank",
+      "Gebai"
+    ],
+    "🏧": [
+      "ATM",
+      "Bancomat",
+      "Bank",
+      "ophiewen"
+    ],
+    "🏨": [
+      "Gebai",
+      "Hotel"
+    ],
+    "🏩": [
+      "Hotel",
+      "Léift",
+      "Love Hotel"
+    ],
+    "🏪": [
+      "Geschäft",
+      "Supermarché"
+    ],
+    "🏫": [
+      "Gebai",
+      "Schoul"
+    ],
+    "🏬": [
+      "Akafszenter",
+      "Geschäft"
+    ],
+    "🏭": [
+      "Fabrik",
+      "Gebai"
+    ],
+    "🏮": [
+      "Bar",
+      "Lampion",
+      "Lanter",
+      "Luucht",
+      "roude Lampion",
+      "rout"
+    ],
+    "🏯": [
+      "japanesch",
+      "japanescht Schlass",
+      "Schlass"
+    ],
+    "🏰": [
+      "europäesch",
+      "Schlass"
+    ],
+    "🏳": [
+      "wäisse Fändel",
+      "wénkend"
+    ],
+    "🏳‍🌈": [
+      "Reebou",
+      "Reeboufändel"
+    ],
+    "🏴": [
+      "schwaarze Fändel",
+      "wénkend"
+    ],
+    "🏵": [
+      "Planz",
+      "Rosett"
+    ],
+    "🏷": [
+      "Etikett"
+    ],
+    "🏸": [
+      "Badminton",
+      "Fiederball",
+      "Match",
+      "Rackett",
+      "Spill",
+      "Volant"
+    ],
+    "🏹": [
+      "Bou",
+      "Bou mat Feiler",
+      "Bouschéissen",
+      "Bouschéisser",
+      "Feil",
+      "Schütze",
+      "Stärzeechen",
+      "Utensil",
+      "Waff"
+    ],
+    "🏺": [
+      "Amphore",
+      "Gedrénks",
+      "kachend",
+      "Krou",
+      "Stärzeechen",
+      "Utensil",
+      "Waassermann",
+      "Waff"
+    ],
+    "🐀": [
+      "Rat"
+    ],
+    "🐁": [
+      "Maus"
+    ],
+    "🐂": [
+      "Ochs",
+      "Stärzeechen",
+      "Stéier"
+    ],
+    "🐃": [
+      "Büffel",
+      "Waasser",
+      "Waasserbüffel"
+    ],
+    "🐄": [
+      "Kou"
+    ],
+    "🐅": [
+      "Tiger"
+    ],
+    "🐆": [
+      "Leopard"
+    ],
+    "🐇": [
+      "Hausdéier",
+      "Hues",
+      "Kanéngchen"
+    ],
+    "🐈": [
+      "Hausdéier",
+      "Kaz"
+    ],
+    "🐉": [
+      "Draach",
+      "Mäerchen"
+    ],
+    "🐊": [
+      "Krokodil"
+    ],
+    "🐋": [
+      "Wal"
+    ],
+    "🐌": [
+      "Schleek"
+    ],
+    "🐍": [
+      "Ophiuchus",
+      "Schlaang",
+      "Schlaangenträger",
+      "Stärzeechen"
+    ],
+    "🐎": [
+      "Course",
+      "Coursepäerd",
+      "Päerd",
+      "reiden"
+    ],
+    "🐏": [
+      "Männchen",
+      "Schof",
+      "Stärzeechen",
+      "Widder"
+    ],
+    "🐐": [
+      "Geess",
+      "Stärzeechen",
+      "Steebock"
+    ],
+    "🐑": [
+      "Mudder",
+      "Mudderschof",
+      "Schof",
+      "Weibchen"
+    ],
+    "🐒": [
+      "Af"
+    ],
+    "🐓": [
+      "Hunn",
+      "Vugel"
+    ],
+    "🐔": [
+      "hong",
+      "chicken",
+      "Hong",
+      "Vugel"
+    ],
+    "🐕": [
+      "Hausdéier",
+      "Hond"
+    ],
+    "🐖": [
+      "Sau",
+      "Schwäin"
+    ],
+    "🐗": [
+      "Schwäin",
+      "Wëllschwäin"
+    ],
+    "🐘": [
+      "Elefant"
+    ],
+    "🐙": [
+      "Tëntefësch"
+    ],
+    "🐚": [
+      "Muschel",
+      "Spiral",
+      "Spiralmuschel"
+    ],
+    "🐛": [
+      "Insekt",
+      "Kiewerlek"
+    ],
+    "🐜": [
+      "Insekt",
+      "Seejomes"
+    ],
+    "🐝": [
+      "Bei",
+      "Insekt"
+    ],
+    "🐞": [
+      "Himmelsdéierchen",
+      "Insekt",
+      "Kiewerlek"
+    ],
+    "🐟": [
+      "fësch",
+      "fish",
+      "Fësch",
+      "Stärzeechen"
+    ],
+    "🐠": [
+      "Fësch",
+      "tropesch",
+      "tropesche Fësch"
+    ],
+    "🐡": [
+      "Fësch",
+      "Kugelfësch"
+    ],
+    "🐢": [
+      "Deckelsmouk",
+      "Douseschildkröt",
+      "Schildkröt"
+    ],
+    "🐣": [
+      "am Ee",
+      "Bëbee",
+      "Hong",
+      "Jippelchen",
+      "Jippelchen am Ee",
+      "kleng",
+      "Vugel"
+    ],
+    "🐤": [
+      "Bëbee",
+      "Hong",
+      "Jippelchen",
+      "Vugel"
+    ],
+    "🐥": [
+      "Bëbee",
+      "Hong",
+      "Jippelche vu vir",
+      "Jippelchen",
+      "Vugel"
+    ],
+    "🐦": [
+      "vull",
+      "bird",
+      "Vugel"
+    ],
+    "🐧": [
+      "Pinguin",
+      "Vugel"
+    ],
+    "🐨": [
+      "Bier",
+      "Koalabier"
+    ],
+    "🐩": [
+      "Hond",
+      "Puddel"
+    ],
+    "🐪": [
+      "Bockel",
+      "Dromedar"
+    ],
+    "🐫": [
+      "Bockel",
+      "Kaméil",
+      "zwee"
+    ],
+    "🐬": [
+      "Delfin",
+      "Flipper"
+    ],
+    "🐭": [
+      "Gesiicht",
+      "Maus",
+      "Mausgesiicht"
+    ],
+    "🐮": [
+      "Gesiicht",
+      "Kou",
+      "Kousgesiicht"
+    ],
+    "🐯": [
+      "Gesiicht",
+      "Tiger",
+      "Tigersgesiicht"
+    ],
+    "🐰": [
+      "Gesiicht",
+      "Hausdéier",
+      "Hues",
+      "Huesgesiicht",
+      "Kanéngchen"
+    ],
+    "🐱": [
+      "kaz",
+      "cat",
+      "Gesiicht",
+      "Hausdéier",
+      "Kaz",
+      "Kazegesiicht"
+    ],
+    "🐲": [
+      "Draach",
+      "Draachegesiicht",
+      "Gesiicht",
+      "Mäerchen"
+    ],
+    "🐳": [
+      "Gesiicht",
+      "sprëtzend",
+      "sprëtzende Wal",
+      "Wal"
+    ],
+    "🐴": [
+      "Gesiicht",
+      "Päerd",
+      "Päerdsgesiicht"
+    ],
+    "🐵": [
+      "Af",
+      "Afegesiicht",
+      "Gesiicht"
+    ],
+    "🐶": [
+      "hond",
+      "dog",
+      "Gesiicht",
+      "Hausdéier",
+      "Hond",
+      "Hondsgesiicht"
+    ],
+    "🐷": [
+      "Gesiicht",
+      "Schwäin",
+      "Schwéngsgesiicht"
+    ],
+    "🐸": [
+      "Fräsch",
+      "Fräschegesiicht",
+      "Gesiicht"
+    ],
+    "🐹": [
+      "Gesiicht",
+      "Hamster",
+      "Hamstersgesiicht",
+      "Hausdéier"
+    ],
+    "🐺": [
+      "Gesiicht",
+      "Wollef",
+      "Wollefsgesiicht"
+    ],
+    "🐻": [
+      "Bier",
+      "Bieregesiicht",
+      "Gesiicht"
+    ],
+    "🐼": [
+      "Gesiicht",
+      "Panda",
+      "Pandasgesiicht"
+    ],
+    "🐽": [
+      "Gesiicht",
+      "Nues",
+      "Schwäin",
+      "Schwéngsnues"
+    ],
+    "🐾": [
+      "Féiss",
+      "Ofdrock",
+      "Patt",
+      "Pattenofdréck"
+    ],
+    "🐿": [
+      "Kaweechelchen"
+    ],
+    "👀": [
+      "A",
+      "Aen",
+      "Gesiicht"
+    ],
+    "👁": [
+      "A",
+      "Kierper"
+    ],
+    "👁‍🗨": [
+      "A",
+      "A an enger Spriechblos",
+      "erkennen",
+      "gesinn",
+      "Spriechblos"
+    ],
+    "👂": [
+      "Kierper",
+      "Ouer",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👃": [
+      "Kierper",
+      "Nues",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👄": [
+      "Lëpsen",
+      "Mond"
+    ],
+    "👅": [
+      "Kierper",
+      "Zong"
+    ],
+    "👆": [
+      "Fanger",
+      "Hand",
+      "no uewe weisende Fanger vun hanne gesinn",
+      "no uewen",
+      "Réckhand",
+      "weisen",
+      "Zeigefanger",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👇": [
+      "Fanger",
+      "Hand",
+      "no ënne weisende Fanger vun hanne gesinn",
+      "no ënnen",
+      "Réckhand",
+      "weisen",
+      "Zeigefanger",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👈": [
+      "Fanger",
+      "Hand",
+      "no lénks weisende Fanger vun hanne gesinn",
+      "Réckhand",
+      "weisen",
+      "Zeigefanger",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👉": [
+      "Fanger",
+      "Hand",
+      "no riets weisende Fanger vun hanne gesinn",
+      "Réckhand",
+      "weisen",
+      "Zeigefanger",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👊": [
+      "boxen",
+      "entgéintkommend Fauscht",
+      "Fauscht",
+      "Hand",
+      "zouen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👋": [
+      "Hand",
+      "wénken",
+      "wénkend",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👌": [
+      "Hand",
+      "OK",
+      "OK-Handzeechen",
+      "Zeechen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👍": [
+      "+1",
+      "Daum",
+      "Daum no uewen",
+      "Hand",
+      "no uewen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👎": [
+      "-1",
+      "Daum",
+      "Daum no ënnen",
+      "Hand",
+      "no ënnen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👏": [
+      "Hand",
+      "klappen",
+      "klappend Hänn",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👐": [
+      "Hand",
+      "oppen",
+      "oppen Hänn",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👑": [
+      "Kinnek",
+      "Kinnigin",
+      "Kleedung",
+      "Kroun"
+    ],
+    "👒": [
+      "Fra",
+      "Fraenhutt",
+      "Hutt",
+      "Kleedung"
+    ],
+    "👓": [
+      "A",
+      "Brëll",
+      "Kleedung"
+    ],
+    "👔": [
+      "Kleedung",
+      "Krawatt"
+    ],
+    "👕": [
+      "Hiem",
+      "Kleedung",
+      "T-Shirt"
+    ],
+    "👖": [
+      "Box",
+      "Jeans",
+      "Kleedung"
+    ],
+    "👗": [
+      "Kleedung",
+      "Rack"
+    ],
+    "👘": [
+      "Kimono",
+      "Kleedung"
+    ],
+    "👙": [
+      "Bikini",
+      "Kleedung",
+      "schwammen"
+    ],
+    "👚": [
+      "Fra",
+      "Fraekleedung",
+      "Kleedung"
+    ],
+    "👛": [
+      "Geld",
+      "Kleedung",
+      "Portmonni",
+      "Suen"
+    ],
+    "👜": [
+      "Kleedung",
+      "Portmonni",
+      "Posch"
+    ],
+    "👝": [
+      "Clutch",
+      "Kleedung",
+      "Posch"
+    ],
+    "👞": [
+      "Kleedung",
+      "Mann",
+      "Männerschong",
+      "Schong"
+    ],
+    "👟": [
+      "Kleedung",
+      "Lafschong",
+      "Schong",
+      "Sport",
+      "Turnschlappen"
+    ],
+    "👠": [
+      "Fra",
+      "Kleedung",
+      "Schong",
+      "Tallek",
+      "Tallekeschong"
+    ],
+    "👡": [
+      "Fra",
+      "Fraesandal",
+      "Kleedung",
+      "Sandal",
+      "Schong"
+    ],
+    "👢": [
+      "Fra",
+      "Fraestiwwel",
+      "Kleedung",
+      "Schong",
+      "Stiwwel"
+    ],
+    "👣": [
+      "Foussofdréck",
+      "Foussofdrock",
+      "Kleeder",
+      "Ofdrock"
+    ],
+    "👤": [
+      "Büst",
+      "mënschlech",
+      "Silhouette"
+    ],
+    "👥": [
+      "Büst",
+      "mënschlech",
+      "mënschlech Silhouetten",
+      "Silhouette"
+    ],
+    "👦": [
+      "Jong",
+      "jonk",
+      "klengen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👧": [
+      "Jongfra",
+      "jonk",
+      "Meedchen",
+      "Stärzeechen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👨": [
+      "Mann",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👨‍⚕": [
+      "Dokter",
+      "Gesondheet",
+      "Infirmier",
+      "Mann",
+      "Medeziner",
+      "Therapeut",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👨‍⚖": [
+      "Geriicht",
+      "Justiz",
+      "Riichter",
+      "Wo",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👨‍✈": [
+      "Fliger",
+      "Mann",
+      "Pilot",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👨‍❤‍👨": [
+      "hell Hautfaarf",
+      "Koppel",
+      "Léift",
+      "Mann",
+      "verléift Koppel",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👨‍❤‍💋‍👨": [
+      "hell Hautfaarf",
+      "Koppel",
+      "Kuss",
+      "Mann",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👨‍🌾": [
+      "Bauer",
+      "Gäertner",
+      "Mann",
+      "Véiziichter",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👨‍🍳": [
+      "Chef",
+      "Chefkach",
+      "Kach",
+      "Mann",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👨‍🎓": [
+      "Absolvent",
+      "diploméiert",
+      "Mann",
+      "Student",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👨‍🎤": [
+      "Entertainer",
+      "Mann",
+      "Rock",
+      "Sänger",
+      "Schauspiller",
+      "Star",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👨‍🎨": [
+      "Kënschtler",
+      "Mann",
+      "Palett",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👨‍🏫": [
+      "Enseignant",
+      "Mann",
+      "Professer",
+      "Schoulmeeschter",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👨‍🏭": [
+      "Aarbechter",
+      "Fabrik",
+      "Industrie",
+      "Mann",
+      "Montage",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👨‍👦": [
+      "Famill",
+      "Jong",
+      "Mann"
+    ],
+    "👨‍👦‍👦": [
+      "Famill",
+      "Jong",
+      "Mann"
+    ],
+    "👨‍👧": [
+      "Famill",
+      "Mann",
+      "Meedchen"
+    ],
+    "👨‍👧‍👦": [
+      "Famill",
+      "Jong",
+      "Mann",
+      "Meedchen"
+    ],
+    "👨‍👧‍👧": [
+      "Famill",
+      "Mann",
+      "Meedchen"
+    ],
+    "👨‍👨‍👦": [
+      "Famill",
+      "Jong",
+      "Mann"
+    ],
+    "👨‍👨‍👦‍👦": [
+      "Famill",
+      "Jong",
+      "Mann"
+    ],
+    "👨‍👨‍👧": [
+      "Famill",
+      "Mann",
+      "Meedchen"
+    ],
+    "👨‍👨‍👧‍👦": [
+      "Famill",
+      "Jong",
+      "Mann",
+      "Meedchen"
+    ],
+    "👨‍👨‍👧‍👧": [
+      "Famill",
+      "Mann",
+      "Meedchen"
+    ],
+    "👨‍👩‍👦": [
+      "Famill",
+      "Fra",
+      "Jong",
+      "Mann"
+    ],
+    "👨‍👩‍👦‍👦": [
+      "Famill",
+      "Fra",
+      "Jong",
+      "Mann"
+    ],
+    "👨‍👩‍👧": [
+      "Famill",
+      "Fra",
+      "Mann",
+      "Meedchen"
+    ],
+    "👨‍👩‍👧‍👦": [
+      "Famill",
+      "Fra",
+      "Jong",
+      "Mann",
+      "Meedchen"
+    ],
+    "👨‍👩‍👧‍👧": [
+      "Famill",
+      "Fra",
+      "Mann",
+      "Meedchen"
+    ],
+    "👨‍💻": [
+      "Coder",
+      "Entwéckler",
+      "Erfinder",
+      "Mann",
+      "Software",
+      "Techniker",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👨‍💼": [
+      "Architekt",
+      "Büro",
+      "Employé",
+      "Geschäft",
+      "Manager",
+      "Mann",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👨‍🔧": [
+      "Elektriker",
+      "Handwierker",
+      "Installateur",
+      "Mann",
+      "Mecanicien",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👨‍🔬": [
+      "Biolog",
+      "Chemiker",
+      "Ingenieur",
+      "Mann",
+      "Mathematiker",
+      "Physiker",
+      "Wëssenschaftler",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👨‍🚀": [
+      "Astronaut",
+      "Mann",
+      "Rakéit",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👨‍🚒": [
+      "Mann",
+      "Pompjee",
+      "Pompjeeswon",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩": [
+      "Fra",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍⚕": [
+      "Dokter",
+      "Fra",
+      "Gesondheet",
+      "Infirmière",
+      "Medezinerin",
+      "Therapeut",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍⚖": [
+      "Fra",
+      "Riichterin",
+      "Wo",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍✈": [
+      "Fliger",
+      "Fra",
+      "Pilotin",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍❤‍👨": [
+      "Fra",
+      "hell Hautfaarf",
+      "Koppel",
+      "Léift",
+      "Mann",
+      "verléift Koppel",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍❤‍👩": [
+      "Fra",
+      "hell Hautfaarf",
+      "Koppel",
+      "Léift",
+      "verléift Koppel",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍❤‍💋‍👨": [
+      "Fra",
+      "hell Hautfaarf",
+      "Koppel",
+      "Kuss",
+      "Mann",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍❤‍💋‍👩": [
+      "Fra",
+      "hell Hautfaarf",
+      "Koppel",
+      "Kuss",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍🌾": [
+      "Bauerefra",
+      "Fra",
+      "Gäertnerin",
+      "Véiziichterin",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍🍳": [
+      "Cheffin",
+      "Chefkächen",
+      "Fra",
+      "Kächen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍🎓": [
+      "Absolventin",
+      "diploméiert",
+      "Fra",
+      "Studentin",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍🎤": [
+      "Entertainerin",
+      "Fra",
+      "Rock",
+      "Sängerin",
+      "Schauspillerin",
+      "Star",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍🎨": [
+      "Fra",
+      "Kënschtlerin",
+      "Palett",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍🏫": [
+      "Enseignante",
+      "Fra",
+      "Professer",
+      "Schoulmeeschtesch",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍🏭": [
+      "Aarbechterin",
+      "Fabrik",
+      "Fra",
+      "Industrie",
+      "Montage",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍👦": [
+      "Famill",
+      "Fra",
+      "Jong"
+    ],
+    "👩‍👦‍👦": [
+      "Famill",
+      "Fra",
+      "Jong"
+    ],
+    "👩‍👧": [
+      "Famill",
+      "Fra",
+      "Meedchen"
+    ],
+    "👩‍👧‍👦": [
+      "Famill",
+      "Fra",
+      "Jong",
+      "Meedchen"
+    ],
+    "👩‍👧‍👧": [
+      "Famill",
+      "Fra",
+      "Meedchen"
+    ],
+    "👩‍👩‍👦": [
+      "Famill",
+      "Fra",
+      "Jong"
+    ],
+    "👩‍👩‍👦‍👦": [
+      "Famill",
+      "Fra",
+      "Jong"
+    ],
+    "👩‍👩‍👧": [
+      "Famill",
+      "Fra",
+      "Meedchen"
+    ],
+    "👩‍👩‍👧‍👦": [
+      "Famill",
+      "Fra",
+      "Jong",
+      "Meedchen"
+    ],
+    "👩‍👩‍👧‍👧": [
+      "Famill",
+      "Fra",
+      "Meedchen"
+    ],
+    "👩‍💻": [
+      "Coderin",
+      "Entwécklerin",
+      "Erfinderin",
+      "Fra",
+      "Software",
+      "Technikerin",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍💼": [
+      "Architektin",
+      "Büro",
+      "Employée",
+      "Fra",
+      "Geschäft",
+      "Managerin",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍🔧": [
+      "Elektrikerin",
+      "Fra",
+      "Handwierkerin",
+      "Installatrice",
+      "Mecanicienne",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍🔬": [
+      "Biolog",
+      "Chemikerin",
+      "Fra",
+      "Ingenieur",
+      "Mathematikerin",
+      "Physikerin",
+      "Wëssenschaftlerin",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍🚀": [
+      "Astronautin",
+      "Fra",
+      "Rakéit",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👩‍🚒": [
+      "Fra",
+      "Pompjee",
+      "Pompjeesfra",
+      "Pompjeeswon",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👪": [
+      "Famill"
+    ],
+    "👫": [
+      "Fra",
+      "halen",
+      "Hand",
+      "Koppel",
+      "Mann",
+      "Mann a Fra Hand an Hand",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👬": [
+      "halen",
+      "Hand",
+      "Koppel",
+      "Mann",
+      "Stärzeechen",
+      "zwee Männer Hand an Hand",
+      "Zwilling",
+      "Zwillingen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👭": [
+      "Fra",
+      "halen",
+      "Hand",
+      "Koppel",
+      "zwou Fraen Hand an Hand",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👮": [
+      "Flick",
+      "Police",
+      "Polizist",
+      "Polizist(in)",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👮‍♀": [
+      "Flick",
+      "Fra",
+      "Police",
+      "Polizistin",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👮‍♂": [
+      "Flick",
+      "Mann",
+      "Police",
+      "Polizist",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👯": [
+      "Dänzer",
+      "feieren",
+      "Huesoueren",
+      "Party",
+      "Persoun mat Huesoueren",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👯‍♀": [
+      "Dänzerin",
+      "feieren",
+      "Frae mat Huesoueren",
+      "Fraen",
+      "Huesoueren",
+      "Party",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👯‍♂": [
+      "Dänzer",
+      "feieren",
+      "Huesoueren",
+      "Männer",
+      "Männer mat Huesoueren",
+      "Party",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👰": [
+      "Braut",
+      "Braut mat Schleier",
+      "Hochzäit",
+      "Schleier",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👱": [
+      "blond",
+      "blond Persoun",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👱‍♀": [
+      "blond",
+      "Blondin",
+      "Fra",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👱‍♂": [
+      "blond",
+      "blonde Mann",
+      "Mann",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👲": [
+      "gua pi mao",
+      "Hutt",
+      "Mann",
+      "Mann mat chineseschem Hutt",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👳": [
+      "Persoun mat Turban",
+      "Turban",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👳‍♀": [
+      "Fra",
+      "Fra mat Turban",
+      "Turban",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👳‍♂": [
+      "Mann",
+      "Mann mat Turban",
+      "Turban",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👴": [
+      "al",
+      "ale Mann",
+      "Mann",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👵": [
+      "al",
+      "Fra",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👶": [
+      "Bëbee",
+      "jonk",
+      "Puppelchen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👷": [
+      "Aarbechter",
+      "Bau",
+      "Bauaarbechter(in) mat Helm",
+      "Hutt",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👷‍♀": [
+      "Aarbechterin",
+      "Bau",
+      "Bauaarbechterin",
+      "Fra",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👷‍♂": [
+      "Aarbechter",
+      "Bau",
+      "Bauaarbechter",
+      "Mann",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👸": [
+      "Fantasie",
+      "Mäerchen",
+      "Prinzessin",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👹": [
+      "Fantasie",
+      "Gesiicht",
+      "Kreatur",
+      "Mäerchen",
+      "Monster",
+      "Ongeheier"
+    ],
+    "👺": [
+      "Fantasie",
+      "Gesiicht",
+      "Kobold",
+      "Kreatur",
+      "Mäerchen",
+      "Monster"
+    ],
+    "👻": [
+      "Fantasie",
+      "Geescht",
+      "Gesiicht",
+      "Kreatur",
+      "Mäerchen",
+      "Monster"
+    ],
+    "👼": [
+      "Bëbee",
+      "Engel",
+      "Engelchen",
+      "Fantasie",
+      "Gesiicht",
+      "Mäerchen",
+      "Puppelchen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "👽": [
+      "Alien",
+      "ausserierdesch",
+      "Fantasie",
+      "Gesiicht",
+      "Kreatur",
+      "Mäerchen",
+      "Monster",
+      "Ufo"
+    ],
+    "👾": [
+      "Alien",
+      "Alienmonster",
+      "ausserierdesch",
+      "Fantasie",
+      "Gesiicht",
+      "Kreatur",
+      "Mäerchen",
+      "Monster",
+      "Ufo"
+    ],
+    "👿": [
+      "Däiwel",
+      "Dämon",
+      "Fantasie",
+      "Gesiicht",
+      "Kobold",
+      "Mäerchen",
+      "rosent Gesiicht mat Haren"
+    ],
+    "💀": [
+      "Doud",
+      "Doudekapp",
+      "Gesiicht",
+      "Mäerchen",
+      "Monster"
+    ],
+    "💁": [
+      "déi d’Hand op hält",
+      "frech",
+      "Hand",
+      "Hëllef",
+      "Informatiounen",
+      "ophalen",
+      "Persoun",
+      "Persoun, déi d’Hand op hält",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "💁‍♀": [
+      "déi d’Hand op hält",
+      "Fra",
+      "Fra, déi d’Hand op hält",
+      "frech",
+      "opgehalen Hand",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "💁‍♂": [
+      "deen d’Hand op hält",
+      "frech",
+      "Mann",
+      "Mann, deen d’Hand op hält",
+      "opgehalen Hand",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "💂": [
+      "Wiechter(in)",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "💂‍♀": [
+      "Fra",
+      "Wiechterin",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "💂‍♂": [
+      "Mann",
+      "Wiechter",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "💃": [
+      "danzend",
+      "Fra",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "💄": [
+      "Kosmetik",
+      "Lëppestëft",
+      "Schmink"
+    ],
+    "💅": [
+      "fleegen",
+      "Kosmetik",
+      "Lack",
+      "Manikür",
+      "Neel",
+      "Neellack",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "💆": [
+      "déi eng Kappmassage kritt",
+      "Gesiicht",
+      "Massage",
+      "Persoun",
+      "Persoun, déi eng Kappmassage kritt",
+      "Salon",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "💆‍♀": [
+      "déi eng Kappmassage kritt",
+      "Fra",
+      "Fra, déi eng Kappmassage kritt",
+      "Gesiicht",
+      "Massage",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "💆‍♂": [
+      "deen eng Kappmassage kritt",
+      "Gesiicht",
+      "Mann",
+      "Mann, deen eng Kappmassage kritt",
+      "Massage",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "💇": [
+      "Coiffer",
+      "Coupe",
+      "déi d’Hoer geschnidde kritt",
+      "Hoer",
+      "Persoun",
+      "Persoun, déi d’Hoer geschnidde kritt",
+      "Salon",
+      "Schéinheet",
+      "schneiden",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "💇‍♀": [
+      "Coupe",
+      "déi d’Hoer geschnidde kritt",
+      "Fra",
+      "Fra, déi d’Hoer geschnidde kritt",
+      "Hoer",
+      "schneiden",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "💇‍♂": [
+      "Coupe",
+      "deen d’Hoer geschnidde kritt",
+      "Hoer",
+      "Mann",
+      "Mann, deen d’Hoer geschnidde kritt",
+      "schneiden",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "💈": [
+      "Coiffer",
+      "Coifferssail",
+      "Coupe",
+      "Sail"
+    ],
+    "💉": [
+      "Dokter",
+      "krank",
+      "Medezin",
+      "Nol",
+      "Sprëtz",
+      "Utensil"
+    ],
+    "💊": [
+      "Dokter",
+      "krank",
+      "Medezin",
+      "Pëll"
+    ],
+    "💋": [
+      "Kuss",
+      "Kussmond",
+      "Lëpsen"
+    ],
+    "💌": [
+      "Bréif",
+      "Häerz",
+      "Léift",
+      "Libesbréif",
+      "Post"
+    ],
+    "💍": [
+      "Diamant",
+      "Rank"
+    ],
+    "💎": [
+      "Diamant",
+      "Juwel",
+      "Steen"
+    ],
+    "💏": [
+      "Koppel",
+      "Kuss",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "💐": [
+      "Blumm",
+      "Blummebouquet"
+    ],
+    "💑": [
+      "Koppel",
+      "Léift",
+      "verléift Koppel",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "💒": [
+      "Hochzäit",
+      "Kapell",
+      "Romanz"
+    ],
+    "💓": [
+      "Häerzklappen",
+      "klappend",
+      "klappend Häerz",
+      "Schlag",
+      "schloend"
+    ],
+    "💔": [
+      "briechen",
+      "gebrach",
+      "gebrachent Häerz"
+    ],
+    "💕": [
+      "Léift",
+      "zwee Häerzer"
+    ],
+    "💖": [
+      "glënneren",
+      "glënnerend Häerz",
+      "opgereegt"
+    ],
+    "💗": [
+      "nervös",
+      "opgereegt",
+      "Schlag",
+      "wuessend",
+      "wuessend Häerz"
+    ],
+    "💘": [
+      "Cupidon",
+      "Feil",
+      "Häerz mat Feil"
+    ],
+    "💙": [
+      "blo",
+      "blot Häerz"
+    ],
+    "💚": [
+      "gréng",
+      "gréngt Häerz"
+    ],
+    "💛": [
+      "giel",
+      "gielt Häerz"
+    ],
+    "💜": [
+      "mof",
+      "mooft Häerz"
+    ],
+    "💝": [
+      "Häerz mat Putsch",
+      "Putsch",
+      "Valentin"
+    ],
+    "💞": [
+      "dréiend",
+      "dréiend Häerzer"
+    ],
+    "💟": [
+      "Häerz",
+      "Häerzdekoratioun"
+    ],
+    "💠": [
+      "Comic",
+      "geometresch",
+      "Raut",
+      "Raut mat engem Punkt an der Mëtt",
+      "rout"
+    ],
+    "💡": [
+      "Bir",
+      "Comic",
+      "elektresch",
+      "Iddi",
+      "Liicht",
+      "Luucht"
+    ],
+    "💢": [
+      "béis",
+      "Comic",
+      "rosen",
+      "Rosereiszeechen"
+    ],
+    "💣": [
+      "Bomm",
+      "Comic"
+    ],
+    "💤": [
+      "Comic",
+      "Schlof",
+      "zzz"
+    ],
+    "💥": [
+      "Boom",
+      "Comic",
+      "Kollisioun"
+    ],
+    "💦": [
+      "Comic",
+      "platschen",
+      "Schweess",
+      "Schweessdrëpsen"
+    ],
+    "💧": [
+      "Comic",
+      "Drëps",
+      "Drëpschen",
+      "kal",
+      "Schweess"
+    ],
+    "💨": [
+      "Comic",
+      "jauwen",
+      "lafen",
+      "séier fort"
+    ],
+    "💩": [
+      "Gesiicht",
+      "Kaka",
+      "Koup Schäiss",
+      "Mëscht",
+      "Monster",
+      "Schäiss",
+      "witzeg"
+    ],
+    "💪": [
+      "Bizeps",
+      "Comic",
+      "Muskel",
+      "ugespaante Bizeps",
+      "uspanen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "💫": [
+      "Comic",
+      "Schwindel",
+      "Stär"
+    ],
+    "💬": [
+      "Ball",
+      "Blos",
+      "Comic",
+      "Dialog",
+      "schwätzen",
+      "Spriechblos"
+    ],
+    "💭": [
+      "Ball",
+      "Blos",
+      "Comic",
+      "Denkblos",
+      "Gedanken"
+    ],
+    "💮": [
+      "Blumm",
+      "wäiss Blumm"
+    ],
+    "💯": [
+      "100",
+      "honnert",
+      "honnert Punkten",
+      "Score",
+      "voll"
+    ],
+    "💰": [
+      "Dollar",
+      "Geld",
+      "Geldsak",
+      "Sak",
+      "Suen"
+    ],
+    "💱": [
+      "Bank",
+      "Geld",
+      "Suen",
+      "Währung",
+      "Wiesselcours"
+    ],
+    "💲": [
+      "déckt Dollarzeechen",
+      "Dollar",
+      "Geld",
+      "Suen",
+      "Währung"
+    ],
+    "💳": [
+      "Bank",
+      "Geld",
+      "Kaart",
+      "Kredit",
+      "Kreditkaart",
+      "Suen"
+    ],
+    "💴": [
+      "Bank",
+      "Geld",
+      "Geldschäin",
+      "Rechnung",
+      "Schäin",
+      "Suen",
+      "Währung",
+      "Yen"
+    ],
+    "💵": [
+      "Bank",
+      "Dollar",
+      "Geld",
+      "Geldschäin",
+      "Rechnung",
+      "Schäin",
+      "Suen",
+      "Währung"
+    ],
+    "💶": [
+      "Bank",
+      "Euro",
+      "Geld",
+      "Geldschäin",
+      "Rechnung",
+      "Schäin",
+      "Suen",
+      "Währung"
+    ],
+    "💷": [
+      "Bank",
+      "Geld",
+      "Geldschäin",
+      "Pound",
+      "Rechnung",
+      "Schäin",
+      "Suen",
+      "Währung"
+    ],
+    "💸": [
+      "Bank",
+      "Dollar",
+      "fléien",
+      "Flilleken",
+      "Geld",
+      "Geldschäin",
+      "Geldschäiner mat Flilleken",
+      "Rechnung",
+      "Schäin",
+      "Suen"
+    ],
+    "💹": [
+      "Bank",
+      "Cours",
+      "Diagramm",
+      "Geld",
+      "Maart",
+      "Marché",
+      "Steierung",
+      "steigen",
+      "steigend",
+      "steigende Coursdiagramm mat Yen",
+      "Suen",
+      "Tendenz",
+      "Währung",
+      "Yen"
+    ],
+    "💺": [
+      "Sëtz",
+      "Sëtzplaz"
+    ],
+    "💻": [
+      "Computer",
+      "Laptop",
+      "PC",
+      "perséinlech"
+    ],
+    "💼": [
+      "Aktekoffer"
+    ],
+    "💽": [
+      "Computer",
+      "Disk",
+      "Minidisk",
+      "optesch"
+    ],
+    "💾": [
+      "Computer",
+      "Disk",
+      "Diskett"
+    ],
+    "💿": [
+      "CD",
+      "Computer",
+      "Disk",
+      "optesch"
+    ],
+    "📀": [
+      "Blu-ray",
+      "Computer",
+      "Disk",
+      "DVD",
+      "optesch"
+    ],
+    "📁": [
+      "Dossier",
+      "Fichier",
+      "Fichiersdossier"
+    ],
+    "📂": [
+      "Dossier",
+      "Fichier",
+      "oppen",
+      "oppene Fichiersdossier"
+    ],
+    "📃": [
+      "Dokument",
+      "Kréngel",
+      "opgerullt",
+      "opgerullte Säit",
+      "Säit"
+    ],
+    "📄": [
+      "bedréckt Säit",
+      "Dokument",
+      "Säit"
+    ],
+    "📅": [
+      "Datum",
+      "Kalenner"
+    ],
+    "📆": [
+      "Kalenner",
+      "Ofräisskalenner"
+    ],
+    "📇": [
+      "Index",
+      "Indexkaart",
+      "Kaart",
+      "Rolodex"
+    ],
+    "📈": [
+      "Diagramm",
+      "Grafik",
+      "steigend",
+      "steigenden Diagramm",
+      "Steigerung",
+      "Tendenz"
+    ],
+    "📉": [
+      "Diagramm",
+      "Grafik",
+      "senkend",
+      "senkenden Diagramm",
+      "Tendenz"
+    ],
+    "📊": [
+      "Balken",
+      "Balkendiagramm",
+      "Diagramm",
+      "Grafik"
+    ],
+    "📋": [
+      "Notizbriet"
+    ],
+    "📌": [
+      "Punaise"
+    ],
+    "📍": [
+      "Punaise",
+      "ronn Punaise"
+    ],
+    "📎": [
+      "Bürosklamer"
+    ],
+    "📏": [
+      "Lineal",
+      "riicht"
+    ],
+    "📐": [
+      "Dräieck",
+      "Lineal",
+      "Zeechen",
+      "Zeechendräieck"
+    ],
+    "📑": [
+      "Lieszeechen",
+      "Lieszeechestickeren",
+      "Markéierung",
+      "Stickeren",
+      "Zeechen"
+    ],
+    "📒": [
+      "Haaptbuch",
+      "Notizblock"
+    ],
+    "📓": [
+      "Notizblock"
+    ],
+    "📔": [
+      "Buch",
+      "Deckel",
+      "dekoréiert",
+      "dekoréierten Notizblock",
+      "Notizblock"
+    ],
+    "📕": [
+      "Buch",
+      "zou",
+      "zouent Buch"
+    ],
+    "📖": [
+      "Buch",
+      "oppen",
+      "oppent Buch"
+    ],
+    "📗": [
+      "Buch",
+      "gréng",
+      "gréngt Buch"
+    ],
+    "📘": [
+      "blo",
+      "blot Buch",
+      "Buch"
+    ],
+    "📙": [
+      "Buch",
+      "orange",
+      "oranget Buch"
+    ],
+    "📚": [
+      "Bicher",
+      "Buch"
+    ],
+    "📛": [
+      "Numm",
+      "Nummschëld",
+      "Schëld"
+    ],
+    "📜": [
+      "Pabeier",
+      "Schrëftrullo"
+    ],
+    "📝": [
+      "Bläistëft",
+      "Memo"
+    ],
+    "📞": [
+      "Hörer",
+      "Telefon",
+      "Telefonshörer"
+    ],
+    "📟": [
+      "Pager"
+    ],
+    "📠": [
+      "Fax"
+    ],
+    "📡": [
+      "Antenn",
+      "Satellitt",
+      "Satellittenantenn",
+      "Teller"
+    ],
+    "📢": [
+      "ëffentlech Adress",
+      "haart",
+      "Lautsprecher"
+    ],
+    "📣": [
+      "Megafon",
+      "ufeierend"
+    ],
+    "📤": [
+      "Boîte",
+      "Bréif",
+      "erausgoend",
+      "Fach",
+      "Fach fir erausgoend Post",
+      "Post",
+      "schécken"
+    ],
+    "📥": [
+      "Boîte",
+      "Bréif",
+      "empfänken",
+      "Fach",
+      "Fach fir erakommend Post",
+      "Inbox",
+      "Post"
+    ],
+    "📦": [
+      "Këscht",
+      "Pak"
+    ],
+    "📧": [
+      "Bréif",
+      "E-Mail",
+      "Post"
+    ],
+    "📨": [
+      "antreffend",
+      "antreffende Bréif",
+      "Bréif",
+      "E-Mail",
+      "emailen",
+      "empfänken",
+      "Enveloppe",
+      "Post"
+    ],
+    "📩": [
+      "Bréif",
+      "E-Mail",
+      "emailen",
+      "Enveloppe",
+      "Enveloppe mat Feil",
+      "erausgoend",
+      "Feil",
+      "no ënnen",
+      "Post",
+      "schécken"
+    ],
+    "📪": [
+      "Bréifboîte",
+      "Bréifkëscht",
+      "no ënnen",
+      "Post",
+      "zou",
+      "zoue Bréifkëscht mat Fändel no ënnen"
+    ],
+    "📫": [
+      "Bréifboîte",
+      "Bréifkëscht",
+      "Post",
+      "zou",
+      "zoue Bréifkëscht mat Fändel no uewen"
+    ],
+    "📬": [
+      "Bréifboîte",
+      "Bréifkëscht",
+      "oppe Bréifkëscht mat Fändel no uewen",
+      "oppen",
+      "Post"
+    ],
+    "📭": [
+      "Bréifboîte",
+      "Bréifkëscht",
+      "no ënnen",
+      "oppe Bréifkëscht mat Fändel no ënnen",
+      "oppen",
+      "Post"
+    ],
+    "📮": [
+      "Bréifboîte",
+      "Bréifkëscht",
+      "Post"
+    ],
+    "📯": [
+      "Post",
+      "Posttroter",
+      "Troter"
+    ],
+    "📰": [
+      "Neiegkeeten",
+      "Pabeier",
+      "Zeitung"
+    ],
+    "📱": [
+      "Funk",
+      "Handy",
+      "Mobil",
+      "Telefon"
+    ],
+    "📲": [
+      "empfänken",
+      "Feil",
+      "Funk",
+      "Handy",
+      "Handy mat feil",
+      "Mobil",
+      "Telefon",
+      "Uruff"
+    ],
+    "📳": [
+      "Funk",
+      "Handy",
+      "Mobil",
+      "Modus",
+      "Telefon",
+      "Vibratioun",
+      "Vibratiounsmodus"
+    ],
+    "📴": [
+      "aus",
+      "Funk",
+      "Handy",
+      "Mobil",
+      "Telefon"
+    ],
+    "📵": [
+      "Funk",
+      "Handy",
+      "Handye verbueden",
+      "keen",
+      "Mobil",
+      "neen",
+      "net",
+      "Telefon",
+      "verbueden"
+    ],
+    "📶": [
+      "Balken",
+      "Empfang",
+      "Empfangbalken",
+      "Funk",
+      "Handy",
+      "Mobil",
+      "Signal",
+      "Telefon"
+    ],
+    "📷": [
+      "Fotoapparat",
+      "Video"
+    ],
+    "📸": [
+      "Blëtz",
+      "Flash",
+      "Fotoapparat",
+      "Fotoapparat mat Blëtz",
+      "Kamera",
+      "Video"
+    ],
+    "📹": [
+      "Kamera",
+      "Video",
+      "Videokamera"
+    ],
+    "📺": [
+      "Fernseh",
+      "TV",
+      "Video"
+    ],
+    "📻": [
+      "Radio",
+      "Video"
+    ],
+    "📼": [
+      "Kassett",
+      "VHS",
+      "Video",
+      "Videokassett"
+    ],
+    "📽": [
+      "Film",
+      "Filmprojekter",
+      "Kino",
+      "Projekter",
+      "Video"
+    ],
+    "📿": [
+      "Gebiet",
+      "Ketten",
+      "Kleedung",
+      "Kranz",
+      "Pärelen",
+      "Relioun",
+      "Rousekranz"
+    ],
+    "🔀": [
+      "Feil",
+      "gekräizt",
+      "Zoufallslecture-Knäppchen"
+    ],
+    "🔁": [
+      "an Zärerichtung",
+      "Feil",
+      "widderhuelen",
+      "Widderhuelknäppchen"
+    ],
+    "🔂": [
+      "an Zärerichtung",
+      "eemol",
+      "Feil",
+      "Widderhuelknäppche fir ee Lidd"
+    ],
+    "🔃": [
+      "an Zärerichtung",
+      "Feil",
+      "opzéien",
+      "vertikal Feiler an Zärerichtung"
+    ],
+    "🔄": [
+      "a géigegesat Richtung",
+      "counterclockwise",
+      "Feil",
+      "géint Zärerichtung",
+      "vertikal Feiler géint Zärerichtung"
+    ],
+    "🔅": [
+      "dimmen",
+      "Dimmerknäppchen",
+      "Hellegkeet",
+      "niddereg"
+    ],
+    "🔆": [
+      "hell",
+      "Hellegkeet",
+      "Ophellknäppchen"
+    ],
+    "🔇": [
+      "keen Toun",
+      "lautlos",
+      "Lautsprecher",
+      "Lautsprecher op lautlos",
+      "roueg"
+    ],
+    "🔈": [
+      "Lautsprecher op lues agestallt",
+      "lues"
+    ],
+    "🔉": [
+      "Lautsprecher op mëttel agestallt",
+      "mëttel"
+    ],
+    "🔊": [
+      "haart",
+      "Lautsprecher op haart agestallt"
+    ],
+    "🔋": [
+      "Batterie"
+    ],
+    "🔌": [
+      "elektresch",
+      "Stecker",
+      "Stroum"
+    ],
+    "🔍": [
+      "Glas",
+      "Lupp",
+      "no lénks geriicht Lupp",
+      "sichen",
+      "Utensil"
+    ],
+    "🔎": [
+      "Glas",
+      "Lupp",
+      "no riets geriicht Lupp",
+      "sichen",
+      "Utensil"
+    ],
+    "🔏": [
+      "Bic",
+      "Fieder",
+      "privat",
+      "Schlass",
+      "Tënt",
+      "zou",
+      "zouent Schlass mat Bic"
+    ],
+    "🔐": [
+      "Schlass",
+      "Schlëssel",
+      "sécher",
+      "zou",
+      "zouent Schlass mat Schlëssel"
+    ],
+    "🔑": [
+      "Passwuert",
+      "Schlass",
+      "Schlëssel"
+    ],
+    "🔒": [
+      "zou",
+      "zouent Schlass"
+    ],
+    "🔓": [
+      "entspären",
+      "oppen",
+      "oppent Schlass",
+      "Schlass",
+      "zou"
+    ],
+    "🔔": [
+      "Klack",
+      "Schell"
+    ],
+    "🔕": [
+      "duerchgestrach",
+      "duerchgestrache Klack",
+      "keen Toun",
+      "Klack",
+      "lautlos",
+      "neen",
+      "net",
+      "roueg",
+      "verbueden"
+    ],
+    "🔖": [
+      "Lieszeechen",
+      "Zeechen"
+    ],
+    "🔗": [
+      "Glidd"
+    ],
+    "🔘": [
+      "geometresch",
+      "Knäppchen",
+      "Optiounen",
+      "Optiounsknäppchen"
+    ],
+    "🔙": [
+      "Feil",
+      "zeréck",
+      "ZERÉCK-Feil"
+    ],
+    "🔚": [
+      "Enn",
+      "ENN-Feil",
+      "Feil"
+    ],
+    "🔛": [
+      "Feil",
+      "Markéierung",
+      "un",
+      "UN!-Feil"
+    ],
+    "🔜": [
+      "Feil",
+      "geschwënn",
+      "GESCHWËNN-Feil"
+    ],
+    "🔝": [
+      "Feil",
+      "no uewen",
+      "Top",
+      "TOP-Feil"
+    ],
+    "🔞": [
+      "18",
+      "Altersbeschränkung",
+      "ënner",
+      "ënner uechzéng Joer verbueden",
+      "neen",
+      "net",
+      "uechzéng",
+      "verbueden"
+    ],
+    "🔠": [
+      "ABCD",
+      "Buschtawen",
+      "Eingab",
+      "grouss",
+      "Groussbuschtawen (Latäin)",
+      "latäin"
+    ],
+    "🔡": [
+      "abcd",
+      "Buschtawen",
+      "Eingab",
+      "kleng",
+      "Klengbuschtawen (Latäin)",
+      "latäin"
+    ],
+    "🔢": [
+      "1234",
+      "Eingab",
+      "Zuelen",
+      "Zueleneingab"
+    ],
+    "🔣": [
+      "〒♪&%",
+      "Eingab",
+      "Symbolereingab"
+    ],
+    "🔤": [
+      "abc",
+      "Alphabet",
+      "Buschtawen",
+      "Buschtaweneingab (Latäin)",
+      "Eingab",
+      "latäin"
+    ],
+    "🔥": [
+      "feier",
+      "fire",
+      "Feier",
+      "Flam",
+      "Handwierksgeschir"
+    ],
+    "🔦": [
+      "Apparat",
+      "elektresch",
+      "Luucht",
+      "Täsch",
+      "Täscheluucht"
+    ],
+    "🔧": [
+      "Handwierksgeschir",
+      "Schrauwenzéier",
+      "Schrauweschlëssel"
+    ],
+    "🔨": [
+      "Handwierksgeschir",
+      "Hummer"
+    ],
+    "🔩": [
+      "Handwierksgeschir",
+      "Mudder",
+      "Mudder a Schrauf",
+      "Schrauf"
+    ],
+    "🔪": [
+      "kachen",
+      "Kichemesser",
+      "Kichen",
+      "Messer",
+      "Utensil",
+      "Waff"
+    ],
+    "🔫": [
+      "Pistoul",
+      "Revolver",
+      "Utensil",
+      "Waff"
+    ],
+    "🔬": [
+      "Apparat",
+      "Mikroskop",
+      "Wëssenschaft"
+    ],
+    "🔭": [
+      "Apparat",
+      "Teleskop",
+      "Wëssenschaft"
+    ],
+    "🔮": [
+      "Fantasie",
+      "Kristall",
+      "Kristallkugel",
+      "Kugel",
+      "Mäerchen",
+      "Utensil",
+      "Zukunft"
+    ],
+    "🔯": [
+      "Gléck",
+      "sechszackege Stär mat Punkt an der Mëtt",
+      "Stär"
+    ],
+    "🔰": [
+      "Blat",
+      "giel",
+      "gréng",
+      "japanesch",
+      "Ufänger",
+      "Ufängerzeechen (Japan)",
+      "Wopen"
+    ],
+    "🔱": [
+      "Anker",
+      "Dräizack",
+      "Handwierksgeschir",
+      "Ofzeechen",
+      "Schëff"
+    ],
+    "🔲": [
+      "geometresch",
+      "Knäppchen",
+      "Quadrat",
+      "schwaarze véiereckege Knäppchen"
+    ],
+    "🔳": [
+      "geometresch",
+      "Knäppchen",
+      "Kontur",
+      "Quadrat",
+      "wäisse véiereckege Knäppchen"
+    ],
+    "🔴": [
+      "geometresch",
+      "Krees",
+      "roude Krees",
+      "rout"
+    ],
+    "🔵": [
+      "blo",
+      "bloe Krees",
+      "geometresch",
+      "Krees"
+    ],
+    "🔶": [
+      "geometresch",
+      "grouss orange Raut",
+      "orange",
+      "Raut"
+    ],
+    "🔷": [
+      "blo",
+      "geometresch",
+      "grouss blo Raut",
+      "Raut"
+    ],
+    "🔸": [
+      "geometresch",
+      "kleng orange Raut",
+      "orange",
+      "Raut"
+    ],
+    "🔹": [
+      "blo",
+      "geometresch",
+      "kleng blo Raut",
+      "Raut"
+    ],
+    "🔺": [
+      "geometresch",
+      "rouden Dräieck mat der Spëtzt no uewen",
+      "rout"
+    ],
+    "🔻": [
+      "geometresch",
+      "no ënnen",
+      "rouden Dräieck mat der Spëtzt no ënnen",
+      "rout"
+    ],
+    "🔼": [
+      "Feil",
+      "Knäppchen",
+      "Knäppchen „No uewen“",
+      "rout"
+    ],
+    "🔽": [
+      "Feil",
+      "Knäppchen",
+      "Knäppchen „No ënnen“",
+      "no ënnen",
+      "rout"
+    ],
+    "🕉": [
+      "Hindu",
+      "OM",
+      "Relioun"
+    ],
+    "🕊": [
+      "Dauf",
+      "fléien",
+      "Fridden",
+      "Vugel"
+    ],
+    "🕋": [
+      "Islam",
+      "Kaaba",
+      "Moslem",
+      "Relioun"
+    ],
+    "🕌": [
+      "Islam",
+      "Moschee",
+      "Moslem",
+      "Relioun"
+    ],
+    "🕍": [
+      "jiddesch",
+      "Judd",
+      "Relioun",
+      "Synagog",
+      "Tempel"
+    ],
+    "🕎": [
+      "Käerzestänner",
+      "Menorah",
+      "Relioun"
+    ],
+    "🕐": [
+      "00",
+      "1",
+      "1:00",
+      "Auer",
+      "Auerzäit",
+      "eng"
+    ],
+    "🕑": [
+      "00",
+      "2",
+      "2:00",
+      "Auer",
+      "Auerzäit",
+      "zwou"
+    ],
+    "🕒": [
+      "00",
+      "3",
+      "3:00",
+      "Auer",
+      "Auerzäit",
+      "dräi"
+    ],
+    "🕓": [
+      "00",
+      "4",
+      "4:00",
+      "Auer",
+      "Auerzäit",
+      "véier"
+    ],
+    "🕔": [
+      "00",
+      "5",
+      "5:00",
+      "Auer",
+      "Auerzäit",
+      "fënnef"
+    ],
+    "🕕": [
+      "00",
+      "6",
+      "6:00",
+      "Auer",
+      "Auerzäit",
+      "sechs"
+    ],
+    "🕖": [
+      "00",
+      "7",
+      "7:00",
+      "Auer",
+      "Auerzäit",
+      "siwen"
+    ],
+    "🕗": [
+      "00",
+      "8",
+      "8:00",
+      "aacht",
+      "Auer",
+      "Auerzäit"
+    ],
+    "🕘": [
+      "00",
+      "9",
+      "9:00",
+      "Auer",
+      "Auerzäit",
+      "néng"
+    ],
+    "🕙": [
+      "00",
+      "10",
+      "10:00",
+      "Auer",
+      "Auerzäit",
+      "zéng"
+    ],
+    "🕚": [
+      "00",
+      "11",
+      "11:00",
+      "Auer",
+      "Auerzäit",
+      "eelef"
+    ],
+    "🕛": [
+      "00",
+      "12",
+      "12:00",
+      "Auer",
+      "Auerzäit",
+      "zwielef"
+    ],
+    "🕜": [
+      "1",
+      "1:30",
+      "30",
+      "Auer",
+      "drësseg",
+      "eng",
+      "hallwer",
+      "zwou"
+    ],
+    "🕝": [
+      "2",
+      "2:30",
+      "30",
+      "Auer",
+      "dräi",
+      "drësseg",
+      "hallwer",
+      "zwou"
+    ],
+    "🕞": [
+      "3",
+      "3:30",
+      "30",
+      "Auer",
+      "dräi",
+      "drësseg",
+      "hallwer",
+      "véier"
+    ],
+    "🕟": [
+      "30",
+      "4",
+      "4:30",
+      "Auer",
+      "drësseg",
+      "fënnef",
+      "hallwer",
+      "véier"
+    ],
+    "🕠": [
+      "30",
+      "5",
+      "5:30",
+      "Auer",
+      "drësseg",
+      "fënnef",
+      "hallwer",
+      "sechs"
+    ],
+    "🕡": [
+      "30",
+      "6",
+      "6:30",
+      "Auer",
+      "drësseg",
+      "hallwer",
+      "sechs",
+      "siwen"
+    ],
+    "🕢": [
+      "30",
+      "7",
+      "7:30",
+      "aacht",
+      "Auer",
+      "drësseg",
+      "hallwer",
+      "siwen"
+    ],
+    "🕣": [
+      "30",
+      "8",
+      "8:30",
+      "aacht",
+      "Auer",
+      "drësseg",
+      "hallwer",
+      "néng"
+    ],
+    "🕤": [
+      "30",
+      "9",
+      "9:30",
+      "Auer",
+      "drësseg",
+      "hallwer",
+      "néng",
+      "zéng"
+    ],
+    "🕥": [
+      "10",
+      "10:30",
+      "30",
+      "Auer",
+      "drësseg",
+      "eelef",
+      "hallwer",
+      "zéng"
+    ],
+    "🕦": [
+      "11",
+      "11:30",
+      "30",
+      "Auer",
+      "drësseg",
+      "eelef",
+      "hallwer",
+      "zwielef"
+    ],
+    "🕧": [
+      "12",
+      "12:30",
+      "30",
+      "Auer",
+      "drësseg",
+      "eng",
+      "hallwer",
+      "zwielef"
+    ],
+    "🕯": [
+      "Käerz",
+      "Luucht"
+    ],
+    "🕰": [
+      "Auer",
+      "Kamäinauer"
+    ],
+    "🕳": [
+      "Lach"
+    ],
+    "🕴": [
+      "Geschäft",
+      "Kostüm",
+      "levitéierende Man am Kostüm",
+      "Mann",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🕵": [
+      "Detektiv",
+      "Detektiv(in)",
+      "Spioun",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🕵‍♀": [
+      "Detektivin",
+      "Fra",
+      "Spiounin",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🕵‍♂": [
+      "Detektiv",
+      "Mann",
+      "Spioun",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🕶": [
+      "A",
+      "Brëll",
+      "däischter",
+      "Sonnebrëll"
+    ],
+    "🕷": [
+      "Insekt",
+      "Spann"
+    ],
+    "🕸": [
+      "Netz",
+      "Spann",
+      "Spannennetz"
+    ],
+    "🕹": [
+      "Joystick",
+      "Spill",
+      "Videospill"
+    ],
+    "🕺": [
+      "danzen",
+      "danzende Mann",
+      "Mann",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🖇": [
+      "Bürosklamer",
+      "verbonne Bürosklameren",
+      "verbonnen"
+    ],
+    "🖊": [
+      "Bic"
+    ],
+    "🖋": [
+      "Bic",
+      "Füllfieder"
+    ],
+    "🖌": [
+      "molen",
+      "Pinsel"
+    ],
+    "🖍": [
+      "Faarf"
+    ],
+    "🖐": [
+      "ausgestreckt",
+      "Fanger",
+      "gehuewen Hand mat ausgestreckte Fanger",
+      "Hand",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🖕": [
+      "Fanger",
+      "Hand",
+      "Mëttelfanger",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🖖": [
+      "Fanger",
+      "Hand",
+      "Spock",
+      "Vulcan",
+      "Vulcan-Grouss",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🖤": [
+      "béis",
+      "schlecht",
+      "schwaarz",
+      "schwaarzt Häerz"
+    ],
+    "🖥": [
+      "Computer",
+      "Desktop",
+      "Desktopcomputer"
+    ],
+    "🖨": [
+      "Computer",
+      "Drécker"
+    ],
+    "🖱": [
+      "Computer",
+      "Computermaus"
+    ],
+    "🖲": [
+      "Computer",
+      "Trackball"
+    ],
+    "🖼": [
+      "agerummt Bild",
+      "Bild",
+      "Konscht",
+      "Musée",
+      "Rumm",
+      "Tableau"
+    ],
+    "🗂": [
+      "Index",
+      "Intercalairen",
+      "Kaart"
+    ],
+    "🗃": [
+      "Fichier",
+      "Fichierskëscht",
+      "Kaart",
+      "Këscht"
+    ],
+    "🗄": [
+      "Fichier",
+      "Fichiersschaf",
+      "klasséieren",
+      "Schaf"
+    ],
+    "🗑": [
+      "Dreckskëscht"
+    ],
+    "🗒": [
+      "Block",
+      "Notiz",
+      "Réngelcher",
+      "Réngelchersnotizblock"
+    ],
+    "🗓": [
+      "Block",
+      "Kalenner",
+      "Réngelcher",
+      "Réngelcherskalenner"
+    ],
+    "🗜": [
+      "Handwierksgeschir",
+      "Kompresser",
+      "Schraufstack"
+    ],
+    "🗝": [
+      "al",
+      "ale Schlëssel",
+      "Hiwäis",
+      "Schlass",
+      "Schlëssel"
+    ],
+    "🗞": [
+      "gerullt",
+      "Neiegkeeten",
+      "opgerullt Zeitung",
+      "Pabeier",
+      "Zeitung"
+    ],
+    "🗡": [
+      "Dolch",
+      "Messer",
+      "Waff"
+    ],
+    "🗣": [
+      "Gesiicht",
+      "Kapp",
+      "schwätzen",
+      "schwätzend",
+      "schwätzende Kapp",
+      "Silhouette"
+    ],
+    "🗨": [
+      "Dialog",
+      "lénks Spriechblos",
+      "schwätzen"
+    ],
+    "🗯": [
+      "Ball",
+      "béis",
+      "Blos",
+      "riets Rosereispriechblos",
+      "rosen"
+    ],
+    "🗳": [
+      "Këscht",
+      "Urn",
+      "Urn mat Stëmmziedel"
+    ],
+    "🗺": [
+      "Kaart",
+      "Welt",
+      "Weltkaart"
+    ],
+    "🗻": [
+      "Bierg",
+      "Fuji",
+      "Mount Fuji"
+    ],
+    "🗼": [
+      "Tokyo",
+      "Tower",
+      "Tuerm"
+    ],
+    "🗽": [
+      "Fräiheet",
+      "Fräiheetsstatu",
+      "Statu"
+    ],
+    "🗾": [
+      "Japan",
+      "Kaart",
+      "Kaart vu Japan"
+    ],
+    "🗿": [
+      "Gesiicht",
+      "Moai-Statu",
+      "Moyai",
+      "Statu"
+    ],
+    "😀": [
+      "laachen",
+      "glécklech",
+      "smile",
+      "happy",
+      "Gesiicht",
+      "Grinsen",
+      "Grinsgesiicht"
+    ],
+    "😁": [
+      "A",
+      "Gesiicht",
+      "Grinsen",
+      "Grinsgesiicht mat laachenden Aen",
+      "Laachen"
+    ],
+    "😂": [
+      "laachen",
+      "witzeg",
+      "laugh",
+      "funny",
+      "Freed",
+      "Gesiicht",
+      "Gesiicht mat Freedtréinen",
+      "Laachen",
+      "Tréin"
+    ],
+    "😃": [
+      "Gesiicht",
+      "Laachen",
+      "laachend Gesiicht mat oppenem Mond",
+      "Mond",
+      "oppen"
+    ],
+    "😄": [
+      "A",
+      "Gesiicht",
+      "Laachen",
+      "laachend Gesiicht mat oppenem Mond a laachenden Aen",
+      "Mond",
+      "oppen"
+    ],
+    "😅": [
+      "Gesiicht",
+      "kal",
+      "Laachen",
+      "laachend Gesiicht mat oppenem Mond a kalem Schweess",
+      "oppen",
+      "Schweess"
+    ],
+    "😆": [
+      "Gesiicht",
+      "Laachen",
+      "laachend Gesiicht mat oppenem Mond an zouen Aen",
+      "Mond",
+      "oppen",
+      "zefridden"
+    ],
+    "😇": [
+      "Engel",
+      "Fantasie",
+      "Gesiicht",
+      "Hellegeschäin",
+      "Laachen",
+      "laachend Gesiicht mat Hellegeschäin",
+      "Mäerchen",
+      "onschëlleg"
+    ],
+    "😈": [
+      "Fantasie",
+      "Gesiicht",
+      "Haren",
+      "Laachen",
+      "laachend Gesiicht mat Haren",
+      "Mäerchen"
+    ],
+    "😉": [
+      "A zoudrécken",
+      "A zoudréckend",
+      "Gesiicht"
+    ],
+    "😊": [
+      "A",
+      "Gesiicht",
+      "Laachen",
+      "laachend Gesiicht mat laachenden Aen",
+      "rout ginn"
+    ],
+    "😋": [
+      "genéissen",
+      "Gesiicht",
+      "gutt",
+      "gutt Iesse genéissend",
+      "Laachen",
+      "mmh"
+    ],
+    "😌": [
+      "erliichtert",
+      "Gesiicht"
+    ],
+    "😍": [
+      "A",
+      "Gesiicht",
+      "Laachen",
+      "laachend Gesiicht mat Häerzeraen",
+      "Léift"
+    ],
+    "😎": [
+      "A",
+      "Brëll",
+      "cool",
+      "Gesiicht",
+      "hell",
+      "Laachen",
+      "laachend Gesiicht mat Sonnebrëll",
+      "Sonn",
+      "Sonnebrëll"
+    ],
+    "😏": [
+      "Gesiicht",
+      "schmunzelen",
+      "schmunzelend"
+    ],
+    "😐": [
+      "Gesiicht",
+      "neutraalt Gesiicht",
+      "neutral",
+      "ouni Ausdrock"
+    ],
+    "😑": [
+      "Gesiicht",
+      "Gesiicht ouni Ausdrock",
+      "inexpressiv",
+      "onexpressiv",
+      "ouni Ausdrock"
+    ],
+    "😒": [
+      "Gesiicht",
+      "onglécklech",
+      "onzefridden"
+    ],
+    "😓": [
+      "Gesiicht",
+      "kal",
+      "mat kalem Schweess eroflafend",
+      "Schweess"
+    ],
+    "😔": [
+      "bedréckt",
+      "besuergt",
+      "Gesiicht"
+    ],
+    "😕": [
+      "Gesiicht",
+      "konfus"
+    ],
+    "😖": [
+      "frustréiert",
+      "Gesiicht"
+    ],
+    "😗": [
+      "Gesiicht",
+      "Kuss",
+      "kussend"
+    ],
+    "😘": [
+      "e Kuss schéckend",
+      "Gesiicht",
+      "Kuss"
+    ],
+    "😙": [
+      "A",
+      "Gesiicht",
+      "Kuss",
+      "kussend mat laachenden Aen",
+      "Laachen"
+    ],
+    "😚": [
+      "A",
+      "Gesiicht",
+      "Kuss",
+      "kussend mat zouen Aen",
+      "zouen"
+    ],
+    "😛": [
+      "d’Zong erausstreckend",
+      "Gesiicht",
+      "Zong"
+    ],
+    "😜": [
+      "A",
+      "A zoudrécken",
+      "d’Zong erausstreckend mat zougedrécktem A",
+      "Gesiicht",
+      "Witz",
+      "Zong"
+    ],
+    "😝": [
+      "A",
+      "d’Zong erausstreckend mat zouen Aen",
+      "Gesiicht",
+      "Goût",
+      "schrecklech",
+      "Zong"
+    ],
+    "😞": [
+      "enttäuscht",
+      "Gesiicht"
+    ],
+    "😟": [
+      "beonrouegt",
+      "Gesiicht"
+    ],
+    "😠": [
+      "Gesiicht",
+      "queesch",
+      "rosen",
+      "rosent Gesiicht"
+    ],
+    "😡": [
+      "Gesiicht",
+      "motzen",
+      "motzend Gesiicht",
+      "queesch",
+      "rosen",
+      "Roserei",
+      "rout"
+    ],
+    "😢": [
+      "Gesiicht",
+      "kräischen",
+      "kräischend",
+      "traureg",
+      "Tréin"
+    ],
+    "😣": [
+      "duerhalen",
+      "duerhalend",
+      "Gesiicht"
+    ],
+    "😤": [
+      "Gesiicht",
+      "gewonnen",
+      "mat Damp aus der Nues",
+      "Triumph"
+    ],
+    "😥": [
+      "enttäuscht",
+      "enttäuscht mä erliichtert",
+      "erliichtert",
+      "Gesiicht",
+      "ouf"
+    ],
+    "😦": [
+      "d’Stir fronzend Gesiicht mat oppenem Mond",
+      "Gesiicht",
+      "Mond",
+      "oppen",
+      "Stir fronzen"
+    ],
+    "😧": [
+      "gequäält",
+      "Gesiicht"
+    ],
+    "😨": [
+      "Angscht",
+      "baang",
+      "Gesiicht",
+      "verängschtegt"
+    ],
+    "😩": [
+      "erschëpft",
+      "Gesiicht",
+      "midd"
+    ],
+    "😪": [
+      "Gesiicht",
+      "schléifreg",
+      "Schlof"
+    ],
+    "😫": [
+      "Gesiicht",
+      "midd"
+    ],
+    "😬": [
+      "Gesiicht",
+      "Grimass",
+      "Grimass schneidend Gesiicht"
+    ],
+    "😭": [
+      "Gesiicht",
+      "haart kräischend Gesiicht",
+      "kräischen",
+      "schluchzen",
+      "traureg",
+      "Tréin"
+    ],
+    "😮": [
+      "Gesiicht",
+      "Gesiicht mat oppenem Mond",
+      "Matgefill",
+      "Mond",
+      "oppen"
+    ],
+    "😯": [
+      "erstaunt",
+      "flüsterend",
+      "Gesiicht",
+      "iwwerrascht"
+    ],
+    "😰": [
+      "blo",
+      "Gesiicht",
+      "Gesiicht mat oppenem Mond a kalem Schweess",
+      "kal",
+      "Mond",
+      "oppen",
+      "presséiert",
+      "Schweess"
+    ],
+    "😱": [
+      "Angscht",
+      "baang",
+      "Gesiicht",
+      "jäizen",
+      "verängschtegt",
+      "verschléngen",
+      "vun Angscht jäizend Gesiicht"
+    ],
+    "😲": [
+      "absolut",
+      "erstaunt",
+      "Gesiicht",
+      "schockéiert"
+    ],
+    "😳": [
+      "beniwwelt",
+      "Gesiicht",
+      "rout ugelaf",
+      "rout ugelafent Gesiicht"
+    ],
+    "😴": [
+      "ageschlof",
+      "Gesiicht",
+      "Schlof",
+      "zzz"
+    ],
+    "😵": [
+      "Gesiicht",
+      "schwindeleg",
+      "schwindelegt Gesiicht"
+    ],
+    "😶": [
+      "Gesiicht",
+      "Gesiicht ouni Mond",
+      "Mond",
+      "roueg"
+    ],
+    "😷": [
+      "Dokter",
+      "Gesiicht",
+      "Gesiicht mat Doktersmask",
+      "kal",
+      "krank",
+      "Mask",
+      "Medezin"
+    ],
+    "😸": [
+      "A",
+      "Gesiicht",
+      "Grinsen",
+      "grinsend Kazegesiicht mat laachenden Aen",
+      "Kaz",
+      "Laachen"
+    ],
+    "😹": [
+      "Freed",
+      "Gesiicht",
+      "Kaz",
+      "Kazegesiicht mat Freedtréinen",
+      "Tréin"
+    ],
+    "😺": [
+      "Gesiicht",
+      "Kaz",
+      "Laachen",
+      "laachend Kazegesiicht mat oppenem Mond",
+      "Mond",
+      "oppen"
+    ],
+    "😻": [
+      "A",
+      "Gesiicht",
+      "Kaz",
+      "Laachen",
+      "laachend Kazegesiicht mat Häerzeraen",
+      "Léift"
+    ],
+    "😼": [
+      "dreckeg",
+      "Gesiicht",
+      "Grinsen",
+      "ironesch",
+      "Kaz",
+      "Kazegesiicht mat dreckegem Grinsen"
+    ],
+    "😽": [
+      "A",
+      "Gesiicht",
+      "Kaz",
+      "Kuss",
+      "kussend Kazegesiicht mat zouen Aen"
+    ],
+    "😾": [
+      "Gesiicht",
+      "Kaz",
+      "motzend",
+      "motzend Kazegesiicht"
+    ],
+    "😿": [
+      "Gesiicht",
+      "Kaz",
+      "kräischen",
+      "kräischend Kazegesiicht",
+      "traureg",
+      "Tréin"
+    ],
+    "🙀": [
+      "erschëpft",
+      "erschëpft Kazegesiicht",
+      "Gesiicht",
+      "iwwerrascht",
+      "Kaz",
+      "oh"
+    ],
+    "🙁": [
+      "d’Stir liicht fronzend",
+      "Gesiicht",
+      "Stir fronzen"
+    ],
+    "🙂": [
+      "Gesiicht",
+      "Gesiicht mat engem liichte Laachen",
+      "Laachen"
+    ],
+    "🙃": [
+      "Gesiicht",
+      "op der Kopp"
+    ],
+    "🙄": [
+      "Ae verdréinend",
+      "Aen",
+      "Gesiicht",
+      "verdréinen"
+    ],
+    "🙅": [
+      "déi NEEN weist",
+      "Geste",
+      "Hand",
+      "neen",
+      "net",
+      "Persoun",
+      "Persoun, déi NEEN weist",
+      "Verbueden",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🙅‍♀": [
+      "déi NEEN weist",
+      "Fra",
+      "Fra, déi NEEN weist",
+      "Geste",
+      "Hand",
+      "neen",
+      "net",
+      "verbueden",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🙅‍♂": [
+      "deen NEEN weist",
+      "Geste",
+      "Hand",
+      "Mann",
+      "Mann, deen NEEN weist",
+      "neen",
+      "net",
+      "verbueden",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🙆": [
+      "déi OK weist",
+      "Geste",
+      "Hand",
+      "OK",
+      "Persoun",
+      "Persoun, déi OK weist",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🙆‍♀": [
+      "déi OK weist",
+      "Fra",
+      "Fra, déi OK weist",
+      "Geste",
+      "Hand",
+      "OK",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🙆‍♂": [
+      "deen OK weist",
+      "Geste",
+      "Hand",
+      "Mann",
+      "Mann, deen OK weist",
+      "OK",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🙇": [
+      "entschëllegt",
+      "Entschëllegung",
+      "Geste",
+      "sech vernäipend Persoun",
+      "Verneigung",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🙇‍♀": [
+      "entschëllegt",
+      "Entschëllegung",
+      "Fra",
+      "Gefalen",
+      "Geste",
+      "sech vernäipend Fra",
+      "vernäipen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🙇‍♂": [
+      "entschëllegt",
+      "Entschëllegung",
+      "Gefalen",
+      "Geste",
+      "Mann",
+      "sech vernäipende Mann",
+      "vernäipen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🙈": [
+      "Aen",
+      "Aen zouhalenden Af",
+      "Af",
+      "béis",
+      "Gesiicht",
+      "gesinn",
+      "Geste",
+      "net",
+      "verbueden",
+      "zouhalen"
+    ],
+    "🙉": [
+      "Af",
+      "béis",
+      "Gesiicht",
+      "Geste",
+      "héieren",
+      "net",
+      "Oueren",
+      "Oueren zouhalenden Af",
+      "verbueden",
+      "zouhalen"
+    ],
+    "🙊": [
+      "Af",
+      "béis",
+      "Gesiicht",
+      "Geste",
+      "Mond",
+      "Mond zouhalenden Af",
+      "net",
+      "schwätzen",
+      "verbueden",
+      "zouhalen"
+    ],
+    "🙋": [
+      "déi d’Hand hieft",
+      "gehuewen",
+      "Geste",
+      "glécklech",
+      "Hand",
+      "Persoun",
+      "Persoun, déi d’Hand hieft",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🙋‍♀": [
+      "déi d’Hand hieft",
+      "Fra",
+      "Fra, déi d’Hand hieft",
+      "gehuewen Hand",
+      "Geste",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🙋‍♂": [
+      "deen d’Hand hieft",
+      "gehuewen Hand",
+      "Geste",
+      "Mann",
+      "Mann, deen d’Hand hieft",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🙌": [
+      "an der Luucht",
+      "Feier",
+      "Geste",
+      "Hand",
+      "Hänn an d’Luucht",
+      "hurra",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🙍": [
+      "d’Stir fronzend Persoun",
+      "fronzen",
+      "Geste",
+      "Stir",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🙍‍♀": [
+      "d’Stir fronzend Fra",
+      "Fra",
+      "fronzen",
+      "Geste",
+      "Stir",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🙍‍♂": [
+      "d’Stir fronzende Mann",
+      "fronzen",
+      "Geste",
+      "Mann",
+      "Stir",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🙎": [
+      "Geste",
+      "motzen",
+      "motzend Persoun",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🙎‍♀": [
+      "Fra",
+      "Geste",
+      "motzen",
+      "motzend Fra",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🙎‍♂": [
+      "Geste",
+      "Mann",
+      "motzend",
+      "motzende Mann",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🙏": [
+      "bieden",
+      "froen",
+      "gefaalt",
+      "gefaalten Hänn",
+      "Geste",
+      "Hand",
+      "Merci",
+      "vernäipen",
+      "wann ech gelift",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🚀": [
+      "Rakéit",
+      "Weltall"
+    ],
+    "🚁": [
+      "Gefier",
+      "Helikopter"
+    ],
+    "🚂": [
+      "Damp",
+      "Eisebunn",
+      "Lokomotiv",
+      "Motor",
+      "Zuch"
+    ],
+    "🚃": [
+      "Eisebunn",
+      "elektresch",
+      "Tram",
+      "Trolleybus",
+      "Waggon",
+      "Zuch",
+      "Zuchwaggon"
+    ],
+    "🚄": [
+      "Eisebunn",
+      "Schnellzuch",
+      "Shinkansen",
+      "Vitess",
+      "Zuch"
+    ],
+    "🚅": [
+      "Eisebunn",
+      "Fliger",
+      "Schnellzuch mat Fligernues",
+      "Shinkansen",
+      "Vitess",
+      "Zuch"
+    ],
+    "🚆": [
+      "Eisebunn",
+      "Zuch"
+    ],
+    "🚇": [
+      "Metro",
+      "U-Bahn"
+    ],
+    "🚈": [
+      "Eisebunn",
+      "Stadbunn"
+    ],
+    "🚉": [
+      "Eisebunn",
+      "Haltestell",
+      "Zuch"
+    ],
+    "🚊": [
+      "Tram",
+      "Trolleybus"
+    ],
+    "🚋": [
+      "Tram",
+      "Tramwaggon",
+      "Trolleybus",
+      "Waggon"
+    ],
+    "🚌": [
+      "Bus",
+      "Gefier"
+    ],
+    "🚍": [
+      "Bus",
+      "entgéintkommend",
+      "entgéintkommende Bus"
+    ],
+    "🚎": [
+      "Bus",
+      "Tram",
+      "Trolley",
+      "Trolleybus"
+    ],
+    "🚏": [
+      "Arrêt",
+      "Bus",
+      "Bushaltestell"
+    ],
+    "🚐": [
+      "Bus",
+      "Minibus"
+    ],
+    "🚑": [
+      "Ambulanz",
+      "Gefier"
+    ],
+    "🚒": [
+      "Camion",
+      "Feier",
+      "Motor",
+      "Pompjeeswon"
+    ],
+    "🚓": [
+      "Auto",
+      "Patrull",
+      "Police",
+      "Policeauto"
+    ],
+    "🚔": [
+      "Auto",
+      "entgéintkommend",
+      "entgéintkommende Policeauto",
+      "Police"
+    ],
+    "🚕": [
+      "Gefier",
+      "Taxi"
+    ],
+    "🚖": [
+      "entgéintkommend",
+      "entgéintkommenden Taxi",
+      "Taxi"
+    ],
+    "🚗": [
+      "Auto",
+      "Automobil"
+    ],
+    "🚘": [
+      "Auto",
+      "Automobil",
+      "entgéintkommend",
+      "entgéintkommenden Auto"
+    ],
+    "🚙": [
+      "Fräizäit",
+      "Sportswon",
+      "SUV"
+    ],
+    "🚚": [
+      "Liwwerung",
+      "Liwwerwon",
+      "Won"
+    ],
+    "🚛": [
+      "Camion",
+      "Sattelschlepper",
+      "Schlepper",
+      "Semi"
+    ],
+    "🚜": [
+      "Gefier",
+      "Trakter"
+    ],
+    "🚝": [
+      "Gefier",
+      "Monorail"
+    ],
+    "🚞": [
+      "Bierg",
+      "Biergzuch",
+      "Eisebunn",
+      "Waggon"
+    ],
+    "🚟": [
+      "Bunn",
+      "Schwiefbunn",
+      "schwiewen"
+    ],
+    "🚠": [
+      "Bierg",
+      "Biergseelbunn",
+      "Gondel",
+      "Kabel",
+      "Seelbunn"
+    ],
+    "🚡": [
+      "Bunn",
+      "Gondel",
+      "Kabel",
+      "Loft",
+      "Loftseelbunn",
+      "Seel",
+      "Tram",
+      "Waggon"
+    ],
+    "🚢": [
+      "Boot",
+      "Passagéier",
+      "Schëff"
+    ],
+    "🚣": [
+      "Boot",
+      "Rudderboot",
+      "rudderend Persoun",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🚣‍♀": [
+      "Boot",
+      "Fra",
+      "Rudderboot",
+      "rudderend Fra",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🚣‍♂": [
+      "Boot",
+      "Mann",
+      "Rudderboot",
+      "rudderende Mann",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🚤": [
+      "Boot",
+      "Schnellboot"
+    ],
+    "🚥": [
+      "horizontal rout Luucht",
+      "Luucht",
+      "Verkéier",
+      "Zeechen"
+    ],
+    "🚦": [
+      "Luucht",
+      "Verkéier",
+      "vertikal rout Luucht",
+      "Zeechen"
+    ],
+    "🚧": [
+      "Barrière",
+      "Stroossebarrière"
+    ],
+    "🚨": [
+      "Auto",
+      "dréiend",
+      "Gyrophar",
+      "Luucht",
+      "Police",
+      "Signal"
+    ],
+    "🚩": [
+      "dräieckege Fändel",
+      "Post"
+    ],
+    "🚪": [
+      "Dier"
+    ],
+    "🚫": [
+      "Accès",
+      "keen",
+      "neen",
+      "verbueden"
+    ],
+    "🚬": [
+      "fëmmen",
+      "Zigarett"
+    ],
+    "🚭": [
+      "Fëmme verbueden",
+      "fëmmen",
+      "neen",
+      "net",
+      "verbueden"
+    ],
+    "🚮": [
+      "Dreck",
+      "Poubelle",
+      "Poubelleszeechen"
+    ],
+    "🚯": [
+      "keng",
+      "neen",
+      "net",
+      "Poubelle",
+      "verbueden"
+    ],
+    "🚰": [
+      "drénkbar",
+      "drénken",
+      "Drénkwaasser",
+      "Waasser"
+    ],
+    "🚱": [
+      "keen",
+      "keen Drénkwaasser",
+      "net drénkbar",
+      "Waasser"
+    ],
+    "🚲": [
+      "Vëlo"
+    ],
+    "🚳": [
+      "keng",
+      "keng Vëloen",
+      "neen",
+      "net",
+      "Vëlo",
+      "verbueden"
+    ],
+    "🚴": [
+      "Vëlo",
+      "Vëlofueren",
+      "Vëlosfuerer",
+      "Vëlosfuerer(in)",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🚴‍♀": [
+      "Fra",
+      "Vëlo",
+      "Vëlofueren",
+      "Vëlosfuerer",
+      "Vëlosfuererin",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🚴‍♂": [
+      "Mann",
+      "Vëlo",
+      "Vëlofueren",
+      "Vëlosfuerer",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🚵": [
+      "Bierg",
+      "Mountainbike",
+      "Mountainbikesfuerer(in)",
+      "Vëlo",
+      "Vëlofueren",
+      "Vëlosfuerer",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🚵‍♀": [
+      "Bierg",
+      "Fra",
+      "Mountainbike",
+      "Mountainbikesfuererin",
+      "Vëlo",
+      "Vëlofueren",
+      "Vëlosfuerer",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🚵‍♂": [
+      "Bierg",
+      "Mann",
+      "Mountainbike",
+      "Mountainbikesfuerer",
+      "Vëlo",
+      "Vëlofueren",
+      "Vëlosfuerer",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🚶": [
+      "spadséieren",
+      "spadséierend",
+      "spadséierend Persoun",
+      "wanderen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🚶‍♀": [
+      "Fra",
+      "spadséieren",
+      "spadséierend Fra",
+      "wanderen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🚶‍♂": [
+      "Mann",
+      "spadséieren",
+      "spadséierende Mann",
+      "wanderen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🚷": [
+      "Foussgänger",
+      "neen",
+      "net",
+      "verbueden"
+    ],
+    "🚸": [
+      "eriwwergoen",
+      "Foussgänger",
+      "Kand",
+      "opgepasst Kanner",
+      "Verkéier"
+    ],
+    "🚹": [
+      "Mann",
+      "Männer",
+      "Männertoilett",
+      "Toilett",
+      "WC"
+    ],
+    "🚺": [
+      "Fra",
+      "Fraen",
+      "Fraentoilett",
+      "Toilett",
+      "WC"
+    ],
+    "🚻": [
+      "Toilett",
+      "Toiletten",
+      "WC"
+    ],
+    "🚼": [
+      "Bëbee",
+      "Bëbeeszeechen",
+      "wéckelen"
+    ],
+    "🚽": [
+      "Toilett"
+    ],
+    "🚾": [
+      "Toilett",
+      "Toiletten",
+      "Waasser",
+      "WC",
+      "WC-Zeechen"
+    ],
+    "🚿": [
+      "Dusch",
+      "Waasser"
+    ],
+    "🛀": [
+      "Bidden",
+      "Buedbidden",
+      "Persoun an der Bidden",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🛁": [
+      "Bidden",
+      "Buedbidden"
+    ],
+    "🛂": [
+      "Kontroll",
+      "Pass",
+      "Passkontroll"
+    ],
+    "🛃": [
+      "Douane"
+    ],
+    "🛄": [
+      "Ausgab",
+      "Gepäck",
+      "Gepäckausgab"
+    ],
+    "🛅": [
+      "Casier",
+      "Gepäck",
+      "Gepäckschléissfach",
+      "Schléissfach"
+    ],
+    "🛋": [
+      "Couche",
+      "Couche a Luucht",
+      "Hotel",
+      "Luucht"
+    ],
+    "🛌": [
+      "Hotel",
+      "Persoun am Bett",
+      "schlofen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🛍": [
+      "akafen",
+      "Akafstuten",
+      "Hotel",
+      "Shopping",
+      "Tut"
+    ],
+    "🛎": [
+      "Hotel",
+      "Hotelpage",
+      "Hotelpageschell",
+      "Schell"
+    ],
+    "🛏": [
+      "Bett",
+      "Hotel",
+      "schlofen"
+    ],
+    "🛐": [
+      "Gotteshaus",
+      "Relioun",
+      "Veréierung"
+    ],
+    "🛑": [
+      "aachteckeg",
+      "Schëld",
+      "Stopp",
+      "Stoppschëld"
+    ],
+    "🛒": [
+      "akafen",
+      "Akafsweenchen",
+      "Shopping",
+      "Weenchen"
+    ],
+    "🛠": [
+      "Handwierksgeschir",
+      "Hummer",
+      "Hummer a Schrauweschlëssel",
+      "Schrauwenzéier",
+      "Schrauweschlëssel"
+    ],
+    "🛡": [
+      "Schëld",
+      "Waff"
+    ],
+    "🛢": [
+      "Faass",
+      "Ueleg",
+      "Uelegfaass"
+    ],
+    "🛣": [
+      "Autobunn",
+      "Schnellstrooss",
+      "Strooss"
+    ],
+    "🛤": [
+      "Eisebunn",
+      "Schinnen",
+      "Zuch"
+    ],
+    "🛥": [
+      "Boot",
+      "Motorboot"
+    ],
+    "🛩": [
+      "Fliger",
+      "klenge Fliger"
+    ],
+    "🛫": [
+      "Check-In",
+      "Depart",
+      "Departen",
+      "Fliger",
+      "Fligersdepart"
+    ],
+    "🛬": [
+      "Arrivéeeën",
+      "Fliger",
+      "Fligersarrivée",
+      "landend",
+      "ukommend"
+    ],
+    "🛰": [
+      "Satellit",
+      "Weltall"
+    ],
+    "🛳": [
+      "Passagéier",
+      "Passagéierschëff",
+      "Schëff"
+    ],
+    "🛴": [
+      "stoussen",
+      "Trottinette"
+    ],
+    "🛵": [
+      "Motor",
+      "Scooter"
+    ],
+    "🛶": [
+      "Boot",
+      "Kanu"
+    ],
+    "🛷": [
+      "Schlitt"
+    ],
+    "🛸": [
+      "UFO"
+    ],
+    "🤐": [
+      "Gesiicht",
+      "Mond",
+      "Tirett",
+      "verschlossene Mond"
+    ],
+    "🤑": [
+      "geldgiereg",
+      "Gesiicht",
+      "Mond",
+      "Suen"
+    ],
+    "🤒": [
+      "Gesiicht",
+      "Gesiicht mat Thermometer",
+      "krank",
+      "Thermometer"
+    ],
+    "🤓": [
+      "Geek",
+      "Gesiicht",
+      "Nerd"
+    ],
+    "🤔": [
+      "Gesiicht",
+      "nodenklech"
+    ],
+    "🤕": [
+      "Gesiicht",
+      "Gesiicht mat Kappverband",
+      "Verband",
+      "verletzt",
+      "Verletzung"
+    ],
+    "🤖": [
+      "Gesiicht",
+      "Monster",
+      "Roboter"
+    ],
+    "🤗": [
+      "ëmaarmen",
+      "Ëmaarmung",
+      "Gesiicht"
+    ],
+    "🤘": [
+      "Fanger",
+      "Hand",
+      "Haren",
+      "Harenzeechen",
+      "Mano cornuta",
+      "Mano cornuta, Harenzeechen",
+      "rocken",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤙": [
+      "Hand",
+      "Telefon-Handzeechen",
+      "uruffen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤚": [
+      "Handréck",
+      "héichgehalen",
+      "héichgehalenen Handréck",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤛": [
+      "Fauscht",
+      "lénksgeriicht",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤜": [
+      "Fauscht",
+      "rietsgeriicht",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤝": [
+      "drécken",
+      "Hand",
+      "Handdrock",
+      "Ofkommes",
+      "Reunioun",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤞": [
+      "Fanger",
+      "gekräizt Fanger",
+      "Gléck",
+      "Hand",
+      "kräizen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤟": [
+      "Hand",
+      "ILY",
+      "Léift-Geste",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤠": [
+      "Cowboy",
+      "Cowgirl",
+      "Gesiicht",
+      "Gesiicht mat Cowboyshutt",
+      "Hutt"
+    ],
+    "🤡": [
+      "Clown",
+      "Clownegesiicht",
+      "Gesiicht"
+    ],
+    "🤢": [
+      "Gesiicht",
+      "iwwel",
+      "iwwelt Gesiicht",
+      "sech iwwerginn"
+    ],
+    "🤣": [
+      "Buedem",
+      "Gesiicht",
+      "laachen",
+      "rullen",
+      "vu Laache rullend"
+    ],
+    "🤤": [
+      "Gesiicht",
+      "sabbelend"
+    ],
+    "🤥": [
+      "Gesiicht",
+      "léien",
+      "Ligenergesiicht",
+      "Pinocchio"
+    ],
+    "🤦": [
+      "déi sech d’Hand widder de Kapp schléit",
+      "Frust",
+      "Gesiicht",
+      "Hand",
+      "Persoun",
+      "Persoun, déi sech d’Hand widder de Kapp schléit",
+      "Zweiwel",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤦‍♀": [
+      "déi sech d’Hand widder de Kapp schléit",
+      "entsat",
+      "Fra",
+      "Fra, déi sech d’Hand widder de Kapp schléit",
+      "Frust",
+      "Zweiwel",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤦‍♂": [
+      "deen sech d’Hand widder de Kapp schléit",
+      "entsat",
+      "Frust",
+      "Mann",
+      "Mann, deen sech d’Hand widder de Kapp schléit",
+      "Zweiwel",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤧": [
+      "Gesiicht",
+      "Gesondheet",
+      "néitsen",
+      "néitsend Gesiicht"
+    ],
+    "🤨": [
+      "Gesiicht mat gehuewenem Aperhoer",
+      "mësstrauesch",
+      "skeptesch"
+    ],
+    "🤩": [
+      "Aen",
+      "Gesiicht",
+      "grinsend",
+      "Stär",
+      "Stärenaen"
+    ],
+    "🤪": [
+      "A",
+      "grouss",
+      "kleng",
+      "verréckt Gesiicht"
+    ],
+    "🤫": [
+      "Gesiicht mam Fanger virum Mond",
+      "pscht",
+      "roueg"
+    ],
+    "🤬": [
+      "fluchend",
+      "Gesiicht mat Zeeche virum Mond"
+    ],
+    "🤭": [
+      "Gesiicht mat Hand virum Mond",
+      "Oups",
+      "Uups"
+    ],
+    "🤮": [
+      "Gesiicht wat sech iwwergëtt",
+      "iwwerginn",
+      "krank"
+    ],
+    "🤯": [
+      "explodéierende Kapp",
+      "schockéiert"
+    ],
+    "🤰": [
+      "Fra",
+      "schwanger",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤱": [
+      "Bëbee",
+      "Broscht",
+      "fleegen",
+      "stëllend Fra",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤲": [
+      "Gebiet",
+      "zesummegefaalten Hänn",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤳": [
+      "Handy",
+      "Kamera",
+      "Selfie",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤴": [
+      "Prënz",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤵": [
+      "Bräitchemann",
+      "Kostüm",
+      "Mann",
+      "Mann am Kostüm",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤶": [
+      "Chrëschtdag",
+      "Dem Kleesche seng Fra",
+      "Feier",
+      "Fra",
+      "Kleeschen",
+      "Mamm",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤷": [
+      "déi d’Schëlleren hieft",
+      "Ignoranz",
+      "Indifferenz",
+      "Persoun",
+      "Persoun, déi d’Schëlleren hieft",
+      "Schëlleren hiewen",
+      "Zweiwel",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤷‍♀": [
+      "déi d’Schëlleren hieft",
+      "Fra",
+      "Fra, déi d’Schëlleren hieft",
+      "Ignoranz",
+      "Indifferenz",
+      "Schëlleren hiewen",
+      "Zweiwel",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤷‍♂": [
+      "deen d’Schëlleren hieft",
+      "Ignoranz",
+      "Indifferenz",
+      "Mann",
+      "Mann, deen d’Schëlleren hieft",
+      "Schëlleren hiewen",
+      "Zweiwel",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤸": [
+      "déi d’Rad schléit",
+      "Persoun",
+      "Persoun, déi d’Rad schléit",
+      "Rad",
+      "Turnen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤸‍♀": [
+      "déi d’Rad schléit",
+      "Fra",
+      "Fra, déi d’Rad schléit",
+      "Rad",
+      "Turnen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤸‍♂": [
+      "deen d’Rad schléit",
+      "Mann",
+      "Mann, deen d’Rad schléit",
+      "Rad",
+      "Turnen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤹": [
+      "Geschéck",
+      "Gläichgewiicht",
+      "jongléieren",
+      "jongléierend Persoun",
+      "Multitasking",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤹‍♀": [
+      "Fra",
+      "jongléieren",
+      "jongléierend Fra",
+      "Multitasking",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤹‍♂": [
+      "jongléieren",
+      "jongléierende Mann",
+      "Mann",
+      "Multitasking",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤺": [
+      "fechten",
+      "fechtend Persoun",
+      "Fechter",
+      "Schwäert"
+    ],
+    "🤼": [
+      "catchen",
+      "Wrestler",
+      "Wrestling",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤼‍♀": [
+      "catchen",
+      "Fraen",
+      "Wrestlerinnen",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤼‍♂": [
+      "catchen",
+      "Männer",
+      "Wrestler",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤽": [
+      "Polo",
+      "Waasser",
+      "Waasserballspiller(in)",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤽‍♀": [
+      "Fra",
+      "Waasserball",
+      "Waasserballspillerin",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤽‍♂": [
+      "Mann",
+      "Waasserball",
+      "Waasserballspiller",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤾": [
+      "Ball",
+      "Handball",
+      "Handballspiller(in)",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤾‍♀": [
+      "Fra",
+      "Handball",
+      "Handballspillerin",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🤾‍♂": [
+      "Handball",
+      "Handballspiller",
+      "Mann",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🥀": [
+      "Blumm",
+      "verwielegt"
+    ],
+    "🥁": [
+      "Bengelen",
+      "Musek",
+      "Trommel"
+    ],
+    "🥂": [
+      "feieren",
+      "Gedrénks",
+      "Glas",
+      "prosten",
+      "prostend Glieser"
+    ],
+    "🥃": [
+      "Alkohol",
+      "Glas",
+      "Shot",
+      "Whisky",
+      "Whiskyglas"
+    ],
+    "🥄": [
+      "Geschir",
+      "Läffel"
+    ],
+    "🥅": [
+      "Goal",
+      "Goalnetz",
+      "Netz"
+    ],
+    "🥇": [
+      "éischt Plaz",
+      "Gold",
+      "Goldmedail",
+      "Medail"
+    ],
+    "🥈": [
+      "Medail",
+      "Sëlwer",
+      "Sëlwermedail",
+      "zweet Plaz"
+    ],
+    "🥉": [
+      "Bronze",
+      "Bronzemedail",
+      "drëtt Plaz",
+      "Medail"
+    ],
+    "🥊": [
+      "Boxen",
+      "Boxhändchen",
+      "Händchen"
+    ],
+    "🥋": [
+      "Judo",
+      "Kampfsport",
+      "Kampfsportstenue",
+      "Karate",
+      "Taekwondo",
+      "Tenue"
+    ],
+    "🥌": [
+      "Curling-Steen",
+      "Spill",
+      "Steen"
+    ],
+    "🥐": [
+      "Brout",
+      "Croissant",
+      "franséisch",
+      "Iessen"
+    ],
+    "🥑": [
+      "Avocado",
+      "Fruucht",
+      "Iessen"
+    ],
+    "🥒": [
+      "Geméis",
+      "Iessen",
+      "Kornischong"
+    ],
+    "🥓": [
+      "Fleesch",
+      "Iessen",
+      "Speck"
+    ],
+    "🥔": [
+      "Geméis",
+      "Gromper",
+      "Iessen"
+    ],
+    "🥕": [
+      "Geméis",
+      "Iessen",
+      "Wuerzel"
+    ],
+    "🥖": [
+      "Baguette",
+      "Brout",
+      "franséisch",
+      "Iessen"
+    ],
+    "🥗": [
+      "gréng",
+      "Iessen",
+      "Zalot"
+    ],
+    "🥘": [
+      "flaach",
+      "Iessen",
+      "Kasseroll",
+      "Kasseroll mat Iessen",
+      "Paella",
+      "Pan"
+    ],
+    "🥙": [
+      "Falafel",
+      "flaacht Brout",
+      "gefëllt",
+      "Gyros",
+      "Iessen",
+      "Kebab"
+    ],
+    "🥚": [
+      "Ee",
+      "Iessen"
+    ],
+    "🥛": [
+      "Gedrénks",
+      "Glas",
+      "Mëllech"
+    ],
+    "🥜": [
+      "Geméis",
+      "Iessen",
+      "Kakuett",
+      "Noss"
+    ],
+    "🥝": [
+      "Iessen",
+      "Kiwi",
+      "Uebst"
+    ],
+    "🥞": [
+      "Crêpe",
+      "Iessen",
+      "Paangech",
+      "Paangecher",
+      "Pancake"
+    ],
+    "🥟": [
+      "Empanada",
+      "Gyoza",
+      "Jiaozi",
+      "Pierogi",
+      "Ravioli"
+    ],
+    "🥠": [
+      "Gléckskichelchen",
+      "Prophezeiung"
+    ],
+    "🥡": [
+      "Austerkëscht",
+      "Takeout-Këscht"
+    ],
+    "🥢": [
+      "asiatesch Béngelen",
+      "Hashi"
+    ],
+    "🥣": [
+      "Boll mat Läffel",
+      "Frühstück",
+      "Kaffi",
+      "Müsli"
+    ],
+    "🥤": [
+      "Glas mat Stréihallem",
+      "Jus",
+      "Softdrink"
+    ],
+    "🥥": [
+      "Kokosnoss",
+      "Palm",
+      "Piña Colada"
+    ],
+    "🥦": [
+      "Brokkoli",
+      "wëlle Kabes"
+    ],
+    "🥧": [
+      "Fëllung",
+      "Gebäck",
+      "Taart"
+    ],
+    "🥨": [
+      "Bretzel",
+      "gedréit"
+    ],
+    "🥩": [
+      "Bifdeck",
+      "Hämmelskotlett",
+      "Kotlett",
+      "Schwéngskotlett",
+      "Stéck Fleesch"
+    ],
+    "🥪": [
+      "Brout",
+      "Sandwich"
+    ],
+    "🥫": [
+      "Béchs",
+      "Iessen an der Béchs"
+    ],
+    "🦀": [
+      "Kriibs",
+      "Stärzeechen"
+    ],
+    "🦁": [
+      "Gesiicht",
+      "Léif",
+      "Léifsgesiicht",
+      "Stärzeechen"
+    ],
+    "🦂": [
+      "Skorpioun",
+      "Stärzeechen"
+    ],
+    "🦃": [
+      "Schnuddelhong",
+      "Vugel"
+    ],
+    "🦄": [
+      "Einhorn",
+      "Einhornsgesiicht",
+      "Gesiicht"
+    ],
+    "🦅": [
+      "Adler",
+      "Vugel"
+    ],
+    "🦆": [
+      "Int",
+      "Vugel"
+    ],
+    "🦇": [
+      "Fliedermaus",
+      "Vampir"
+    ],
+    "🦈": [
+      "Fësch",
+      "Hai"
+    ],
+    "🦉": [
+      "Eil",
+      "klug",
+      "Vugel"
+    ],
+    "🦊": [
+      "Fuuss",
+      "Fuussgesiicht",
+      "Gesiicht"
+    ],
+    "🦋": [
+      "Insekt",
+      "Päiperlek",
+      "schéin"
+    ],
+    "🦌": [
+      "Hirsch"
+    ],
+    "🦍": [
+      "Gorilla"
+    ],
+    "🦎": [
+      "Eidechs",
+      "Reptil"
+    ],
+    "🦏": [
+      "Nashorn"
+    ],
+    "🦐": [
+      "Crevette",
+      "Iessen",
+      "kleng",
+      "Mieresfruucht"
+    ],
+    "🦑": [
+      "Calamar",
+      "Iessen",
+      "Mollusk"
+    ],
+    "🦒": [
+      "Flecken",
+      "Giraff"
+    ],
+    "🦓": [
+      "Sträif",
+      "Zebra"
+    ],
+    "🦔": [
+      "däreg",
+      "Kéiseker"
+    ],
+    "🦕": [
+      "Brachiosaurus",
+      "Brontosaurus",
+      "Dinosaurier",
+      "Diplodokus"
+    ],
+    "🦖": [
+      "T-Rex",
+      "Tyrannosaurus Rex"
+    ],
+    "🦗": [
+      "Cricket",
+      "Heesprénger"
+    ],
+    "🧀": [
+      "Kéis",
+      "Stéck Kéis"
+    ],
+    "🧐": [
+      "Gesiicht mat Monokel",
+      "langweileg"
+    ],
+    "🧑": [
+      "Erwuessenen",
+      "neutral",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧒": [
+      "jonk",
+      "Kand",
+      "neutral",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧓": [
+      "al",
+      "eeleren Erwuessenen",
+      "neutral",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧔": [
+      "Baart",
+      "Persoun mat Baart",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧕": [
+      "Fra mat Schleier",
+      "Hijab",
+      "Kappduch",
+      "Schleier",
+      "Voile",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧖": [
+      "Dampbad",
+      "Persoun am Dampbad",
+      "Sauna",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧖‍♀": [
+      "Dampbad",
+      "Fra am Dampbad",
+      "Sauna",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧖‍♂": [
+      "Dampbad",
+      "Mann am Dampbad",
+      "Sauna",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧗": [
+      "Biergsteiger",
+      "Klëmmer(in)",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧗‍♀": [
+      "Biergsteiger",
+      "Klëmmerin",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧗‍♂": [
+      "Biergsteiger",
+      "Klëmmer",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧘": [
+      "Meditatioun",
+      "Persoun a Lotuspositioun",
+      "Yoga",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧘‍♀": [
+      "Fra a Lotuspositioun",
+      "Meditatioun",
+      "Yoga",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧘‍♂": [
+      "Mann a Lotuspositioun",
+      "Meditatioun",
+      "Yoga",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧙": [
+      "Hex",
+      "Hexemeeschter",
+      "Zauberer",
+      "Zauberer(in)",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧙‍♀": [
+      "Hex",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧙‍♂": [
+      "Hexemeeschter",
+      "Zauberer",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧚": [
+      "Fee",
+      "Oberon",
+      "Puck",
+      "Titania",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧚‍♀": [
+      "Titania",
+      "weiblech Fee",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧚‍♂": [
+      "männlech Fee",
+      "Oberon",
+      "Puck",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧛": [
+      "Dracula",
+      "ondout",
+      "Vampir",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧛‍♀": [
+      "ondout",
+      "Vampirfra",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧛‍♂": [
+      "Dracula",
+      "ondout",
+      "Vampirmann",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧜": [
+      "Mierjonfra",
+      "Miermann",
+      "Mierpersoun",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧜‍♀": [
+      "Mierfra",
+      "Mierjongfra",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧜‍♂": [
+      "Miermann",
+      "Triton",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧝": [
+      "Elf",
+      "magesch",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧝‍♀": [
+      "Elfefra",
+      "magesch",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧝‍♂": [
+      "Elfemann",
+      "magesch",
+      "hell Hautfaarf",
+      "mëttelhell Hautfaarf",
+      "mëttel Hautfaarf",
+      "mëtteldäischter Hautfaarf",
+      "däischter Hautfaarf"
+    ],
+    "🧞": [
+      "Djinn",
+      "Genie"
+    ],
+    "🧞‍♀": [
+      "Djinn",
+      "Geniefra"
+    ],
+    "🧞‍♂": [
+      "Djinn",
+      "Geniemann"
+    ],
+    "🧟": [
+      "ondout",
+      "Zombie"
+    ],
+    "🧟‍♀": [
+      "ondout",
+      "Zombie",
+      "Zombiefra"
+    ],
+    "🧟‍♂": [
+      "ondout",
+      "Zombie",
+      "Zombiemann"
+    ],
+    "🧠": [
+      "Gehir",
+      "intelligent"
+    ],
+    "🧡": [
+      "orange",
+      "oranget Häerz"
+    ],
+    "🧢": [
+      "Baseballkap",
+      "Kap mat Bild"
+    ],
+    "🧣": [
+      "Hals",
+      "Schal"
+    ],
+    "🧤": [
+      "Hand",
+      "Händchen"
+    ],
+    "🧥": [
+      "Jackett",
+      "Mantel"
+    ],
+    "🧦": [
+      "Collant",
+      "Strëmp"
+    ]
   },
-  "stopwords": ["an", "déi", "den", "d'", "vun", "mat", "fir", "op", "zu", "ass"]
+  "stopwords": [
+    "an",
+    "déi",
+    "den",
+    "d'",
+    "vun",
+    "mat",
+    "fir",
+    "op",
+    "zu",
+    "ass"
+  ]
 }

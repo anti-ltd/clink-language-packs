@@ -1,16 +1,577 @@
 {
   "version": 1,
   "aliases": {
-    "🇨🇼": ["korsou", "curacao", "curaçao"],
-    "😀": ["sonrisa", "kontentu", "smile", "happy"],
-    "😂": ["hari", "gracioso", "laugh", "funny"],
-    "❤️": ["amor", "kurason", "love", "heart"],
-    "🔥": ["candela", "fire"],
-    "🐶": ["kachó", "dog"],
-    "🐱": ["pushi", "cat"],
-    "🐦": ["para", "bird"],
-    "🐔": ["gai", "chicken"],
-    "🐟": ["piska", "fish"]
+    "❤️": [
+      "amor",
+      "kurason",
+      "love",
+      "heart"
+    ],
+    "🇦🇫": [
+      "bandera"
+    ],
+    "🇦🇬": [
+      "bandera"
+    ],
+    "🇦🇮": [
+      "bandera"
+    ],
+    "🇦🇱": [
+      "bandera"
+    ],
+    "🇦🇴": [
+      "bandera"
+    ],
+    "🇦🇷": [
+      "bandera"
+    ],
+    "🇦🇹": [
+      "bandera"
+    ],
+    "🇦🇺": [
+      "bandera"
+    ],
+    "🇦🇼": [
+      "bandera"
+    ],
+    "🇧🇦": [
+      "bandera"
+    ],
+    "🇧🇧": [
+      "bandera"
+    ],
+    "🇧🇪": [
+      "bandera"
+    ],
+    "🇧🇬": [
+      "bandera"
+    ],
+    "🇧🇱": [
+      "bandera"
+    ],
+    "🇧🇲": [
+      "bandera"
+    ],
+    "🇧🇴": [
+      "bandera"
+    ],
+    "🇧🇶": [
+      "bandera"
+    ],
+    "🇧🇷": [
+      "bandera"
+    ],
+    "🇧🇸": [
+      "bandera"
+    ],
+    "🇧🇻": [
+      "bandera"
+    ],
+    "🇧🇼": [
+      "bandera"
+    ],
+    "🇧🇾": [
+      "bandera"
+    ],
+    "🇧🇿": [
+      "bandera"
+    ],
+    "🇨🇦": [
+      "bandera"
+    ],
+    "🇨🇩": [
+      "bandera"
+    ],
+    "🇨🇫": [
+      "bandera"
+    ],
+    "🇨🇬": [
+      "bandera"
+    ],
+    "🇨🇭": [
+      "bandera"
+    ],
+    "🇨🇮": [
+      "bandera"
+    ],
+    "🇨🇱": [
+      "bandera"
+    ],
+    "🇨🇲": [
+      "bandera"
+    ],
+    "🇨🇳": [
+      "bandera"
+    ],
+    "🇨🇴": [
+      "bandera"
+    ],
+    "🇨🇷": [
+      "bandera"
+    ],
+    "🇨🇺": [
+      "bandera"
+    ],
+    "🇨🇻": [
+      "bandera"
+    ],
+    "🇨🇼": [
+      "korsou",
+      "curacao",
+      "curaçao",
+      "bandera"
+    ],
+    "🇨🇿": [
+      "bandera"
+    ],
+    "🇩🇪": [
+      "bandera"
+    ],
+    "🇩🇰": [
+      "bandera"
+    ],
+    "🇩🇲": [
+      "bandera"
+    ],
+    "🇩🇴": [
+      "bandera"
+    ],
+    "🇩🇿": [
+      "bandera"
+    ],
+    "🇪🇨": [
+      "bandera"
+    ],
+    "🇪🇪": [
+      "bandera"
+    ],
+    "🇪🇬": [
+      "bandera"
+    ],
+    "🇪🇭": [
+      "bandera"
+    ],
+    "🇪🇷": [
+      "bandera"
+    ],
+    "🇪🇸": [
+      "bandera"
+    ],
+    "🇪🇹": [
+      "bandera"
+    ],
+    "🇪🇺": [
+      "bandera"
+    ],
+    "🇫🇮": [
+      "bandera"
+    ],
+    "🇫🇯": [
+      "bandera"
+    ],
+    "🇫🇰": [
+      "bandera"
+    ],
+    "🇫🇲": [
+      "bandera"
+    ],
+    "🇫🇷": [
+      "bandera"
+    ],
+    "🇬🇧": [
+      "bandera"
+    ],
+    "🇬🇩": [
+      "bandera"
+    ],
+    "🇬🇫": [
+      "bandera"
+    ],
+    "🇬🇭": [
+      "bandera"
+    ],
+    "🇬🇱": [
+      "bandera"
+    ],
+    "🇬🇲": [
+      "bandera"
+    ],
+    "🇬🇳": [
+      "bandera"
+    ],
+    "🇬🇵": [
+      "bandera"
+    ],
+    "🇬🇶": [
+      "bandera"
+    ],
+    "🇬🇷": [
+      "bandera"
+    ],
+    "🇬🇹": [
+      "bandera"
+    ],
+    "🇬🇺": [
+      "bandera"
+    ],
+    "🇬🇼": [
+      "bandera"
+    ],
+    "🇬🇾": [
+      "bandera"
+    ],
+    "🇭🇰": [
+      "bandera"
+    ],
+    "🇭🇳": [
+      "bandera"
+    ],
+    "🇭🇷": [
+      "bandera"
+    ],
+    "🇭🇹": [
+      "bandera"
+    ],
+    "🇭🇺": [
+      "bandera"
+    ],
+    "🇮🇩": [
+      "bandera"
+    ],
+    "🇮🇪": [
+      "bandera"
+    ],
+    "🇮🇱": [
+      "bandera"
+    ],
+    "🇮🇳": [
+      "bandera"
+    ],
+    "🇮🇶": [
+      "bandera"
+    ],
+    "🇮🇷": [
+      "bandera"
+    ],
+    "🇮🇸": [
+      "bandera"
+    ],
+    "🇮🇹": [
+      "bandera"
+    ],
+    "🇯🇲": [
+      "bandera"
+    ],
+    "🇯🇵": [
+      "bandera"
+    ],
+    "🇰🇪": [
+      "bandera"
+    ],
+    "🇰🇭": [
+      "bandera"
+    ],
+    "🇰🇲": [
+      "bandera"
+    ],
+    "🇰🇳": [
+      "bandera"
+    ],
+    "🇰🇵": [
+      "bandera"
+    ],
+    "🇰🇷": [
+      "bandera"
+    ],
+    "🇰🇾": [
+      "bandera"
+    ],
+    "🇱🇨": [
+      "bandera"
+    ],
+    "🇱🇮": [
+      "bandera"
+    ],
+    "🇱🇰": [
+      "bandera"
+    ],
+    "🇱🇷": [
+      "bandera"
+    ],
+    "🇱🇺": [
+      "bandera"
+    ],
+    "🇲🇦": [
+      "bandera"
+    ],
+    "🇲🇨": [
+      "bandera"
+    ],
+    "🇲🇩": [
+      "bandera"
+    ],
+    "🇲🇪": [
+      "bandera"
+    ],
+    "🇲🇫": [
+      "bandera"
+    ],
+    "🇲🇬": [
+      "bandera"
+    ],
+    "🇲🇱": [
+      "bandera"
+    ],
+    "🇲🇳": [
+      "bandera"
+    ],
+    "🇲🇴": [
+      "bandera"
+    ],
+    "🇲🇶": [
+      "bandera"
+    ],
+    "🇲🇸": [
+      "bandera"
+    ],
+    "🇲🇹": [
+      "bandera"
+    ],
+    "🇲🇻": [
+      "bandera"
+    ],
+    "🇲🇼": [
+      "bandera"
+    ],
+    "🇲🇽": [
+      "bandera"
+    ],
+    "🇲🇿": [
+      "bandera"
+    ],
+    "🇳🇪": [
+      "bandera"
+    ],
+    "🇳🇬": [
+      "bandera"
+    ],
+    "🇳🇮": [
+      "bandera"
+    ],
+    "🇳🇱": [
+      "bandera"
+    ],
+    "🇳🇴": [
+      "bandera"
+    ],
+    "🇳🇵": [
+      "bandera"
+    ],
+    "🇵🇦": [
+      "bandera"
+    ],
+    "🇵🇪": [
+      "bandera"
+    ],
+    "🇵🇫": [
+      "bandera"
+    ],
+    "🇵🇭": [
+      "bandera"
+    ],
+    "🇵🇱": [
+      "bandera"
+    ],
+    "🇵🇲": [
+      "bandera"
+    ],
+    "🇵🇷": [
+      "bandera"
+    ],
+    "🇵🇹": [
+      "bandera"
+    ],
+    "🇵🇾": [
+      "bandera"
+    ],
+    "🇶🇦": [
+      "bandera"
+    ],
+    "🇷🇴": [
+      "bandera"
+    ],
+    "🇷🇸": [
+      "bandera"
+    ],
+    "🇷🇺": [
+      "bandera"
+    ],
+    "🇷🇼": [
+      "bandera"
+    ],
+    "🇸🇨": [
+      "bandera"
+    ],
+    "🇸🇩": [
+      "bandera"
+    ],
+    "🇸🇪": [
+      "bandera"
+    ],
+    "🇸🇬": [
+      "bandera"
+    ],
+    "🇸🇭": [
+      "bandera"
+    ],
+    "🇸🇮": [
+      "bandera"
+    ],
+    "🇸🇰": [
+      "bandera"
+    ],
+    "🇸🇱": [
+      "bandera"
+    ],
+    "🇸🇲": [
+      "bandera"
+    ],
+    "🇸🇳": [
+      "bandera"
+    ],
+    "🇸🇴": [
+      "bandera"
+    ],
+    "🇸🇷": [
+      "bandera"
+    ],
+    "🇸🇻": [
+      "bandera"
+    ],
+    "🇸🇽": [
+      "bandera"
+    ],
+    "🇹🇨": [
+      "bandera"
+    ],
+    "🇹🇩": [
+      "bandera"
+    ],
+    "🇹🇭": [
+      "bandera"
+    ],
+    "🇹🇷": [
+      "bandera"
+    ],
+    "🇹🇹": [
+      "bandera"
+    ],
+    "🇹🇼": [
+      "bandera"
+    ],
+    "🇺🇦": [
+      "bandera"
+    ],
+    "🇺🇬": [
+      "bandera"
+    ],
+    "🇺🇳": [
+      "bandera"
+    ],
+    "🇺🇸": [
+      "bandera"
+    ],
+    "🇺🇾": [
+      "bandera"
+    ],
+    "🇻🇨": [
+      "bandera"
+    ],
+    "🇻🇪": [
+      "bandera"
+    ],
+    "🇻🇬": [
+      "bandera"
+    ],
+    "🇻🇮": [
+      "bandera"
+    ],
+    "🇻🇳": [
+      "bandera"
+    ],
+    "🇿🇦": [
+      "bandera"
+    ],
+    "🇿🇲": [
+      "bandera"
+    ],
+    "🇿🇼": [
+      "bandera"
+    ],
+    "🐔": [
+      "gai",
+      "chicken"
+    ],
+    "🐟": [
+      "piska",
+      "fish"
+    ],
+    "🐦": [
+      "para",
+      "bird"
+    ],
+    "🐱": [
+      "pushi",
+      "cat"
+    ],
+    "🐶": [
+      "kachó",
+      "dog"
+    ],
+    "🔥": [
+      "candela",
+      "fire"
+    ],
+    "😀": [
+      "sonrisa",
+      "kontentu",
+      "smile",
+      "happy",
+      "alegre",
+      "djente",
+      "hari",
+      "kara",
+      "nice"
+    ],
+    "😂": [
+      "hari",
+      "gracioso",
+      "laugh",
+      "funny"
+    ],
+    "😃": [
+      "boka",
+      "djente",
+      "grandi",
+      "great",
+      "habrí",
+      "kara",
+      "kontentu",
+      "smile",
+      "wowo",
+      "yay"
+    ]
   },
-  "stopwords": ["e", "di", "pa", "ku", "na", "den", "un", "ta", "esaki", "esei"]
+  "stopwords": [
+    "e",
+    "di",
+    "pa",
+    "ku",
+    "na",
+    "den",
+    "un",
+    "ta",
+    "esaki",
+    "esei"
+  ]
 }
