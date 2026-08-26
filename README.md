@@ -29,7 +29,27 @@ Clink ships English in the app, then downloads the languages you choose. A pack 
 | 🇷🇺 Russian | 🇷🇸 Serbian | 🇪🇸 Spanish |
 | 🇹🇷 Turkish | 🇺🇦 Ukrainian | 🇻🇳 Vietnamese |
 
-Every included language has an emoji metadata file. The metadata is optional for community packs, but recommended for every language because it lets the predictive bar recognize local words and phrases such as animal names, feelings, and country names.
+### Current language wave
+
+The following completed packs are available from the language-wave catalogue:
+
+| | | |
+|---|---|---|
+| 🇦🇱 Albanian | 🇦🇲 Amharic | 🇦🇿 Azerbaijani |
+| 🇧🇦 Bosnian | 🇧🇩 Bengali | 🇧🇾 Belarusian |
+| 🇨🇦 Catalan | 🇩🇰 Danish | 🇪🇸 Basque |
+| 🇫🇮 Finnish | 🇬🇪 Georgian | 🇬🇱 Galician |
+| 🇬🇹 Gujarati | 🇮🇳 Kannada | 🇮🇳 Marathi |
+| 🇰🇭 Khmer | 🇰🇿 Kazakh | 🇱🇦 Lao |
+| 🇱🇻 Latvian | 🇲🇲 Burmese | 🇲🇰 Macedonian |
+| 🇳🇴 Norwegian Bokmål | 🇳🇴 Norwegian Nynorsk | 🇵🇰 Urdu |
+| 🇮🇳 Punjabi (Gurmukhi) | 🇮🇷 Persian | 🇸🇮 Slovenian |
+| 🇸🇰 Slovak | 🇸🇪 Swedish | 🇸🇮 Sinhala |
+| 🇹🇭 Thai | 🇮🇳 Tamil | 🇮🇳 Telugu |
+| 🇮🇱 Hebrew | 🇹🇿 Swahili | 🇵🇭 Tagalog |
+| 🇮🇳 Malayalam | | |
+
+Emoji metadata is optional for every pack, including the language wave, but recommended because it lets the predictive bar recognize local words and phrases such as animal names, feelings, and country names.
 
 ## Make your first pack
 
