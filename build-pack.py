@@ -16,9 +16,15 @@ counts = {}
 for raw in source.read_text(encoding="utf-8").splitlines():
     raw = raw.strip()
     if not raw or raw.startswith("#"): continue
-    word, sep, amount = raw.partition("\t")
+    # FrequencyWords uses a single space; hand-authored pack lists conventionally
+    # use a tab. Both forms are source data, never part of the word.
+    fields = raw.rsplit(maxsplit=1)
+    word, sep, amount = (fields[0], " ", fields[1]) if len(fields) == 2 else (raw, "", "")
     word = unicodedata.normalize("NFC", word.strip().lower())
-    if not word or any(ch.isspace() for ch in word): continue
+    # Source frequency files sometimes include punctuation as a "word".  A
+    # lexicon entry must contain at least one letter; this keeps punctuation
+    # prediction in the keyboard layer instead of making it a candidate.
+    if not word or any(ch.isspace() for ch in word) or not any(ch.isalpha() for ch in word): continue
     try: count = float(amount) if sep else 1.0
     except ValueError: count = 1.0
     if count > 0: counts[word] = counts.get(word, 0) + count

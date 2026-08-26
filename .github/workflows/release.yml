@@ -18,26 +18,8 @@ jobs:
         run: |
           set -euo pipefail
           V="${{ inputs.version || github.ref_name }}"; mkdir out
-          python3 - "$V" "${{ github.repository }}" <<'PY'
-          import hashlib,json,pathlib,shutil,sys
-          root=pathlib.Path('Lexicons'); out=pathlib.Path('out'); assets=out/'assets'; packs=[]
-          for clex in sorted(root.glob('*.clex')):
-            code=clex.stem; files=[]
-            # The glob already includes the optional .mlmodelc directory. Adding
-            # it separately duplicates every model file in the manifest.
-            for p in root.glob(code+'.*'):
-              if p.is_dir():
-                for q in p.rglob('*'):
-                  if q.is_file(): files.append(q)
-              elif p.is_file(): files.append(p)
-            for p in files:
-              rel=p.relative_to(root).as_posix(); name=(code+'--'+rel.replace('/','--')); target=assets/name; target.parent.mkdir(parents=True,exist_ok=True); shutil.copy2(p,target)
-              data=target.read_bytes(); filespec={'path':rel,'url':f'https://github.com/{sys.argv[2]}/releases/download/{sys.argv[1]}/{name}','sha256':hashlib.sha256(data).hexdigest(),'byteCount':len(data)}
-              packs.append((code,filespec))
-          grouped={}
-          for code,a in packs: grouped.setdefault(code,[]).append(a)
-          json.dump({'version':sys.argv[1],'packs':[{'code':c,'version':sys.argv[1],'assets':a} for c,a in grouped.items()]},open(out/'manifest.json','w'),separators=(',',':'))
-          PY
+          python3 tools/validate-catalog.py
+          python3 tools/build-release-manifest.py "$V" "${{ github.repository }}" out
       - uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ inputs.version || github.ref_name }}

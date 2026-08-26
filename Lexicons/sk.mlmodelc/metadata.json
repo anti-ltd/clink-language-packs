@@ -1,0 +1,82 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "storagePrecision" : "Mixed (Float16, Int8)",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 12104)",
+        "shortDescription" : "",
+        "shape" : "[1, 12104]",
+        "name" : "logProbs",
+        "type" : "MultiArray"
+      }
+    ],
+    "modelParameters" : [
+
+    ],
+    "specificationVersion" : 8,
+    "mlProgramOperationTypeHistogram" : {
+      "Fill" : 2,
+      "Ios16.softmax" : 1,
+      "Ios17.scatter" : 2,
+      "Ios17.transpose" : 1,
+      "Ios17.expandDims" : 2,
+      "Ios17.add" : 10,
+      "Ios16.sigmoid" : 4,
+      "Ios17.sliceByIndex" : 7,
+      "Ios17.squeeze" : 4,
+      "Shape" : 2,
+      "Ios17.gather" : 5,
+      "WhileLoop" : 2,
+      "Ios16.constexprAffineDequantize" : 14,
+      "Ios17.less" : 2,
+      "Ios17.sub" : 2,
+      "Ios17.tanh" : 2,
+      "Ios17.cast" : 11,
+      "Ios17.log" : 1,
+      "Ios17.linear" : 14,
+      "Ios17.concat" : 5,
+      "Ios17.mul" : 6
+    },
+    "computePrecision" : "Mixed (Float16, Float32, Int16, Int32, UInt16)",
+    "isUpdatable" : "0",
+    "stateSchema" : [
+
+    ],
+    "availability" : {
+      "macOS" : "14.0",
+      "tvOS" : "17.0",
+      "visionOS" : "1.0",
+      "watchOS" : "10.0",
+      "iOS" : "17.0",
+      "macCatalyst" : "17.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_mlProgram"
+    },
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.version" : "8.0",
+      "com.github.apple.coremltools.source_dialect" : "TorchScript",
+      "com.github.apple.coremltools.source" : "torch==2.4.0"
+    },
+    "inputSchema" : [
+      {
+        "dataType" : "Int32",
+        "hasShapeFlexibility" : "1",
+        "isOptional" : "0",
+        "shapeFlexibility" : "1 × 1...12",
+        "shapeRange" : "[[1, 1], [1, 12]]",
+        "formattedType" : "MultiArray (Int32 1 × 12)",
+        "type" : "MultiArray",
+        "shape" : "[1, 12]",
+        "name" : "tokens",
+        "shortDescription" : ""
+      }
+    ],
+    "generatedClassName" : "sk",
+    "method" : "predict"
+  }
+]

@@ -22,13 +22,13 @@ if not code or not code.replace("_", "").replace("-", "").isalnum():
 
 def word(value):
     value = unicodedata.normalize("NFC", value.strip().lower())
-    return value if value and not any(char.isspace() for char in value) else None
+    return value if value and not any(char.isspace() for char in value) and any(char.isalpha() for char in value) else None
 
 # This is the same bytewise word order build-pack.py writes into the CLEX file.
 words = set()
 for raw in word_path.read_text(encoding="utf-8").splitlines():
     if raw.strip() and not raw.lstrip().startswith("#"):
-        candidate = word(raw.split("\t", 1)[0])
+        candidate = word(raw.rsplit(maxsplit=1)[0])
         if candidate: words.add(candidate)
 ordered = sorted(words, key=lambda value: value.encode("utf-8"))
 if not ordered: raise SystemExit("The word list contains no usable words.")

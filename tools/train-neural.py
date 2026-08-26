@@ -33,7 +33,9 @@ Usage: python3 Tools/train_lm.py --lang en --bpe 12000
 """
 import argparse
 import os
+import pathlib
 import sys
+import unicodedata
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SOURCE = os.path.normpath(os.path.join(HERE, "..", "source"))
@@ -124,7 +126,10 @@ def clean_word(w, lang=None):
     if not w:
         return None
     for c in w:
-        if not (c.isalpha() or c == "'"):
+        # Indic and several other scripts use combining vowel/sign marks inside
+        # ordinary words.  `str.isalpha()` is false for those marks, so accept
+        # Unicode mark categories while still rejecting punctuation and digits.
+        if not (c.isalpha() or unicodedata.category(c).startswith("M") or c == "'"):
             return None
     return w
 
@@ -437,12 +442,19 @@ def main():
     build_dir = os.path.join(HERE, ".lm_build")
     os.makedirs(build_dir, exist_ok=True)
     pkg = os.path.join(build_dir, f"{args.lang}.mlpackage")
+    # Finder/backup services can leave AppleDouble sidecars in a previous
+    # package.  coremltools removes the package before saving, but its cleanup
+    # races on those sidecars; they are filesystem metadata, never model data.
+    for sidecar in pathlib.Path(pkg).rglob("._*") if os.path.isdir(pkg) else []:
+        sidecar.unlink(missing_ok=True)
     mlmodel.save(pkg)
     print(f"[export] wrote {pkg}")
     # A stale compiled model would make coremlcompiler refuse/duplicate; clear it.
     import shutil
     out_mlmodelc = os.path.join(LEXICONS, f"{args.lang}.mlmodelc")
     if os.path.isdir(out_mlmodelc):
+        for sidecar in pathlib.Path(out_mlmodelc).rglob("._*"):
+            sidecar.unlink(missing_ok=True)
         shutil.rmtree(out_mlmodelc)
 
     # Compile .mlpackage → .mlmodelc (what the bundle ships / NeuralLM loads).

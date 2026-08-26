@@ -1,1 +1,8 @@
 ._*
+.DS_Store
+.venv/
+tools/.lm_*.pt
+tools/.lm_build/
+source/*.txt
+source/*_sentences.tsv
+source/*.sources.json

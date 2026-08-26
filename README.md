@@ -71,6 +71,32 @@ That is enough to ship. Add the optional assets below when you have the data and
 
 Everything lives in `Lexicons/`. The filename must begin with the same code: a Japanese pack uses `ja.clex`, `ja.emoji.json`, `ja.cngm`, and, if applicable, `ja.cime`.
 
+## Language-wave catalogue
+
+`catalog/language-wave.json` is the release authority for the pending language
+wave. It records the source URL, licence, required source files, and next action
+for every pack and IME. A `blocked` entry is intentionally absent from releases;
+it becomes `complete` only after its checked source inputs have been reviewed and
+the generated assets pass `tools/validate-pack.py`. Validate the catalogue with:
+
+```sh
+python3 tools/validate-catalog.py
+```
+
+`tools/prepare-wave.py <code>` records source SHA-256 receipts under `source/`.
+Those downloads are ignored because they are reproducible raw inputs, not release
+assets. `tools/build-wave.py --train` builds reviewed entries and preserves an
+existing neural model unless `FORCE_RETRAIN=1` is set.
+
+The current wave has 37 completed direct-language packs. Five IME entries remain
+intentionally blocked: `zh_hant_pinyin`, `zh_hant_zhuyin`, `zh_hant_wubi`,
+`yue_jyutping`, and `ja_romaji`. They require a redistributable reading/code to
+candidate source *and* an input-composition recipe that preserves the intended
+writing system; a generic word list, Simplified-Chinese table, or neighbouring
+language table is not an acceptable substitute. Their exact source and
+implementation requirements live in the catalogue. Do not publish a placeholder
+`.cime` table simply to make an IME appear available.
+
 ## Add emoji metadata
 
 Emoji metadata is language-pack data, not Clink application code. Add it at:
