@@ -16,38 +16,32 @@ Clink ships English in the app, then downloads the languages you choose. A pack 
 
 | | | |
 |---|---|---|
-| 🇿🇦 Afrikaans | 🇸🇦 Arabic | 🇦🇲 Armenian |
-| 🇧🇬 Bulgarian | 🇨🇳 Chinese | 🇭🇷 Croatian |
-| 🇨🇿 Czech | 🇳🇱 Dutch | 🇺🇸 English |
-| 🇪🇪 Estonian | 🇫🇷 French | 🇩🇪 German |
-| 🇬🇷 Greek | 🇮🇳 Hindi | 🇭🇺 Hungarian |
-| 🇮🇩 Indonesian | 🇮🇹 Italian | 🇯🇵 Japanese |
-| 🇰🇷 Korean | 🇱🇺 Luxembourgish | 🇱🇹 Lithuanian |
-| 🇲🇾 Malay | 🇲🇽 Mexican Spanish | 🇳🇵 Nepali |
-| 🇨🇼 Papiamento | 🇵🇱 Polish | |
-| 🇵🇹 Portuguese | 🇧🇷 Brazilian Portuguese | 🇷🇴 Romanian |
-| 🇷🇺 Russian | 🇷🇸 Serbian | 🇪🇸 Spanish |
-| 🇹🇷 Turkish | 🇺🇦 Ukrainian | 🇻🇳 Vietnamese |
+| 🇿🇦 Afrikaans ★★★★★ | 🇸🇦 Arabic ★★★★★ | 🇦🇲 Armenian ★★★★★ |
+| 🇧🇬 Bulgarian ★★★★★ | 🇨🇳 Chinese ★★★★★ | 🇭🇷 Croatian ★★★★★ |
+| 🇨🇿 Czech ★★★★★ | 🇳🇱 Dutch ★★★★★ | 🇺🇸 English ★★★★★ |
+| 🇪🇪 Estonian ★★★★★ | 🇫🇷 French ★★★★★ | 🇩🇪 German ★★★★★ |
+| 🇬🇷 Greek ★★★★★ | 🇮🇳 Hindi ★★★★★ | 🇭🇺 Hungarian ★★★★★ |
+| 🇮🇩 Indonesian ★★★★★ | 🇮🇹 Italian ★★★★★ | 🇯🇵 Japanese ★★★★★ |
+| 🇰🇷 Korean ★★★★★ | 🇱🇺 Luxembourgish ★★★★★ | 🇱🇹 Lithuanian ★★★★★ |
+| 🇲🇾 Malay ★★★★★ | 🇲🇽 Mexican Spanish ★★★★★ | 🇳🇵 Nepali ★★★★★ |
+| 🇨🇼 Papiamento ★★★★★ | 🇵🇱 Polish ★★★★★ | 🇵🇹 Portuguese ★★★★★ |
+| 🇧🇷 Brazilian Portuguese ★★★★★ | 🇷🇴 Romanian ★★★★★ | 🇷🇺 Russian ★★★★★ |
+| 🇷🇸 Serbian ★★★★★ | 🇪🇸 Spanish ★★★★★ | 🇹🇷 Turkish ★★★★★ |
+| 🇺🇦 Ukrainian ★★★★★ | 🇻🇳 Vietnamese ★★★★★ | 🇦🇱 Albanian ★★★★★ |
+| 🇦🇲 Amharic ★★★ | 🇦🇿 Azerbaijani ★★★ | 🇧🇦 Bosnian ★★★ |
+| 🇧🇩 Bengali ★★★★★ | 🇧🇾 Belarusian ★★★ | 🇨🇦 Catalan ★★★★★ |
+| 🇩🇰 Danish ★★★★★ | 🇪🇸 Basque ★★★★★ | 🇫🇮 Finnish ★★★★★ |
+| 🇬🇪 Georgian ★★★ | 🇬🇱 Galician ★★★★★ | 🇬🇹 Gujarati ★★★ |
+| 🇮🇱 Hebrew ★★★★★ | 🇮🇳 Kannada ★★★ | 🇮🇳 Marathi ★★★ |
+| 🇰🇭 Khmer ★★ | 🇰🇿 Kazakh ★★★ | 🇱🇦 Lao ★★ |
+| 🇱🇻 Latvian ★★★★★ | 🇮🇳 Malayalam ★★★ | 🇲🇲 Burmese ★★ |
+| 🇲🇰 Macedonian ★★★★★ | 🇳🇴 Norwegian Bokmål ★★★★★ | 🇳🇴 Norwegian Nynorsk ★★★ |
+| 🇮🇷 Persian ★★★★★ | 🇮🇳 Punjabi (Gurmukhi) ★★★ | 🇸🇮 Sinhala ★★★ |
+| 🇸🇮 Slovenian ★★★★★ | 🇸🇰 Slovak ★★★★★ | 🇸🇪 Swedish ★★★★★ |
+| 🇹🇭 Thai ★★★★ | 🇮🇳 Tamil ★★★ | 🇮🇳 Telugu ★★★ |
+| 🇵🇭 Tagalog ★★★★★ | 🇹🇿 Swahili ★★★ | 🇵🇰 Urdu ★★★ |
 
-### Current language wave
-
-The following completed packs are available from the language-wave catalogue:
-
-| | | |
-|---|---|---|
-| 🇦🇱 Albanian | 🇦🇲 Amharic | 🇦🇿 Azerbaijani |
-| 🇧🇦 Bosnian | 🇧🇩 Bengali | 🇧🇾 Belarusian |
-| 🇨🇦 Catalan | 🇩🇰 Danish | 🇪🇸 Basque |
-| 🇫🇮 Finnish | 🇬🇪 Georgian | 🇬🇱 Galician |
-| 🇬🇹 Gujarati | 🇮🇳 Kannada | 🇮🇳 Marathi |
-| 🇰🇭 Khmer | 🇰🇿 Kazakh | 🇱🇦 Lao |
-| 🇱🇻 Latvian | 🇲🇲 Burmese | 🇲🇰 Macedonian |
-| 🇳🇴 Norwegian Bokmål | 🇳🇴 Norwegian Nynorsk | 🇵🇰 Urdu |
-| 🇮🇳 Punjabi (Gurmukhi) | 🇮🇷 Persian | 🇸🇮 Slovenian |
-| 🇸🇰 Slovak | 🇸🇪 Swedish | 🇸🇮 Sinhala |
-| 🇹🇭 Thai | 🇮🇳 Tamil | 🇮🇳 Telugu |
-| 🇮🇱 Hebrew | 🇹🇿 Swahili | 🇵🇭 Tagalog |
-| 🇮🇳 Malayalam | | |
+**Pack-depth key:** ★★★★★ dictionary + next-word model + neural model; ★★★★ dictionary + neural model; ★★★ dictionary + next-word model; ★★ dictionary only. Ratings describe shipped on-device assets, not the importance, quality, or fluency of a language.
 
 Emoji metadata is optional for every pack, including the language wave, but recommended because it lets the predictive bar recognize local words and phrases such as animal names, feelings, and country names.
 
