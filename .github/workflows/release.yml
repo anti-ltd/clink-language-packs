@@ -20,8 +20,17 @@ jobs:
           V="${{ inputs.version || github.ref_name }}"; mkdir out
           python3 tools/validate-catalog.py
           python3 tools/build-release-manifest.py "$V" "${{ github.repository }}" out
-      - uses: softprops/action-gh-release@v2
-        with:
-          tag_name: ${{ inputs.version || github.ref_name }}
-          generate_release_notes: true
-          files: out/**
+      - name: Publish release assets at a safe API rate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          V="${{ inputs.version || github.ref_name }}"
+          # A Core ML pack expands to several files.  This release has hundreds
+          # of assets, so bulk upload actions can hit GitHub's secondary REST
+          # limit.  Create-or-resume and pace each idempotent upload instead.
+          gh release view "$V" >/dev/null 2>&1 || gh release create "$V" --generate-notes --title "$V"
+          while IFS= read -r -d '' file; do
+            gh release upload "$V" "$file" --clobber
+            sleep 1
+          done < <(find out -type f -print0 | sort -z)
