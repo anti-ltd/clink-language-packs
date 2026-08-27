@@ -20,17 +20,51 @@ jobs:
           V="${{ inputs.version || github.ref_name }}"; mkdir out
           python3 tools/validate-catalog.py
           python3 tools/build-release-manifest.py "$V" "${{ github.repository }}" out
-      - name: Publish release assets at a safe API rate
+      - name: Stage release assets without changing production latest
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           V="${{ inputs.version || github.ref_name }}"
-          # A Core ML pack expands to several files.  This release has hundreds
-          # of assets, so bulk upload actions can hit GitHub's secondary REST
-          # limit.  Create-or-resume and pace each idempotent upload instead.
-          gh release view "$V" >/dev/null 2>&1 || gh release create "$V" --generate-notes --title "$V"
+          # A public release becomes GitHub's "latest" immediately.  Keeping it
+          # draft until every file is present prevents production clients from
+          # ever observing a missing or partial manifest.
+          if gh release view "$V" --json isDraft --jq .isDraft >/dev/null 2>&1; then
+            test "$(gh release view "$V" --json isDraft --jq .isDraft)" = true || {
+              echo "Refusing to mutate an already-published release: $V" >&2
+              exit 1
+            }
+          else
+            gh release create "$V" --draft --generate-notes --title "$V"
+          fi
+
+          # GitHub throttles large batches of individual Core ML files.  Retry
+          # each idempotent upload with backoff; a rerun resumes the same draft.
+          upload() {
+            local file="$1" attempt=1
+            until gh release upload "$V" "$file" --clobber; do
+              if (( attempt == 8 )); then
+                echo "Upload failed after $attempt attempts: $file" >&2
+                return 1
+              fi
+              local delay=$((attempt * 15))
+              echo "Retrying $file in ${delay}s (attempt $((attempt + 1))/8)" >&2
+              sleep "$delay"
+              ((attempt += 1))
+            done
+          }
+
           while IFS= read -r -d '' file; do
-            gh release upload "$V" "$file" --clobber
-            sleep 1
-          done < <(find out -type f -print0 | sort -z)
+            upload "$file"
+            sleep 2
+          done < <(find out/assets -type f -print0 | sort -z)
+          upload out/manifest.json
+
+      - name: Publish the complete staged release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          V="${{ inputs.version || github.ref_name }}"
+          test "$(gh release view "$V" --json isDraft --jq .isDraft)" = true
+          gh release edit "$V" --draft=false
