@@ -14,7 +14,10 @@ for item in catalog["packs"]:
         (ROOT / "Lexicons" / f"{code}.cngm").unlink(missing_ok=True)
     model = ROOT / "Lexicons" / f"{code}.mlmodelc"
     vocab = ROOT / "Lexicons" / f"{code}.bpevocab"
-    if train and item.get("neural", model.is_dir()) and (os.environ.get("FORCE_RETRAIN") == "1" or not model.is_dir() or not vocab.exists()):
+    # Complete wave packs train neural ranking by default.  An explicit false is
+    # reserved for a deliberately lexicon-only pack; using model.is_dir() here
+    # would silently skip a missing model forever.
+    if train and item.get("neural", True) and (os.environ.get("FORCE_RETRAIN") == "1" or not model.is_dir() or not vocab.exists()):
         # BPE is explicit so a model can never be paired with a legacy word vocab.
         subprocess.run([sys.executable, "tools/train-neural.py", "--lang", code, "--bpe", "12000"], cwd=ROOT, check=True)
     subprocess.run([sys.executable, "tools/validate-pack.py", code], cwd=ROOT, check=True)
