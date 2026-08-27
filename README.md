@@ -20,7 +20,8 @@ Clink ships English in the app, then downloads the languages you choose. A pack 
 | 🇧🇬 Bulgarian ★★★★★ | 🇨🇳 Chinese ★★★★★ | 🇭🇷 Croatian ★★★★★ |
 | 🇨🇿 Czech ★★★★★ | 🇳🇱 Dutch ★★★★★ | 🇺🇸 English ★★★★★ |
 | 🇪🇪 Estonian ★★★★★ | 🇫🇷 French ★★★★★ | 🇩🇪 German ★★★★★ |
-| 🇬🇷 Greek ★★★★★ | 🇮🇳 Hindi ★★★★★ | 🇭🇺 Hungarian ★★★★★ |
+| 🇬🇷 Greek ★★★★★ | 🇮🇳 Hindi ★★★★★ | 🇮🇳 Hinglish (Latin Hindi) ★★★★★ |
+| 🇬🇧 Scottish Gaelic ★★★★★ | 🇬🇧 Welsh ★★★★★ |
 | 🇮🇩 Indonesian ★★★★★ | 🇮🇹 Italian ★★★★★ | 🇯🇵 Japanese ★★★★★ |
 | 🇰🇷 Korean ★★★★★ | 🇱🇺 Luxembourgish ★★★★★ | 🇱🇹 Lithuanian ★★★★★ |
 | 🇲🇾 Malay ★★★★★ | 🇲🇽 Mexican Spanish ★★★★★ | 🇳🇵 Nepali ★★★★★ |
@@ -101,6 +102,18 @@ python3 tools/validate-catalog.py
 Those downloads are ignored because they are reproducible raw inputs, not release
 assets. `tools/build-wave.py --train` builds reviewed entries and preserves an
 existing neural model unless `FORCE_RETRAIN=1` is set.
+
+Hinglish (`hi_latn`) is intentionally separate from Devanagari Hindi: it uses a
+Latin QWERTY layout and requires real Roman Hindi–English data. `make
+train-hinglish` derives its local inputs from the pinned CC BY 4.0
+[PHINC corpus](https://huggingface.co/datasets/LingoIITGN/PHINC), then builds
+the dictionary, next-word model, and neural model. Review its generated source
+receipt and model quality before changing the catalogue entry from `blocked` to
+`complete` and publishing it.
+
+Scottish Gaelic (`gd`) and Welsh (`cy`) use the existing Latin QWERTY layout.
+`make train-celtic` fetches their CC BY 2.0 FR Tatoeba sentence exports and
+derives each dictionary, next-word model, and neural model from the same source.
 
 The current wave has 37 completed direct-language packs. Five IME entries remain
 intentionally blocked: `zh_hant_pinyin`, `zh_hant_zhuyin`, `zh_hant_wubi`,

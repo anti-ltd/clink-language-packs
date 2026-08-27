@@ -4,7 +4,8 @@
     {"name":"FrequencyWords / OpenSubtitles 2018","license":"CC-BY-SA-4.0","url":"https://github.com/hermitdave/FrequencyWords"},
     {"name":"Tatoeba sentence exports","license":"CC-BY-2.0-FR","url":"https://tatoeba.org/en/downloads"},
     {"name":"JMdict","license":"CC-BY-SA-3.0","url":"https://www.edrdg.org/jmdict/j_jmdict.html"},
-    {"name":"CC-CEDICT","license":"CC-BY-SA-3.0","url":"https://cc-cedict.org/wiki/"}
+    {"name":"CC-CEDICT","license":"CC-BY-SA-3.0","url":"https://cc-cedict.org/wiki/"},
+    {"name":"PHINC: Parallel Hinglish Social Media Code-Mixed Corpus","license":"CC-BY-4.0","url":"https://huggingface.co/datasets/LingoIITGN/PHINC"}
   ],
   "packs": [
     {"code":"sv","status":"complete","sources":["https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/sv/sv_50k.txt","https://downloads.tatoeba.org/exports/per_language/swe/swe_sentences.tsv.bz2"],"sha256":{"wordlist":"566d0614a54f3c243bca4097c9bb824d46275abff31582157e73c166b7089500","sentences":"92cdd6c289ecc63c8da04e043ef6e4766a816ad3306707ad4b392f4b34dc657e"}},
@@ -43,7 +44,10 @@
     {"code":"km","status":"complete","nextWordModel":false,"sources":["https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/km/km_50k.txt","https://downloads.tatoeba.org/exports/per_language/khm/khm_sentences.tsv.bz2"]},
     {"code":"lo","status":"complete","nextWordModel":false,"sources":["https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/lo/lo_50k.txt","https://downloads.tatoeba.org/exports/per_language/lao/lao_sentences.tsv.bz2"]},
     {"code":"my","status":"complete","nextWordModel":false,"sources":["https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/my/my_50k.txt","https://downloads.tatoeba.org/exports/per_language/mya/mya_sentences.tsv.bz2"]},
-    {"code":"am","status":"complete","sources":["https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/am/am_50k.txt","https://downloads.tatoeba.org/exports/per_language/amh/amh_sentences.tsv.bz2"]}
+    {"code":"am","status":"complete","sources":["https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/am/am_50k.txt","https://downloads.tatoeba.org/exports/per_language/amh/amh_sentences.tsv.bz2"]},
+    {"code":"hi_latn","status":"complete","sources":["https://huggingface.co/datasets/LingoIITGN/PHINC/resolve/44b5471df75e508b9d6fcdbcc93df04bb1e84056/PHINC.csv"]},
+    {"code":"gd","status":"complete","sources":["https://downloads.tatoeba.org/exports/per_language/gla/gla_sentences.tsv.bz2"]},
+    {"code":"cy","status":"complete","sources":["https://downloads.tatoeba.org/exports/per_language/cym/cym_sentences.tsv.bz2"]}
   ],
   "imes": [
     {"code":"zh_hant_pinyin","status":"blocked","missing":["source/zh_hant_pinyin-ime.tsv"],"sources":["https://cc-cedict.org/wiki/"],"next":"Acquire a Traditional-Chinese pinyin→Hanzi source with explicit redistribution terms; CC-CEDICT is Simplified-biased and is not a substitute."},
