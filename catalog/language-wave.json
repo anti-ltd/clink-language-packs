@@ -47,7 +47,10 @@
     {"code":"am","status":"complete","sources":["https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/am/am_50k.txt","https://downloads.tatoeba.org/exports/per_language/amh/amh_sentences.tsv.bz2"]},
     {"code":"hi_latn","status":"complete","sources":["https://huggingface.co/datasets/LingoIITGN/PHINC/resolve/44b5471df75e508b9d6fcdbcc93df04bb1e84056/PHINC.csv"]},
     {"code":"gd","status":"complete","sources":["https://downloads.tatoeba.org/exports/per_language/gla/gla_sentences.tsv.bz2"]},
-    {"code":"cy","status":"complete","sources":["https://downloads.tatoeba.org/exports/per_language/cym/cym_sentences.tsv.bz2"]}
+    {"code":"cy","status":"complete","sources":["https://downloads.tatoeba.org/exports/per_language/cym/cym_sentences.tsv.bz2"]},
+    {"code":"fil","status":"blocked","missing":["source/fil.txt","source/fil_sentences.tsv"],"sources":["https://downloads.tatoeba.org/exports/per_language/tgl/tgl_sentences.tsv.bz2"],"next":"Run `make train-filipino` to derive reviewed Filipino inputs from the licensed Tagalog source that forms Filipino's grammatical base; review the source receipt and model quality, then promote this pack to complete before publishing."},
+    {"code":"mt","status":"blocked","missing":["source/mt.txt","source/mt_sentences.tsv"],"sources":["https://downloads.tatoeba.org/exports/per_language/mlt/mlt_sentences.tsv.bz2","https://data.hplt-project.org/three/sorted/mlt_Latn/10_1.jsonl.zst"],"next":"Run `make train-maltese-tamazight` to derive Maltese inputs from the CC0 HPLT top-quality shard and Tatoeba; review the source receipt and model quality before publishing."},
+    {"code":"zgh","status":"blocked","missing":["source/zgh.txt","source/zgh_sentences.tsv"],"sources":["https://downloads.tatoeba.org/exports/per_language/zgh/zgh_sentences.tsv.bz2"],"next":"Run `make train-maltese-tamazight` to derive Neo-Tifinagh Standard Moroccan Tamazight inputs; review the source receipt and model quality before publishing."}
   ],
   "imes": [
     {"code":"zh_hant_pinyin","status":"blocked","missing":["source/zh_hant_pinyin-ime.tsv"],"sources":["https://cc-cedict.org/wiki/"],"next":"Acquire a Traditional-Chinese pinyin→Hanzi source with explicit redistribution terms; CC-CEDICT is Simplified-biased and is not a substitute."},

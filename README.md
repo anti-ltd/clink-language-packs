@@ -41,6 +41,7 @@ Clink ships English in the app, then downloads the languages you choose. A pack 
 | 🇸🇮 Slovenian ★★★★★ | 🇸🇰 Slovak ★★★★★ | 🇸🇪 Swedish ★★★★★ |
 | 🇹🇭 Thai ★★★★ | 🇮🇳 Tamil ★★★ | 🇮🇳 Telugu ★★★ |
 | 🇵🇭 Tagalog ★★★★★ | 🇹🇿 Swahili ★★★ | 🇵🇰 Urdu ★★★ |
+| 🇵🇭 Filipino — in preparation |
 
 **Pack-depth key:** ★★★★★ dictionary + next-word model + neural model; ★★★★ dictionary + neural model; ★★★ dictionary + next-word model; ★★ dictionary only. Ratings describe shipped on-device assets, not the importance, quality, or fluency of a language.
 

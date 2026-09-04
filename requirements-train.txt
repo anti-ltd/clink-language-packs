@@ -1,3 +1,4 @@
 # Keep the neural export environment reproducible and independent of Xcode Python.
 torch==2.4.0
 coremltools==8.0
+zstandard==0.23.0
