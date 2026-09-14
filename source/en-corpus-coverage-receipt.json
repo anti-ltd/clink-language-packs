@@ -1,0 +1,4004 @@
+{
+  "format": "corpus-coverage-1",
+  "code": "en",
+  "inputs": {
+    "baseLexiconSHA256": "5058b8b0f5dd0d047cf5430cca25d6e83d3f2852bcfdb0a822c990819fefb107",
+    "baseBigramsSHA256": "aace72c1104df76fb798a6c5463993060f1e264580c53784e1d07ae6883ab4e4",
+    "sentenceCorpusSHA256": "9b6b011509fc9d3803bcdbff949fc450caf1c5bc0598cefbd870634d38797bde"
+  },
+  "sentenceCount": 2029730,
+  "sharedCalibrationWords": 1276,
+  "probabilityPerCorpusCount": 4.8426092348415306e-08,
+  "oldWords": 48795,
+  "addedWords": 263,
+  "finalWords": 49058,
+  "oldPairs": 100000,
+  "addedPairs": 400,
+  "finalPairs": 100400,
+  "wordEvidence": [
+    {
+      "word": "a's",
+      "count": 32,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 89
+    },
+    {
+      "word": "adriano's",
+      "count": 242,
+      "sentenceStarts": 136,
+      "quantizedFrequency": 114
+    },
+    {
+      "word": "africa's",
+      "count": 82,
+      "sentenceStarts": 7,
+      "quantizedFrequency": 101
+    },
+    {
+      "word": "afternoon's",
+      "count": 40,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 92
+    },
+    {
+      "word": "alberto's",
+      "count": 42,
+      "sentenceStarts": 33,
+      "quantizedFrequency": 93
+    },
+    {
+      "word": "algeria's",
+      "count": 1457,
+      "sentenceStarts": 565,
+      "quantizedFrequency": 136
+    },
+    {
+      "word": "algiers's",
+      "count": 27,
+      "sentenceStarts": 5,
+      "quantizedFrequency": 87
+    },
+    {
+      "word": "ali's",
+      "count": 45,
+      "sentenceStarts": 38,
+      "quantizedFrequency": 93
+    },
+    {
+      "word": "alice's",
+      "count": 40,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 92
+    },
+    {
+      "word": "alzheimer's",
+      "count": 35,
+      "sentenceStarts": 4,
+      "quantizedFrequency": 90
+    },
+    {
+      "word": "amanda's",
+      "count": 177,
+      "sentenceStarts": 2,
+      "quantizedFrequency": 110
+    },
+    {
+      "word": "amelia's",
+      "count": 225,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 113
+    },
+    {
+      "word": "america's",
+      "count": 138,
+      "sentenceStarts": 19,
+      "quantizedFrequency": 107
+    },
+    {
+      "word": "anna's",
+      "count": 256,
+      "sentenceStarts": 31,
+      "quantizedFrequency": 115
+    },
+    {
+      "word": "another's",
+      "count": 37,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 91
+    },
+    {
+      "word": "antonio's",
+      "count": 40,
+      "sentenceStarts": 32,
+      "quantizedFrequency": 92
+    },
+    {
+      "word": "aunt's",
+      "count": 76,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 100
+    },
+    {
+      "word": "australia's",
+      "count": 65,
+      "sentenceStarts": 14,
+      "quantizedFrequency": 98
+    },
+    {
+      "word": "author's",
+      "count": 56,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 96
+    },
+    {
+      "word": "baby's",
+      "count": 114,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 105
+    },
+    {
+      "word": "baker's",
+      "count": 34,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 90
+    },
+    {
+      "word": "bat's",
+      "count": 30,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 89
+    },
+    {
+      "word": "baya's",
+      "count": 269,
+      "sentenceStarts": 30,
+      "quantizedFrequency": 115
+    },
+    {
+      "word": "benedito's",
+      "count": 380,
+      "sentenceStarts": 267,
+      "quantizedFrequency": 119
+    },
+    {
+      "word": "bird's",
+      "count": 30,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 89
+    },
+    {
+      "word": "body's",
+      "count": 40,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 92
+    },
+    {
+      "word": "boldi's",
+      "count": 90,
+      "sentenceStarts": 60,
+      "quantizedFrequency": 102
+    },
+    {
+      "word": "book's",
+      "count": 49,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "boris's",
+      "count": 63,
+      "sentenceStarts": 48,
+      "quantizedFrequency": 98
+    },
+    {
+      "word": "boss's",
+      "count": 57,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 96
+    },
+    {
+      "word": "boston's",
+      "count": 26,
+      "sentenceStarts": 2,
+      "quantizedFrequency": 87
+    },
+    {
+      "word": "bouteflika's",
+      "count": 29,
+      "sentenceStarts": 11,
+      "quantizedFrequency": 88
+    },
+    {
+      "word": "boy's",
+      "count": 102,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 103
+    },
+    {
+      "word": "boyfriend's",
+      "count": 55,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 96
+    },
+    {
+      "word": "britain's",
+      "count": 50,
+      "sentenceStarts": 11,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "brother's",
+      "count": 237,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 114
+    },
+    {
+      "word": "bruno's",
+      "count": 35,
+      "sentenceStarts": 30,
+      "quantizedFrequency": 90
+    },
+    {
+      "word": "building's",
+      "count": 26,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 87
+    },
+    {
+      "word": "canada's",
+      "count": 35,
+      "sentenceStarts": 10,
+      "quantizedFrequency": 90
+    },
+    {
+      "word": "car's",
+      "count": 148,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 108
+    },
+    {
+      "word": "carlos's",
+      "count": 195,
+      "sentenceStarts": 173,
+      "quantizedFrequency": 111
+    },
+    {
+      "word": "cat's",
+      "count": 144,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 108
+    },
+    {
+      "word": "child's",
+      "count": 131,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 106
+    },
+    {
+      "word": "children's",
+      "count": 288,
+      "sentenceStarts": 7,
+      "quantizedFrequency": 116
+    },
+    {
+      "word": "china's",
+      "count": 99,
+      "sentenceStarts": 21,
+      "quantizedFrequency": 103
+    },
+    {
+      "word": "chuck's",
+      "count": 119,
+      "sentenceStarts": 20,
+      "quantizedFrequency": 105
+    },
+    {
+      "word": "city's",
+      "count": 157,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 109
+    },
+    {
+      "word": "claudio's",
+      "count": 83,
+      "sentenceStarts": 67,
+      "quantizedFrequency": 101
+    },
+    {
+      "word": "company's",
+      "count": 212,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 112
+    },
+    {
+      "word": "computer's",
+      "count": 33,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 90
+    },
+    {
+      "word": "cookie's",
+      "count": 40,
+      "sentenceStarts": 28,
+      "quantizedFrequency": 92
+    },
+    {
+      "word": "country's",
+      "count": 318,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 117
+    },
+    {
+      "word": "cousin's",
+      "count": 25,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 86
+    },
+    {
+      "word": "dad's",
+      "count": 197,
+      "sentenceStarts": 19,
+      "quantizedFrequency": 111
+    },
+    {
+      "word": "damiano's",
+      "count": 32,
+      "sentenceStarts": 22,
+      "quantizedFrequency": 89
+    },
+    {
+      "word": "dan's",
+      "count": 125,
+      "sentenceStarts": 63,
+      "quantizedFrequency": 106
+    },
+    {
+      "word": "daniel's",
+      "count": 48,
+      "sentenceStarts": 33,
+      "quantizedFrequency": 94
+    },
+    {
+      "word": "daughter's",
+      "count": 186,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 111
+    },
+    {
+      "word": "david's",
+      "count": 72,
+      "sentenceStarts": 48,
+      "quantizedFrequency": 99
+    },
+    {
+      "word": "day's",
+      "count": 64,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 98
+    },
+    {
+      "word": "dentist's",
+      "count": 47,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 94
+    },
+    {
+      "word": "devil's",
+      "count": 43,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 93
+    },
+    {
+      "word": "diego's",
+      "count": 69,
+      "sentenceStarts": 60,
+      "quantizedFrequency": 99
+    },
+    {
+      "word": "dinner's",
+      "count": 29,
+      "sentenceStarts": 14,
+      "quantizedFrequency": 88
+    },
+    {
+      "word": "dmitri's",
+      "count": 50,
+      "sentenceStarts": 29,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "doctor's",
+      "count": 226,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 113
+    },
+    {
+      "word": "dog's",
+      "count": 234,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 114
+    },
+    {
+      "word": "donald's",
+      "count": 70,
+      "sentenceStarts": 50,
+      "quantizedFrequency": 99
+    },
+    {
+      "word": "door's",
+      "count": 29,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 88
+    },
+    {
+      "word": "driver's",
+      "count": 436,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 121
+    },
+    {
+      "word": "earth's",
+      "count": 274,
+      "sentenceStarts": 21,
+      "quantizedFrequency": 115
+    },
+    {
+      "word": "edmundo's",
+      "count": 44,
+      "sentenceStarts": 35,
+      "quantizedFrequency": 93
+    },
+    {
+      "word": "elias's",
+      "count": 62,
+      "sentenceStarts": 44,
+      "quantizedFrequency": 97
+    },
+    {
+      "word": "else's",
+      "count": 137,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 107
+    },
+    {
+      "word": "emmet's",
+      "count": 25,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 86
+    },
+    {
+      "word": "enemy's",
+      "count": 42,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 93
+    },
+    {
+      "word": "europe's",
+      "count": 61,
+      "sentenceStarts": 10,
+      "quantizedFrequency": 97
+    },
+    {
+      "word": "everything's",
+      "count": 214,
+      "sentenceStarts": 130,
+      "quantizedFrequency": 112
+    },
+    {
+      "word": "fadil's",
+      "count": 206,
+      "sentenceStarts": 121,
+      "quantizedFrequency": 112
+    },
+    {
+      "word": "family's",
+      "count": 93,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 102
+    },
+    {
+      "word": "farid's",
+      "count": 118,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 105
+    },
+    {
+      "word": "farmer's",
+      "count": 28,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 88
+    },
+    {
+      "word": "father's",
+      "count": 804,
+      "sentenceStarts": 2,
+      "quantizedFrequency": 129
+    },
+    {
+      "word": "felix's",
+      "count": 53,
+      "sentenceStarts": 39,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "flavio's",
+      "count": 39,
+      "sentenceStarts": 32,
+      "quantizedFrequency": 92
+    },
+    {
+      "word": "food's",
+      "count": 25,
+      "sentenceStarts": 2,
+      "quantizedFrequency": 86
+    },
+    {
+      "word": "france's",
+      "count": 35,
+      "sentenceStarts": 7,
+      "quantizedFrequency": 90
+    },
+    {
+      "word": "friend's",
+      "count": 302,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 117
+    },
+    {
+      "word": "fyodor's",
+      "count": 70,
+      "sentenceStarts": 51,
+      "quantizedFrequency": 99
+    },
+    {
+      "word": "gabor's",
+      "count": 80,
+      "sentenceStarts": 51,
+      "quantizedFrequency": 100
+    },
+    {
+      "word": "gabriel's",
+      "count": 56,
+      "sentenceStarts": 36,
+      "quantizedFrequency": 96
+    },
+    {
+      "word": "germany's",
+      "count": 59,
+      "sentenceStarts": 16,
+      "quantizedFrequency": 97
+    },
+    {
+      "word": "giraffe's",
+      "count": 27,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 87
+    },
+    {
+      "word": "girl's",
+      "count": 128,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 106
+    },
+    {
+      "word": "girlfriend's",
+      "count": 79,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 100
+    },
+    {
+      "word": "goat's",
+      "count": 51,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "god's",
+      "count": 199,
+      "sentenceStarts": 16,
+      "quantizedFrequency": 112
+    },
+    {
+      "word": "government's",
+      "count": 99,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 103
+    },
+    {
+      "word": "grandfather's",
+      "count": 102,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 103
+    },
+    {
+      "word": "grandma's",
+      "count": 48,
+      "sentenceStarts": 4,
+      "quantizedFrequency": 94
+    },
+    {
+      "word": "grandmother's",
+      "count": 104,
+      "sentenceStarts": 3,
+      "quantizedFrequency": 104
+    },
+    {
+      "word": "gunter's",
+      "count": 77,
+      "sentenceStarts": 45,
+      "quantizedFrequency": 100
+    },
+    {
+      "word": "gustavo's",
+      "count": 127,
+      "sentenceStarts": 97,
+      "quantizedFrequency": 106
+    },
+    {
+      "word": "guy's",
+      "count": 71,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 99
+    },
+    {
+      "word": "heart's",
+      "count": 50,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "horse's",
+      "count": 38,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 91
+    },
+    {
+      "word": "hour's",
+      "count": 31,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 89
+    },
+    {
+      "word": "humanity's",
+      "count": 36,
+      "sentenceStarts": 8,
+      "quantizedFrequency": 91
+    },
+    {
+      "word": "husband's",
+      "count": 138,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 107
+    },
+    {
+      "word": "igor's",
+      "count": 72,
+      "sentenceStarts": 50,
+      "quantizedFrequency": 99
+    },
+    {
+      "word": "india's",
+      "count": 43,
+      "sentenceStarts": 16,
+      "quantizedFrequency": 93
+    },
+    {
+      "word": "iran's",
+      "count": 41,
+      "sentenceStarts": 31,
+      "quantizedFrequency": 92
+    },
+    {
+      "word": "isabella's",
+      "count": 204,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 112
+    },
+    {
+      "word": "island's",
+      "count": 42,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 93
+    },
+    {
+      "word": "israel's",
+      "count": 30,
+      "sentenceStarts": 9,
+      "quantizedFrequency": 89
+    },
+    {
+      "word": "italy's",
+      "count": 49,
+      "sentenceStarts": 15,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "ivan's",
+      "count": 55,
+      "sentenceStarts": 44,
+      "quantizedFrequency": 96
+    },
+    {
+      "word": "jackson's",
+      "count": 119,
+      "sentenceStarts": 8,
+      "quantizedFrequency": 105
+    },
+    {
+      "word": "james's",
+      "count": 88,
+      "sentenceStarts": 63,
+      "quantizedFrequency": 102
+    },
+    {
+      "word": "janos's",
+      "count": 59,
+      "sentenceStarts": 46,
+      "quantizedFrequency": 97
+    },
+    {
+      "word": "japan's",
+      "count": 117,
+      "sentenceStarts": 45,
+      "quantizedFrequency": 105
+    },
+    {
+      "word": "jehovah's",
+      "count": 37,
+      "sentenceStarts": 5,
+      "quantizedFrequency": 91
+    },
+    {
+      "word": "jessica's",
+      "count": 176,
+      "sentenceStarts": 9,
+      "quantizedFrequency": 110
+    },
+    {
+      "word": "john's",
+      "count": 505,
+      "sentenceStarts": 65,
+      "quantizedFrequency": 123
+    },
+    {
+      "word": "judge's",
+      "count": 26,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 87
+    },
+    {
+      "word": "jupiter's",
+      "count": 43,
+      "sentenceStarts": 7,
+      "quantizedFrequency": 93
+    },
+    {
+      "word": "kalman's",
+      "count": 62,
+      "sentenceStarts": 50,
+      "quantizedFrequency": 97
+    },
+    {
+      "word": "karl's",
+      "count": 62,
+      "sentenceStarts": 58,
+      "quantizedFrequency": 97
+    },
+    {
+      "word": "ken's",
+      "count": 31,
+      "sentenceStarts": 14,
+      "quantizedFrequency": 89
+    },
+    {
+      "word": "kid's",
+      "count": 35,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 90
+    },
+    {
+      "word": "king's",
+      "count": 127,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 106
+    },
+    {
+      "word": "lake's",
+      "count": 26,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 87
+    },
+    {
+      "word": "layla's",
+      "count": 2920,
+      "sentenceStarts": 313,
+      "quantizedFrequency": 144
+    },
+    {
+      "word": "leon's",
+      "count": 80,
+      "sentenceStarts": 69,
+      "quantizedFrequency": 100
+    },
+    {
+      "word": "leonid's",
+      "count": 66,
+      "sentenceStarts": 53,
+      "quantizedFrequency": 98
+    },
+    {
+      "word": "let's",
+      "count": 9082,
+      "sentenceStarts": 8097,
+      "quantizedFrequency": 158
+    },
+    {
+      "word": "life's",
+      "count": 183,
+      "sentenceStarts": 53,
+      "quantizedFrequency": 111
+    },
+    {
+      "word": "linda's",
+      "count": 225,
+      "sentenceStarts": 7,
+      "quantizedFrequency": 113
+    },
+    {
+      "word": "lion's",
+      "count": 38,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 91
+    },
+    {
+      "word": "lorenzo's",
+      "count": 48,
+      "sentenceStarts": 32,
+      "quantizedFrequency": 94
+    },
+    {
+      "word": "lukas's",
+      "count": 53,
+      "sentenceStarts": 39,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "ma'am",
+      "count": 41,
+      "sentenceStarts": 7,
+      "quantizedFrequency": 92
+    },
+    {
+      "word": "man's",
+      "count": 443,
+      "sentenceStarts": 12,
+      "quantizedFrequency": 121
+    },
+    {
+      "word": "maria's",
+      "count": 56,
+      "sentenceStarts": 27,
+      "quantizedFrequency": 96
+    },
+    {
+      "word": "mark's",
+      "count": 124,
+      "sentenceStarts": 78,
+      "quantizedFrequency": 106
+    },
+    {
+      "word": "martha's",
+      "count": 214,
+      "sentenceStarts": 6,
+      "quantizedFrequency": 112
+    },
+    {
+      "word": "martino's",
+      "count": 68,
+      "sentenceStarts": 53,
+      "quantizedFrequency": 98
+    },
+    {
+      "word": "mary's",
+      "count": 5882,
+      "sentenceStarts": 881,
+      "quantizedFrequency": 153
+    },
+    {
+      "word": "master's",
+      "count": 85,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 101
+    },
+    {
+      "word": "matthew's",
+      "count": 175,
+      "sentenceStarts": 129,
+      "quantizedFrequency": 110
+    },
+    {
+      "word": "mayor's",
+      "count": 26,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 87
+    },
+    {
+      "word": "mcdonald's",
+      "count": 59,
+      "sentenceStarts": 7,
+      "quantizedFrequency": 97
+    },
+    {
+      "word": "melissa's",
+      "count": 245,
+      "sentenceStarts": 15,
+      "quantizedFrequency": 114
+    },
+    {
+      "word": "men's",
+      "count": 111,
+      "sentenceStarts": 16,
+      "quantizedFrequency": 104
+    },
+    {
+      "word": "mennad's",
+      "count": 425,
+      "sentenceStarts": 354,
+      "quantizedFrequency": 121
+    },
+    {
+      "word": "michael's",
+      "count": 49,
+      "sentenceStarts": 33,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "minister's",
+      "count": 30,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 89
+    },
+    {
+      "word": "miroslav's",
+      "count": 68,
+      "sentenceStarts": 47,
+      "quantizedFrequency": 98
+    },
+    {
+      "word": "mom's",
+      "count": 166,
+      "sentenceStarts": 8,
+      "quantizedFrequency": 109
+    },
+    {
+      "word": "month's",
+      "count": 45,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 93
+    },
+    {
+      "word": "moon's",
+      "count": 41,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 92
+    },
+    {
+      "word": "morning's",
+      "count": 38,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 91
+    },
+    {
+      "word": "morocco's",
+      "count": 59,
+      "sentenceStarts": 23,
+      "quantizedFrequency": 97
+    },
+    {
+      "word": "mother's",
+      "count": 568,
+      "sentenceStarts": 4,
+      "quantizedFrequency": 124
+    },
+    {
+      "word": "mum's",
+      "count": 32,
+      "sentenceStarts": 10,
+      "quantizedFrequency": 89
+    },
+    {
+      "word": "museum's",
+      "count": 25,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 86
+    },
+    {
+      "word": "name's",
+      "count": 73,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 99
+    },
+    {
+      "word": "nasa's",
+      "count": 85,
+      "sentenceStarts": 35,
+      "quantizedFrequency": 101
+    },
+    {
+      "word": "nation's",
+      "count": 117,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 105
+    },
+    {
+      "word": "nature's",
+      "count": 48,
+      "sentenceStarts": 7,
+      "quantizedFrequency": 94
+    },
+    {
+      "word": "neighbor's",
+      "count": 185,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 111
+    },
+    {
+      "word": "neighbour's",
+      "count": 53,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "night's",
+      "count": 128,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 106
+    },
+    {
+      "word": "nothing's",
+      "count": 111,
+      "sentenceStarts": 82,
+      "quantizedFrequency": 104
+    },
+    {
+      "word": "now's",
+      "count": 52,
+      "sentenceStarts": 43,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "nuja's",
+      "count": 49,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "o'er",
+      "count": 50,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "oleg's",
+      "count": 50,
+      "sentenceStarts": 39,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "olivia's",
+      "count": 64,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 98
+    },
+    {
+      "word": "one's",
+      "count": 831,
+      "sentenceStarts": 28,
+      "quantizedFrequency": 129
+    },
+    {
+      "word": "opponent's",
+      "count": 30,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 89
+    },
+    {
+      "word": "other's",
+      "count": 202,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 112
+    },
+    {
+      "word": "parent's",
+      "count": 27,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 87
+    },
+    {
+      "word": "party's",
+      "count": 66,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 98
+    },
+    {
+      "word": "patient's",
+      "count": 87,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 101
+    },
+    {
+      "word": "paul's",
+      "count": 69,
+      "sentenceStarts": 52,
+      "quantizedFrequency": 99
+    },
+    {
+      "word": "people's",
+      "count": 561,
+      "sentenceStarts": 15,
+      "quantizedFrequency": 124
+    },
+    {
+      "word": "person's",
+      "count": 154,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 108
+    },
+    {
+      "word": "peter's",
+      "count": 42,
+      "sentenceStarts": 5,
+      "quantizedFrequency": 93
+    },
+    {
+      "word": "pharaoh's",
+      "count": 28,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 88
+    },
+    {
+      "word": "phone's",
+      "count": 51,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "planet's",
+      "count": 52,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "prefecture's",
+      "count": 50,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "president's",
+      "count": 105,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 104
+    },
+    {
+      "word": "principal's",
+      "count": 73,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 99
+    },
+    {
+      "word": "professor's",
+      "count": 26,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 87
+    },
+    {
+      "word": "queen's",
+      "count": 35,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 90
+    },
+    {
+      "word": "rima's",
+      "count": 2885,
+      "sentenceStarts": 45,
+      "quantizedFrequency": 144
+    },
+    {
+      "word": "river's",
+      "count": 27,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 87
+    },
+    {
+      "word": "robert's",
+      "count": 70,
+      "sentenceStarts": 51,
+      "quantizedFrequency": 99
+    },
+    {
+      "word": "rodrigo's",
+      "count": 80,
+      "sentenceStarts": 65,
+      "quantizedFrequency": 100
+    },
+    {
+      "word": "room's",
+      "count": 37,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 91
+    },
+    {
+      "word": "russia's",
+      "count": 45,
+      "sentenceStarts": 12,
+      "quantizedFrequency": 93
+    },
+    {
+      "word": "sahara's",
+      "count": 29,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 88
+    },
+    {
+      "word": "salima's",
+      "count": 38,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 91
+    },
+    {
+      "word": "sami's",
+      "count": 3394,
+      "sentenceStarts": 2974,
+      "quantizedFrequency": 146
+    },
+    {
+      "word": "sandra's",
+      "count": 174,
+      "sentenceStarts": 2,
+      "quantizedFrequency": 110
+    },
+    {
+      "word": "santiago's",
+      "count": 43,
+      "sentenceStarts": 36,
+      "quantizedFrequency": 93
+    },
+    {
+      "word": "saturn's",
+      "count": 32,
+      "sentenceStarts": 7,
+      "quantizedFrequency": 89
+    },
+    {
+      "word": "school's",
+      "count": 84,
+      "sentenceStarts": 4,
+      "quantizedFrequency": 101
+    },
+    {
+      "word": "ship's",
+      "count": 52,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "show's",
+      "count": 28,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 88
+    },
+    {
+      "word": "sister's",
+      "count": 247,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 114
+    },
+    {
+      "word": "skura's",
+      "count": 946,
+      "sentenceStarts": 42,
+      "quantizedFrequency": 131
+    },
+    {
+      "word": "something's",
+      "count": 187,
+      "sentenceStarts": 109,
+      "quantizedFrequency": 111
+    },
+    {
+      "word": "son's",
+      "count": 252,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 114
+    },
+    {
+      "word": "stefan's",
+      "count": 59,
+      "sentenceStarts": 51,
+      "quantizedFrequency": 97
+    },
+    {
+      "word": "student's",
+      "count": 52,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "summer's",
+      "count": 28,
+      "sentenceStarts": 5,
+      "quantizedFrequency": 88
+    },
+    {
+      "word": "sun's",
+      "count": 81,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 101
+    },
+    {
+      "word": "tatoeba's",
+      "count": 29,
+      "sentenceStarts": 9,
+      "quantizedFrequency": 88
+    },
+    {
+      "word": "teacher's",
+      "count": 264,
+      "sentenceStarts": 2,
+      "quantizedFrequency": 115
+    },
+    {
+      "word": "team's",
+      "count": 49,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "this'll",
+      "count": 30,
+      "sentenceStarts": 14,
+      "quantizedFrequency": 89
+    },
+    {
+      "word": "time's",
+      "count": 53,
+      "sentenceStarts": 14,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "tobias's",
+      "count": 77,
+      "sentenceStarts": 65,
+      "quantizedFrequency": 100
+    },
+    {
+      "word": "today's",
+      "count": 816,
+      "sentenceStarts": 199,
+      "quantizedFrequency": 129
+    },
+    {
+      "word": "tom'll",
+      "count": 52,
+      "sentenceStarts": 47,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "tom's",
+      "count": 15891,
+      "sentenceStarts": 7248,
+      "quantizedFrequency": 165
+    },
+    {
+      "word": "tomorrow's",
+      "count": 189,
+      "sentenceStarts": 38,
+      "quantizedFrequency": 111
+    },
+    {
+      "word": "tonight's",
+      "count": 76,
+      "sentenceStarts": 8,
+      "quantizedFrequency": 100
+    },
+    {
+      "word": "town's",
+      "count": 39,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 92
+    },
+    {
+      "word": "tree's",
+      "count": 46,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 94
+    },
+    {
+      "word": "troy's",
+      "count": 26,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 87
+    },
+    {
+      "word": "trump's",
+      "count": 52,
+      "sentenceStarts": 17,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "uncle's",
+      "count": 124,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 106
+    },
+    {
+      "word": "university's",
+      "count": 40,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 92
+    },
+    {
+      "word": "valentine's",
+      "count": 153,
+      "sentenceStarts": 11,
+      "quantizedFrequency": 108
+    },
+    {
+      "word": "victim's",
+      "count": 25,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 86
+    },
+    {
+      "word": "vladimir's",
+      "count": 90,
+      "sentenceStarts": 60,
+      "quantizedFrequency": 102
+    },
+    {
+      "word": "walid's",
+      "count": 184,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 111
+    },
+    {
+      "word": "washington's",
+      "count": 26,
+      "sentenceStarts": 6,
+      "quantizedFrequency": 87
+    },
+    {
+      "word": "water's",
+      "count": 40,
+      "sentenceStarts": 1,
+      "quantizedFrequency": 92
+    },
+    {
+      "word": "weather's",
+      "count": 92,
+      "sentenceStarts": 2,
+      "quantizedFrequency": 102
+    },
+    {
+      "word": "website's",
+      "count": 41,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 92
+    },
+    {
+      "word": "week's",
+      "count": 63,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 98
+    },
+    {
+      "word": "what're",
+      "count": 215,
+      "sentenceStarts": 198,
+      "quantizedFrequency": 112
+    },
+    {
+      "word": "what've",
+      "count": 59,
+      "sentenceStarts": 59,
+      "quantizedFrequency": 97
+    },
+    {
+      "word": "who're",
+      "count": 33,
+      "sentenceStarts": 8,
+      "quantizedFrequency": 90
+    },
+    {
+      "word": "why's",
+      "count": 208,
+      "sentenceStarts": 204,
+      "quantizedFrequency": 112
+    },
+    {
+      "word": "wife's",
+      "count": 240,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 114
+    },
+    {
+      "word": "william's",
+      "count": 154,
+      "sentenceStarts": 110,
+      "quantizedFrequency": 108
+    },
+    {
+      "word": "wine's",
+      "count": 26,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 87
+    },
+    {
+      "word": "woman's",
+      "count": 159,
+      "sentenceStarts": 2,
+      "quantizedFrequency": 109
+    },
+    {
+      "word": "women's",
+      "count": 193,
+      "sentenceStarts": 6,
+      "quantizedFrequency": 111
+    },
+    {
+      "word": "world's",
+      "count": 655,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 126
+    },
+    {
+      "word": "y'all",
+      "count": 50,
+      "sentenceStarts": 17,
+      "quantizedFrequency": 95
+    },
+    {
+      "word": "yanni's",
+      "count": 1617,
+      "sentenceStarts": 1222,
+      "quantizedFrequency": 137
+    },
+    {
+      "word": "year's",
+      "count": 348,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 118
+    },
+    {
+      "word": "yesterday's",
+      "count": 147,
+      "sentenceStarts": 27,
+      "quantizedFrequency": 108
+    },
+    {
+      "word": "yuri's",
+      "count": 74,
+      "sentenceStarts": 51,
+      "quantizedFrequency": 100
+    },
+    {
+      "word": "ziri's",
+      "count": 2637,
+      "sentenceStarts": 1992,
+      "quantizedFrequency": 143
+    },
+    {
+      "word": "zoo's",
+      "count": 26,
+      "sentenceStarts": 0,
+      "quantizedFrequency": 87
+    }
+  ],
+  "newPairEvidence": [
+    {
+      "previous": "about",
+      "next": "tom's",
+      "count": 153,
+      "quantizedProbability": 150
+    },
+    {
+      "previous": "about",
+      "next": "mary's",
+      "count": 91,
+      "quantizedProbability": 140
+    },
+    {
+      "previous": "adriano's",
+      "next": "steak",
+      "count": 49,
+      "quantizedProbability": 223
+    },
+    {
+      "previous": "adriano's",
+      "next": "street",
+      "count": 28,
+      "quantizedProbability": 213
+    },
+    {
+      "previous": "adriano's",
+      "next": "star",
+      "count": 25,
+      "quantizedProbability": 211
+    },
+    {
+      "previous": "afternoon's",
+      "next": "meeting",
+      "count": 39,
+      "quantizedProbability": 252
+    },
+    {
+      "previous": "algeria's",
+      "next": "economy",
+      "count": 297,
+      "quantizedProbability": 223
+    },
+    {
+      "previous": "algeria's",
+      "next": "economic",
+      "count": 95,
+      "quantizedProbability": 203
+    },
+    {
+      "previous": "algeria's",
+      "next": "population",
+      "count": 47,
+      "quantizedProbability": 190
+    },
+    {
+      "previous": "algeria's",
+      "next": "gdp",
+      "count": 35,
+      "quantizedProbability": 184
+    },
+    {
+      "previous": "algeria's",
+      "next": "most",
+      "count": 34,
+      "quantizedProbability": 184
+    },
+    {
+      "previous": "algeria's",
+      "next": "national",
+      "count": 26,
+      "quantizedProbability": 179
+    },
+    {
+      "previous": "ali's",
+      "next": "grandfather",
+      "count": 31,
+      "quantizedProbability": 246
+    },
+    {
+      "previous": "answer",
+      "next": "mary's",
+      "count": 32,
+      "quantizedProbability": 172
+    },
+    {
+      "previous": "at",
+      "next": "tom's",
+      "count": 269,
+      "quantizedProbability": 153
+    },
+    {
+      "previous": "at",
+      "next": "mary's",
+      "count": 186,
+      "quantizedProbability": 146
+    },
+    {
+      "previous": "at",
+      "next": "today's",
+      "count": 171,
+      "quantizedProbability": 144
+    },
+    {
+      "previous": "at",
+      "next": "rima's",
+      "count": 117,
+      "quantizedProbability": 137
+    },
+    {
+      "previous": "attend",
+      "next": "today's",
+      "count": 45,
+      "quantizedProbability": 200
+    },
+    {
+      "previous": "benedito's",
+      "next": "restaurant",
+      "count": 95,
+      "quantizedProbability": 227
+    },
+    {
+      "previous": "benedito's",
+      "next": "salad",
+      "count": 63,
+      "quantizedProbability": 219
+    },
+    {
+      "previous": "benedito's",
+      "next": "spa",
+      "count": 46,
+      "quantizedProbability": 214
+    },
+    {
+      "previous": "benedito's",
+      "next": "date",
+      "count": 30,
+      "quantizedProbability": 206
+    },
+    {
+      "previous": "benedito's",
+      "next": "plant",
+      "count": 26,
+      "quantizedProbability": 203
+    },
+    {
+      "previous": "boy's",
+      "next": "name",
+      "count": 26,
+      "quantizedProbability": 228
+    },
+    {
+      "previous": "brother's",
+      "next": "name",
+      "count": 33,
+      "quantizedProbability": 218
+    },
+    {
+      "previous": "by",
+      "next": "mary's",
+      "count": 129,
+      "quantizedProbability": 148
+    },
+    {
+      "previous": "by",
+      "next": "tom's",
+      "count": 103,
+      "quantizedProbability": 144
+    },
+    {
+      "previous": "carlos's",
+      "next": "work",
+      "count": 41,
+      "quantizedProbability": 224
+    },
+    {
+      "previous": "carlos's",
+      "next": "herd",
+      "count": 31,
+      "quantizedProbability": 218
+    },
+    {
+      "previous": "chuck's",
+      "next": "diner",
+      "count": 104,
+      "quantizedProbability": 250
+    },
+    {
+      "previous": "claudio's",
+      "next": "german",
+      "count": 36,
+      "quantizedProbability": 237
+    },
+    {
+      "previous": "doctor's",
+      "next": "appointment",
+      "count": 47,
+      "quantizedProbability": 226
+    },
+    {
+      "previous": "doctor's",
+      "next": "advice",
+      "count": 26,
+      "quantizedProbability": 215
+    },
+    {
+      "previous": "dog's",
+      "next": "name",
+      "count": 50,
+      "quantizedProbability": 224
+    },
+    {
+      "previous": "down",
+      "next": "tom's",
+      "count": 46,
+      "quantizedProbability": 156
+    },
+    {
+      "previous": "driver's",
+      "next": "license",
+      "count": 337,
+      "quantizedProbability": 247
+    },
+    {
+      "previous": "driver's",
+      "next": "licenses",
+      "count": 37,
+      "quantizedProbability": 207
+    },
+    {
+      "previous": "each",
+      "next": "other's",
+      "count": 176,
+      "quantizedProbability": 185
+    },
+    {
+      "previous": "earth's",
+      "next": "surface",
+      "count": 48,
+      "quantizedProbability": 222
+    },
+    {
+      "previous": "earth's",
+      "next": "atmosphere",
+      "count": 34,
+      "quantizedProbability": 216
+    },
+    {
+      "previous": "english",
+      "next": "teacher's",
+      "count": 71,
+      "quantizedProbability": 179
+    },
+    {
+      "previous": "everything's",
+      "next": "going",
+      "count": 35,
+      "quantizedProbability": 219
+    },
+    {
+      "previous": "father's",
+      "next": "death",
+      "count": 41,
+      "quantizedProbability": 198
+    },
+    {
+      "previous": "father's",
+      "next": "house",
+      "count": 36,
+      "quantizedProbability": 196
+    },
+    {
+      "previous": "father's",
+      "next": "car",
+      "count": 32,
+      "quantizedProbability": 194
+    },
+    {
+      "previous": "father's",
+      "next": "name",
+      "count": 29,
+      "quantizedProbability": 192
+    },
+    {
+      "previous": "find",
+      "next": "tom's",
+      "count": 28,
+      "quantizedProbability": 143
+    },
+    {
+      "previous": "follow",
+      "next": "tom's",
+      "count": 32,
+      "quantizedProbability": 183
+    },
+    {
+      "previous": "followed",
+      "next": "tom's",
+      "count": 26,
+      "quantizedProbability": 186
+    },
+    {
+      "previous": "found",
+      "next": "rima's",
+      "count": 60,
+      "quantizedProbability": 160
+    },
+    {
+      "previous": "found",
+      "next": "tom's",
+      "count": 46,
+      "quantizedProbability": 155
+    },
+    {
+      "previous": "found",
+      "next": "layla's",
+      "count": 39,
+      "quantizedProbability": 152
+    },
+    {
+      "previous": "found",
+      "next": "mary's",
+      "count": 37,
+      "quantizedProbability": 151
+    },
+    {
+      "previous": "friend's",
+      "next": "house",
+      "count": 80,
+      "quantizedProbability": 229
+    },
+    {
+      "previous": "girl's",
+      "next": "name",
+      "count": 28,
+      "quantizedProbability": 224
+    },
+    {
+      "previous": "girlfriend's",
+      "next": "name",
+      "count": 27,
+      "quantizedProbability": 233
+    },
+    {
+      "previous": "god's",
+      "next": "sake",
+      "count": 29,
+      "quantizedProbability": 217
+    },
+    {
+      "previous": "hear",
+      "next": "tom's",
+      "count": 34,
+      "quantizedProbability": 161
+    },
+    {
+      "previous": "heard",
+      "next": "tom's",
+      "count": 29,
+      "quantizedProbability": 149
+    },
+    {
+      "previous": "heard",
+      "next": "rima's",
+      "count": 27,
+      "quantizedProbability": 148
+    },
+    {
+      "previous": "heart's",
+      "next": "content",
+      "count": 31,
+      "quantizedProbability": 243
+    },
+    {
+      "previous": "his",
+      "next": "father's",
+      "count": 305,
+      "quantizedProbability": 147
+    },
+    {
+      "previous": "hurt",
+      "next": "mary's",
+      "count": 40,
+      "quantizedProbability": 175
+    },
+    {
+      "previous": "hurt",
+      "next": "tom's",
+      "count": 26,
+      "quantizedProbability": 167
+    },
+    {
+      "previous": "into",
+      "next": "mary's",
+      "count": 81,
+      "quantizedProbability": 154
+    },
+    {
+      "previous": "into",
+      "next": "rima's",
+      "count": 78,
+      "quantizedProbability": 153
+    },
+    {
+      "previous": "into",
+      "next": "layla's",
+      "count": 55,
+      "quantizedProbability": 147
+    },
+    {
+      "previous": "into",
+      "next": "tom's",
+      "count": 45,
+      "quantizedProbability": 143
+    },
+    {
+      "previous": "isn't",
+      "next": "tom's",
+      "count": 88,
+      "quantizedProbability": 145
+    },
+    {
+      "previous": "it's",
+      "next": "tom's",
+      "count": 115,
+      "quantizedProbability": 148
+    },
+    {
+      "previous": "jehovah's",
+      "next": "witnesses",
+      "count": 30,
+      "quantizedProbability": 248
+    },
+    {
+      "previous": "john's",
+      "next": "house",
+      "count": 27,
+      "quantizedProbability": 200
+    },
+    {
+      "previous": "john's",
+      "next": "party",
+      "count": 26,
+      "quantizedProbability": 199
+    },
+    {
+      "previous": "know",
+      "next": "tom's",
+      "count": 146,
+      "quantizedProbability": 141
+    },
+    {
+      "previous": "knows",
+      "next": "mary's",
+      "count": 39,
+      "quantizedProbability": 149
+    },
+    {
+      "previous": "knows",
+      "next": "rima's",
+      "count": 25,
+      "quantizedProbability": 141
+    },
+    {
+      "previous": "last",
+      "next": "night's",
+      "count": 47,
+      "quantizedProbability": 148
+    },
+    {
+      "previous": "last",
+      "next": "year's",
+      "count": 38,
+      "quantizedProbability": 144
+    },
+    {
+      "previous": "layla's",
+      "next": "house",
+      "count": 126,
+      "quantizedProbability": 195
+    },
+    {
+      "previous": "layla's",
+      "next": "life",
+      "count": 85,
+      "quantizedProbability": 188
+    },
+    {
+      "previous": "layla's",
+      "next": "car",
+      "count": 82,
+      "quantizedProbability": 187
+    },
+    {
+      "previous": "layla's",
+      "next": "body",
+      "count": 76,
+      "quantizedProbability": 186
+    },
+    {
+      "previous": "layla's",
+      "next": "hair",
+      "count": 60,
+      "quantizedProbability": 181
+    },
+    {
+      "previous": "layla's",
+      "next": "room",
+      "count": 42,
+      "quantizedProbability": 175
+    },
+    {
+      "previous": "layla's",
+      "next": "face",
+      "count": 39,
+      "quantizedProbability": 173
+    },
+    {
+      "previous": "layla's",
+      "next": "phone",
+      "count": 39,
+      "quantizedProbability": 173
+    },
+    {
+      "previous": "layla's",
+      "next": "name",
+      "count": 37,
+      "quantizedProbability": 173
+    },
+    {
+      "previous": "layla's",
+      "next": "relationship",
+      "count": 37,
+      "quantizedProbability": 173
+    },
+    {
+      "previous": "layla's",
+      "next": "apartment",
+      "count": 36,
+      "quantizedProbability": 172
+    },
+    {
+      "previous": "layla's",
+      "next": "hand",
+      "count": 36,
+      "quantizedProbability": 172
+    },
+    {
+      "previous": "layla's",
+      "next": "dog",
+      "count": 35,
+      "quantizedProbability": 171
+    },
+    {
+      "previous": "layla's",
+      "next": "sister",
+      "count": 29,
+      "quantizedProbability": 168
+    },
+    {
+      "previous": "layla's",
+      "next": "affair",
+      "count": 27,
+      "quantizedProbability": 167
+    },
+    {
+      "previous": "layla's",
+      "next": "death",
+      "count": 27,
+      "quantizedProbability": 167
+    },
+    {
+      "previous": "layla's",
+      "next": "youtube",
+      "count": 27,
+      "quantizedProbability": 167
+    },
+    {
+      "previous": "let's",
+      "next": "go",
+      "count": 1180,
+      "quantizedProbability": 215
+    },
+    {
+      "previous": "let's",
+      "next": "not",
+      "count": 683,
+      "quantizedProbability": 205
+    },
+    {
+      "previous": "let's",
+      "next": "get",
+      "count": 537,
+      "quantizedProbability": 200
+    },
+    {
+      "previous": "let's",
+      "next": "see",
+      "count": 351,
+      "quantizedProbability": 193
+    },
+    {
+      "previous": "let's",
+      "next": "hope",
+      "count": 304,
+      "quantizedProbability": 190
+    },
+    {
+      "previous": "let's",
+      "next": "talk",
+      "count": 290,
+      "quantizedProbability": 189
+    },
+    {
+      "previous": "let's",
+      "next": "take",
+      "count": 261,
+      "quantizedProbability": 187
+    },
+    {
+      "previous": "let's",
+      "next": "do",
+      "count": 251,
+      "quantizedProbability": 187
+    },
+    {
+      "previous": "let's",
+      "next": "try",
+      "count": 230,
+      "quantizedProbability": 185
+    },
+    {
+      "previous": "let's",
+      "next": "have",
+      "count": 226,
+      "quantizedProbability": 185
+    },
+    {
+      "previous": "let's",
+      "next": "find",
+      "count": 218,
+      "quantizedProbability": 184
+    },
+    {
+      "previous": "let's",
+      "next": "just",
+      "count": 209,
+      "quantizedProbability": 183
+    },
+    {
+      "previous": "let's",
+      "next": "make",
+      "count": 178,
+      "quantizedProbability": 180
+    },
+    {
+      "previous": "let's",
+      "next": "eat",
+      "count": 165,
+      "quantizedProbability": 179
+    },
+    {
+      "previous": "let's",
+      "next": "wait",
+      "count": 152,
+      "quantizedProbability": 177
+    },
+    {
+      "previous": "let's",
+      "next": "play",
+      "count": 133,
+      "quantizedProbability": 175
+    },
+    {
+      "previous": "let's",
+      "next": "meet",
+      "count": 129,
+      "quantizedProbability": 174
+    },
+    {
+      "previous": "let's",
+      "next": "start",
+      "count": 107,
+      "quantizedProbability": 171
+    },
+    {
+      "previous": "let's",
+      "next": "give",
+      "count": 106,
+      "quantizedProbability": 171
+    },
+    {
+      "previous": "let's",
+      "next": "be",
+      "count": 103,
+      "quantizedProbability": 170
+    },
+    {
+      "previous": "let's",
+      "next": "drink",
+      "count": 100,
+      "quantizedProbability": 170
+    },
+    {
+      "previous": "let's",
+      "next": "sit",
+      "count": 99,
+      "quantizedProbability": 170
+    },
+    {
+      "previous": "let's",
+      "next": "ask",
+      "count": 89,
+      "quantizedProbability": 168
+    },
+    {
+      "previous": "let's",
+      "next": "keep",
+      "count": 89,
+      "quantizedProbability": 168
+    },
+    {
+      "previous": "let's",
+      "next": "all",
+      "count": 87,
+      "quantizedProbability": 167
+    },
+    {
+      "previous": "let's",
+      "next": "leave",
+      "count": 84,
+      "quantizedProbability": 167
+    },
+    {
+      "previous": "let's",
+      "next": "stop",
+      "count": 83,
+      "quantizedProbability": 166
+    },
+    {
+      "previous": "let's",
+      "next": "buy",
+      "count": 66,
+      "quantizedProbability": 162
+    },
+    {
+      "previous": "let's",
+      "next": "put",
+      "count": 61,
+      "quantizedProbability": 161
+    },
+    {
+      "previous": "let's",
+      "next": "stay",
+      "count": 61,
+      "quantizedProbability": 161
+    },
+    {
+      "previous": "let's",
+      "next": "look",
+      "count": 57,
+      "quantizedProbability": 160
+    },
+    {
+      "previous": "let's",
+      "next": "discuss",
+      "count": 56,
+      "quantizedProbability": 159
+    },
+    {
+      "previous": "let's",
+      "next": "call",
+      "count": 50,
+      "quantizedProbability": 157
+    },
+    {
+      "previous": "let's",
+      "next": "forget",
+      "count": 50,
+      "quantizedProbability": 157
+    },
+    {
+      "previous": "let's",
+      "next": "walk",
+      "count": 43,
+      "quantizedProbability": 154
+    },
+    {
+      "previous": "let's",
+      "next": "begin",
+      "count": 42,
+      "quantizedProbability": 154
+    },
+    {
+      "previous": "let's",
+      "next": "sing",
+      "count": 42,
+      "quantizedProbability": 154
+    },
+    {
+      "previous": "let's",
+      "next": "learn",
+      "count": 38,
+      "quantizedProbability": 152
+    },
+    {
+      "previous": "let's",
+      "next": "move",
+      "count": 38,
+      "quantizedProbability": 152
+    },
+    {
+      "previous": "let's",
+      "next": "let",
+      "count": 37,
+      "quantizedProbability": 152
+    },
+    {
+      "previous": "let's",
+      "next": "assume",
+      "count": 35,
+      "quantizedProbability": 151
+    },
+    {
+      "previous": "let's",
+      "next": "check",
+      "count": 35,
+      "quantizedProbability": 151
+    },
+    {
+      "previous": "let's",
+      "next": "order",
+      "count": 33,
+      "quantizedProbability": 150
+    },
+    {
+      "previous": "let's",
+      "next": "finish",
+      "count": 29,
+      "quantizedProbability": 147
+    },
+    {
+      "previous": "let's",
+      "next": "pretend",
+      "count": 29,
+      "quantizedProbability": 147
+    },
+    {
+      "previous": "let's",
+      "next": "say",
+      "count": 29,
+      "quantizedProbability": 147
+    },
+    {
+      "previous": "let's",
+      "next": "split",
+      "count": 28,
+      "quantizedProbability": 147
+    },
+    {
+      "previous": "let's",
+      "next": "listen",
+      "count": 27,
+      "quantizedProbability": 146
+    },
+    {
+      "previous": "let's",
+      "next": "continue",
+      "count": 25,
+      "quantizedProbability": 145
+    },
+    {
+      "previous": "let's",
+      "next": "study",
+      "count": 25,
+      "quantizedProbability": 145
+    },
+    {
+      "previous": "let's",
+      "next": "think",
+      "count": 25,
+      "quantizedProbability": 145
+    },
+    {
+      "previous": "like",
+      "next": "tom's",
+      "count": 125,
+      "quantizedProbability": 141
+    },
+    {
+      "previous": "man's",
+      "next": "name",
+      "count": 35,
+      "quantizedProbability": 206
+    },
+    {
+      "previous": "mary's",
+      "next": "house",
+      "count": 253,
+      "quantizedProbability": 195
+    },
+    {
+      "previous": "mary's",
+      "next": "party",
+      "count": 136,
+      "quantizedProbability": 184
+    },
+    {
+      "previous": "mary's",
+      "next": "car",
+      "count": 129,
+      "quantizedProbability": 183
+    },
+    {
+      "previous": "mary's",
+      "next": "dog",
+      "count": 119,
+      "quantizedProbability": 182
+    },
+    {
+      "previous": "mary's",
+      "next": "parents",
+      "count": 116,
+      "quantizedProbability": 181
+    },
+    {
+      "previous": "mary's",
+      "next": "husband",
+      "count": 104,
+      "quantizedProbability": 179
+    },
+    {
+      "previous": "mary's",
+      "next": "boyfriend",
+      "count": 99,
+      "quantizedProbability": 178
+    },
+    {
+      "previous": "mary's",
+      "next": "phone",
+      "count": 91,
+      "quantizedProbability": 177
+    },
+    {
+      "previous": "mary's",
+      "next": "hand",
+      "count": 85,
+      "quantizedProbability": 176
+    },
+    {
+      "previous": "mary's",
+      "next": "father",
+      "count": 81,
+      "quantizedProbability": 175
+    },
+    {
+      "previous": "mary's",
+      "next": "help",
+      "count": 80,
+      "quantizedProbability": 174
+    },
+    {
+      "previous": "mary's",
+      "next": "wedding",
+      "count": 69,
+      "quantizedProbability": 172
+    },
+    {
+      "previous": "mary's",
+      "next": "friends",
+      "count": 68,
+      "quantizedProbability": 171
+    },
+    {
+      "previous": "mary's",
+      "next": "brother",
+      "count": 66,
+      "quantizedProbability": 171
+    },
+    {
+      "previous": "mary's",
+      "next": "birthday",
+      "count": 62,
+      "quantizedProbability": 170
+    },
+    {
+      "previous": "mary's",
+      "next": "face",
+      "count": 60,
+      "quantizedProbability": 169
+    },
+    {
+      "previous": "mary's",
+      "next": "mother",
+      "count": 47,
+      "quantizedProbability": 165
+    },
+    {
+      "previous": "mary's",
+      "next": "son",
+      "count": 45,
+      "quantizedProbability": 164
+    },
+    {
+      "previous": "mary's",
+      "next": "eyes",
+      "count": 43,
+      "quantizedProbability": 163
+    },
+    {
+      "previous": "mary's",
+      "next": "feelings",
+      "count": 43,
+      "quantizedProbability": 163
+    },
+    {
+      "previous": "mary's",
+      "next": "children",
+      "count": 40,
+      "quantizedProbability": 162
+    },
+    {
+      "previous": "mary's",
+      "next": "new",
+      "count": 39,
+      "quantizedProbability": 161
+    },
+    {
+      "previous": "mary's",
+      "next": "question",
+      "count": 37,
+      "quantizedProbability": 160
+    },
+    {
+      "previous": "mary's",
+      "next": "family",
+      "count": 36,
+      "quantizedProbability": 160
+    },
+    {
+      "previous": "mary's",
+      "next": "hair",
+      "count": 36,
+      "quantizedProbability": 160
+    },
+    {
+      "previous": "mary's",
+      "next": "name",
+      "count": 36,
+      "quantizedProbability": 160
+    },
+    {
+      "previous": "mary's",
+      "next": "advice",
+      "count": 35,
+      "quantizedProbability": 159
+    },
+    {
+      "previous": "mary's",
+      "next": "office",
+      "count": 35,
+      "quantizedProbability": 159
+    },
+    {
+      "previous": "mary's",
+      "next": "dress",
+      "count": 34,
+      "quantizedProbability": 159
+    },
+    {
+      "previous": "mary's",
+      "next": "not",
+      "count": 34,
+      "quantizedProbability": 159
+    },
+    {
+      "previous": "mary's",
+      "next": "death",
+      "count": 33,
+      "quantizedProbability": 158
+    },
+    {
+      "previous": "mary's",
+      "next": "life",
+      "count": 32,
+      "quantizedProbability": 158
+    },
+    {
+      "previous": "mary's",
+      "next": "letter",
+      "count": 31,
+      "quantizedProbability": 157
+    },
+    {
+      "previous": "mary's",
+      "next": "voice",
+      "count": 29,
+      "quantizedProbability": 156
+    },
+    {
+      "previous": "mary's",
+      "next": "address",
+      "count": 27,
+      "quantizedProbability": 155
+    },
+    {
+      "previous": "mary's",
+      "next": "first",
+      "count": 27,
+      "quantizedProbability": 155
+    },
+    {
+      "previous": "mary's",
+      "next": "room",
+      "count": 27,
+      "quantizedProbability": 155
+    },
+    {
+      "previous": "mary's",
+      "next": "behavior",
+      "count": 26,
+      "quantizedProbability": 154
+    },
+    {
+      "previous": "mary's",
+      "next": "only",
+      "count": 26,
+      "quantizedProbability": 154
+    },
+    {
+      "previous": "mary's",
+      "next": "cat",
+      "count": 25,
+      "quantizedProbability": 153
+    },
+    {
+      "previous": "mary's",
+      "next": "money",
+      "count": 25,
+      "quantizedProbability": 153
+    },
+    {
+      "previous": "master's",
+      "next": "degree",
+      "count": 39,
+      "quantizedProbability": 239
+    },
+    {
+      "previous": "met",
+      "next": "tom's",
+      "count": 28,
+      "quantizedProbability": 160
+    },
+    {
+      "previous": "mother's",
+      "next": "day",
+      "count": 53,
+      "quantizedProbability": 209
+    },
+    {
+      "previous": "need",
+      "next": "tom's",
+      "count": 62,
+      "quantizedProbability": 143
+    },
+    {
+      "previous": "neighbor's",
+      "next": "dog",
+      "count": 38,
+      "quantizedProbability": 224
+    },
+    {
+      "previous": "new",
+      "next": "year's",
+      "count": 194,
+      "quantizedProbability": 174
+    },
+    {
+      "previous": "night's",
+      "next": "sleep",
+      "count": 60,
+      "quantizedProbability": 238
+    },
+    {
+      "previous": "no",
+      "next": "one's",
+      "count": 238,
+      "quantizedProbability": 164
+    },
+    {
+      "previous": "nothing's",
+      "next": "wrong",
+      "count": 27,
+      "quantizedProbability": 226
+    },
+    {
+      "previous": "now",
+      "next": "let's",
+      "count": 68,
+      "quantizedProbability": 162
+    },
+    {
+      "previous": "nuja's",
+      "next": "school",
+      "count": 26,
+      "quantizedProbability": 240
+    },
+    {
+      "previous": "o'er",
+      "next": "the",
+      "count": 30,
+      "quantizedProbability": 244
+    },
+    {
+      "previous": "of",
+      "next": "tom's",
+      "count": 728,
+      "quantizedProbability": 150
+    },
+    {
+      "previous": "of",
+      "next": "mary's",
+      "count": 430,
+      "quantizedProbability": 141
+    },
+    {
+      "previous": "ok",
+      "next": "let's",
+      "count": 30,
+      "quantizedProbability": 182
+    },
+    {
+      "previous": "on",
+      "next": "tom's",
+      "count": 235,
+      "quantizedProbability": 145
+    },
+    {
+      "previous": "on",
+      "next": "mary's",
+      "count": 163,
+      "quantizedProbability": 139
+    },
+    {
+      "previous": "one's",
+      "next": "own",
+      "count": 53,
+      "quantizedProbability": 202
+    },
+    {
+      "previous": "one's",
+      "next": "going",
+      "count": 41,
+      "quantizedProbability": 197
+    },
+    {
+      "previous": "one's",
+      "next": "life",
+      "count": 26,
+      "quantizedProbability": 189
+    },
+    {
+      "previous": "other",
+      "next": "people's",
+      "count": 225,
+      "quantizedProbability": 183
+    },
+    {
+      "previous": "over",
+      "next": "mary's",
+      "count": 28,
+      "quantizedProbability": 142
+    },
+    {
+      "previous": "people's",
+      "next": "lives",
+      "count": 49,
+      "quantizedProbability": 208
+    },
+    {
+      "previous": "people's",
+      "next": "names",
+      "count": 29,
+      "quantizedProbability": 198
+    },
+    {
+      "previous": "prefecture's",
+      "next": "capital",
+      "count": 48,
+      "quantizedProbability": 251
+    },
+    {
+      "previous": "principal's",
+      "next": "office",
+      "count": 64,
+      "quantizedProbability": 250
+    },
+    {
+      "previous": "read",
+      "next": "tom's",
+      "count": 51,
+      "quantizedProbability": 164
+    },
+    {
+      "previous": "read",
+      "next": "mary's",
+      "count": 27,
+      "quantizedProbability": 152
+    },
+    {
+      "previous": "remember",
+      "next": "tom's",
+      "count": 43,
+      "quantizedProbability": 164
+    },
+    {
+      "previous": "rima's",
+      "next": "house",
+      "count": 125,
+      "quantizedProbability": 195
+    },
+    {
+      "previous": "rima's",
+      "next": "room",
+      "count": 60,
+      "quantizedProbability": 182
+    },
+    {
+      "previous": "rima's",
+      "next": "body",
+      "count": 53,
+      "quantizedProbability": 179
+    },
+    {
+      "previous": "rima's",
+      "next": "face",
+      "count": 53,
+      "quantizedProbability": 179
+    },
+    {
+      "previous": "rima's",
+      "next": "hand",
+      "count": 52,
+      "quantizedProbability": 179
+    },
+    {
+      "previous": "rima's",
+      "next": "life",
+      "count": 52,
+      "quantizedProbability": 179
+    },
+    {
+      "previous": "rima's",
+      "next": "name",
+      "count": 50,
+      "quantizedProbability": 178
+    },
+    {
+      "previous": "rima's",
+      "next": "car",
+      "count": 40,
+      "quantizedProbability": 174
+    },
+    {
+      "previous": "rima's",
+      "next": "phone",
+      "count": 35,
+      "quantizedProbability": 172
+    },
+    {
+      "previous": "rima's",
+      "next": "place",
+      "count": 28,
+      "quantizedProbability": 168
+    },
+    {
+      "previous": "rima's",
+      "next": "computer",
+      "count": 27,
+      "quantizedProbability": 167
+    },
+    {
+      "previous": "rima's",
+      "next": "relationship",
+      "count": 26,
+      "quantizedProbability": 166
+    },
+    {
+      "previous": "rima's",
+      "next": "head",
+      "count": 25,
+      "quantizedProbability": 166
+    },
+    {
+      "previous": "rima's",
+      "next": "voice",
+      "count": 25,
+      "quantizedProbability": 166
+    },
+    {
+      "previous": "sami's",
+      "next": "dog",
+      "count": 194,
+      "quantizedProbability": 200
+    },
+    {
+      "previous": "sami's",
+      "next": "car",
+      "count": 92,
+      "quantizedProbability": 186
+    },
+    {
+      "previous": "sami's",
+      "next": "house",
+      "count": 89,
+      "quantizedProbability": 186
+    },
+    {
+      "previous": "sami's",
+      "next": "mom",
+      "count": 86,
+      "quantizedProbability": 185
+    },
+    {
+      "previous": "sami's",
+      "next": "life",
+      "count": 71,
+      "quantizedProbability": 182
+    },
+    {
+      "previous": "sami's",
+      "next": "parents",
+      "count": 71,
+      "quantizedProbability": 182
+    },
+    {
+      "previous": "sami's",
+      "next": "body",
+      "count": 68,
+      "quantizedProbability": 181
+    },
+    {
+      "previous": "sami's",
+      "next": "girlfriend",
+      "count": 62,
+      "quantizedProbability": 179
+    },
+    {
+      "previous": "sami's",
+      "next": "story",
+      "count": 52,
+      "quantizedProbability": 176
+    },
+    {
+      "previous": "sami's",
+      "next": "wife",
+      "count": 50,
+      "quantizedProbability": 175
+    },
+    {
+      "previous": "sami's",
+      "next": "hair",
+      "count": 46,
+      "quantizedProbability": 174
+    },
+    {
+      "previous": "sami's",
+      "next": "father",
+      "count": 44,
+      "quantizedProbability": 173
+    },
+    {
+      "previous": "sami's",
+      "next": "mother",
+      "count": 40,
+      "quantizedProbability": 171
+    },
+    {
+      "previous": "sami's",
+      "next": "family",
+      "count": 39,
+      "quantizedProbability": 171
+    },
+    {
+      "previous": "sami's",
+      "next": "phone",
+      "count": 39,
+      "quantizedProbability": 171
+    },
+    {
+      "previous": "sami's",
+      "next": "daughter",
+      "count": 37,
+      "quantizedProbability": 170
+    },
+    {
+      "previous": "sami's",
+      "next": "room",
+      "count": 34,
+      "quantizedProbability": 168
+    },
+    {
+      "previous": "sami's",
+      "next": "face",
+      "count": 33,
+      "quantizedProbability": 168
+    },
+    {
+      "previous": "sami's",
+      "next": "death",
+      "count": 32,
+      "quantizedProbability": 167
+    },
+    {
+      "previous": "sami's",
+      "next": "cat",
+      "count": 28,
+      "quantizedProbability": 165
+    },
+    {
+      "previous": "sami's",
+      "next": "affair",
+      "count": 25,
+      "quantizedProbability": 163
+    },
+    {
+      "previous": "sami's",
+      "next": "manager",
+      "count": 25,
+      "quantizedProbability": 163
+    },
+    {
+      "previous": "saw",
+      "next": "rima's",
+      "count": 49,
+      "quantizedProbability": 155
+    },
+    {
+      "previous": "saw",
+      "next": "layla's",
+      "count": 47,
+      "quantizedProbability": 154
+    },
+    {
+      "previous": "saw",
+      "next": "tom's",
+      "count": 45,
+      "quantizedProbability": 153
+    },
+    {
+      "previous": "saw",
+      "next": "mary's",
+      "count": 34,
+      "quantizedProbability": 148
+    },
+    {
+      "previous": "see",
+      "next": "tom's",
+      "count": 61,
+      "quantizedProbability": 146
+    },
+    {
+      "previous": "seen",
+      "next": "tom's",
+      "count": 45,
+      "quantizedProbability": 163
+    },
+    {
+      "previous": "sister's",
+      "next": "name",
+      "count": 28,
+      "quantizedProbability": 213
+    },
+    {
+      "previous": "skura's",
+      "next": "life",
+      "count": 42,
+      "quantizedProbability": 196
+    },
+    {
+      "previous": "skura's",
+      "next": "house",
+      "count": 28,
+      "quantizedProbability": 188
+    },
+    {
+      "previous": "skura's",
+      "next": "car",
+      "count": 25,
+      "quantizedProbability": 186
+    },
+    {
+      "previous": "someone",
+      "next": "else's",
+      "count": 92,
+      "quantizedProbability": 176
+    },
+    {
+      "previous": "something's",
+      "next": "wrong",
+      "count": 44,
+      "quantizedProbability": 226
+    },
+    {
+      "previous": "stole",
+      "next": "mary's",
+      "count": 77,
+      "quantizedProbability": 199
+    },
+    {
+      "previous": "stole",
+      "next": "tom's",
+      "count": 39,
+      "quantizedProbability": 187
+    },
+    {
+      "previous": "stole",
+      "next": "layla's",
+      "count": 31,
+      "quantizedProbability": 182
+    },
+    {
+      "previous": "sure",
+      "next": "tom's",
+      "count": 46,
+      "quantizedProbability": 151
+    },
+    {
+      "previous": "take",
+      "next": "tom's",
+      "count": 41,
+      "quantizedProbability": 142
+    },
+    {
+      "previous": "teacher's",
+      "next": "name",
+      "count": 43,
+      "quantizedProbability": 219
+    },
+    {
+      "previous": "than",
+      "next": "mary's",
+      "count": 59,
+      "quantizedProbability": 143
+    },
+    {
+      "previous": "that's",
+      "next": "tom's",
+      "count": 95,
+      "quantizedProbability": 160
+    },
+    {
+      "previous": "think",
+      "next": "tom's",
+      "count": 116,
+      "quantizedProbability": 140
+    },
+    {
+      "previous": "today's",
+      "next": "meeting",
+      "count": 246,
+      "quantizedProbability": 230
+    },
+    {
+      "previous": "today's",
+      "next": "paper",
+      "count": 39,
+      "quantizedProbability": 197
+    },
+    {
+      "previous": "today's",
+      "next": "exam",
+      "count": 31,
+      "quantizedProbability": 193
+    },
+    {
+      "previous": "today's",
+      "next": "game",
+      "count": 25,
+      "quantizedProbability": 189
+    },
+    {
+      "previous": "today's",
+      "next": "test",
+      "count": 25,
+      "quantizedProbability": 189
+    },
+    {
+      "previous": "tom's",
+      "next": "house",
+      "count": 572,
+      "quantizedProbability": 192
+    },
+    {
+      "previous": "tom's",
+      "next": "parents",
+      "count": 427,
+      "quantizedProbability": 187
+    },
+    {
+      "previous": "tom's",
+      "next": "car",
+      "count": 361,
+      "quantizedProbability": 184
+    },
+    {
+      "previous": "tom's",
+      "next": "dog",
+      "count": 346,
+      "quantizedProbability": 183
+    },
+    {
+      "previous": "tom's",
+      "next": "a",
+      "count": 243,
+      "quantizedProbability": 176
+    },
+    {
+      "previous": "tom's",
+      "next": "father",
+      "count": 229,
+      "quantizedProbability": 175
+    },
+    {
+      "previous": "tom's",
+      "next": "mother",
+      "count": 229,
+      "quantizedProbability": 175
+    },
+    {
+      "previous": "tom's",
+      "next": "face",
+      "count": 213,
+      "quantizedProbability": 174
+    },
+    {
+      "previous": "tom's",
+      "next": "help",
+      "count": 192,
+      "quantizedProbability": 172
+    },
+    {
+      "previous": "tom's",
+      "next": "wife",
+      "count": 175,
+      "quantizedProbability": 171
+    },
+    {
+      "previous": "tom's",
+      "next": "party",
+      "count": 161,
+      "quantizedProbability": 169
+    },
+    {
+      "previous": "tom's",
+      "next": "not",
+      "count": 152,
+      "quantizedProbability": 168
+    },
+    {
+      "previous": "tom's",
+      "next": "friends",
+      "count": 146,
+      "quantizedProbability": 167
+    },
+    {
+      "previous": "tom's",
+      "next": "french",
+      "count": 141,
+      "quantizedProbability": 167
+    },
+    {
+      "previous": "tom's",
+      "next": "family",
+      "count": 136,
+      "quantizedProbability": 166
+    },
+    {
+      "previous": "tom's",
+      "next": "favorite",
+      "count": 132,
+      "quantizedProbability": 165
+    },
+    {
+      "previous": "tom's",
+      "next": "birthday",
+      "count": 127,
+      "quantizedProbability": 165
+    },
+    {
+      "previous": "tom's",
+      "next": "room",
+      "count": 122,
+      "quantizedProbability": 164
+    },
+    {
+      "previous": "tom's",
+      "next": "girlfriend",
+      "count": 114,
+      "quantizedProbability": 163
+    },
+    {
+      "previous": "tom's",
+      "next": "and",
+      "count": 109,
+      "quantizedProbability": 162
+    },
+    {
+      "previous": "tom's",
+      "next": "new",
+      "count": 108,
+      "quantizedProbability": 162
+    },
+    {
+      "previous": "tom's",
+      "next": "voice",
+      "count": 105,
+      "quantizedProbability": 161
+    },
+    {
+      "previous": "tom's",
+      "next": "eyes",
+      "count": 98,
+      "quantizedProbability": 160
+    },
+    {
+      "previous": "tom's",
+      "next": "plan",
+      "count": 98,
+      "quantizedProbability": 160
+    },
+    {
+      "previous": "tom's",
+      "next": "place",
+      "count": 95,
+      "quantizedProbability": 159
+    },
+    {
+      "previous": "tom's",
+      "next": "life",
+      "count": 90,
+      "quantizedProbability": 158
+    },
+    {
+      "previous": "tom's",
+      "next": "speech",
+      "count": 87,
+      "quantizedProbability": 158
+    },
+    {
+      "previous": "tom's",
+      "next": "advice",
+      "count": 86,
+      "quantizedProbability": 158
+    },
+    {
+      "previous": "tom's",
+      "next": "fault",
+      "count": 84,
+      "quantizedProbability": 157
+    },
+    {
+      "previous": "tom's",
+      "next": "got",
+      "count": 84,
+      "quantizedProbability": 157
+    },
+    {
+      "previous": "tom's",
+      "next": "death",
+      "count": 82,
+      "quantizedProbability": 157
+    },
+    {
+      "previous": "tom's",
+      "next": "last",
+      "count": 81,
+      "quantizedProbability": 156
+    },
+    {
+      "previous": "tom's",
+      "next": "office",
+      "count": 81,
+      "quantizedProbability": 156
+    },
+    {
+      "previous": "tom's",
+      "next": "idea",
+      "count": 78,
+      "quantizedProbability": 156
+    },
+    {
+      "previous": "tom's",
+      "next": "hair",
+      "count": 77,
+      "quantizedProbability": 156
+    },
+    {
+      "previous": "tom's",
+      "next": "brother",
+      "count": 74,
+      "quantizedProbability": 155
+    },
+    {
+      "previous": "tom's",
+      "next": "phone",
+      "count": 74,
+      "quantizedProbability": 155
+    },
+    {
+      "previous": "tom's",
+      "next": "body",
+      "count": 73,
+      "quantizedProbability": 155
+    },
+    {
+      "previous": "tom's",
+      "next": "children",
+      "count": 73,
+      "quantizedProbability": 155
+    },
+    {
+      "previous": "tom's",
+      "next": "sister",
+      "count": 72,
+      "quantizedProbability": 154
+    },
+    {
+      "previous": "tom's",
+      "next": "cat",
+      "count": 67,
+      "quantizedProbability": 153
+    },
+    {
+      "previous": "tom's",
+      "next": "daughter",
+      "count": 67,
+      "quantizedProbability": 153
+    },
+    {
+      "previous": "tom's",
+      "next": "first",
+      "count": 67,
+      "quantizedProbability": 153
+    },
+    {
+      "previous": "tom's",
+      "next": "opinion",
+      "count": 64,
+      "quantizedProbability": 152
+    },
+    {
+      "previous": "tom's",
+      "next": "apartment",
+      "count": 63,
+      "quantizedProbability": 152
+    },
+    {
+      "previous": "tom's",
+      "next": "brothers",
+      "count": 63,
+      "quantizedProbability": 152
+    },
+    {
+      "previous": "tom's",
+      "next": "name",
+      "count": 63,
+      "quantizedProbability": 152
+    },
+    {
+      "previous": "tom's",
+      "next": "address",
+      "count": 59,
+      "quantizedProbability": 151
+    },
+    {
+      "previous": "tom's",
+      "next": "behavior",
+      "count": 57,
+      "quantizedProbability": 150
+    },
+    {
+      "previous": "tom's",
+      "next": "story",
+      "count": 56,
+      "quantizedProbability": 150
+    },
+    {
+      "previous": "tom's",
+      "next": "been",
+      "count": 54,
+      "quantizedProbability": 149
+    },
+    {
+      "previous": "tom's",
+      "next": "mind",
+      "count": 53,
+      "quantizedProbability": 149
+    },
+    {
+      "previous": "tom's",
+      "next": "answer",
+      "count": 52,
+      "quantizedProbability": 148
+    },
+    {
+      "previous": "tom's",
+      "next": "letter",
+      "count": 52,
+      "quantizedProbability": 148
+    },
+    {
+      "previous": "tom's",
+      "next": "doctor",
+      "count": 50,
+      "quantizedProbability": 148
+    },
+    {
+      "previous": "tom's",
+      "next": "hands",
+      "count": 50,
+      "quantizedProbability": 148
+    },
+    {
+      "previous": "tom's",
+      "next": "concert",
+      "count": 47,
+      "quantizedProbability": 147
+    },
+    {
+      "previous": "tom's",
+      "next": "the",
+      "count": 46,
+      "quantizedProbability": 146
+    },
+    {
+      "previous": "tom's",
+      "next": "shoes",
+      "count": 45,
+      "quantizedProbability": 146
+    },
+    {
+      "previous": "tom's",
+      "next": "in",
+      "count": 44,
+      "quantizedProbability": 145
+    },
+    {
+      "previous": "tom's",
+      "next": "problem",
+      "count": 44,
+      "quantizedProbability": 145
+    },
+    {
+      "previous": "tom's",
+      "next": "bicycle",
+      "count": 42,
+      "quantizedProbability": 144
+    },
+    {
+      "previous": "tom's",
+      "next": "friend",
+      "count": 41,
+      "quantizedProbability": 144
+    },
+    {
+      "previous": "tom's",
+      "next": "funeral",
+      "count": 41,
+      "quantizedProbability": 144
+    },
+    {
+      "previous": "tomorrow's",
+      "next": "meeting",
+      "count": 54,
+      "quantizedProbability": 229
+    },
+    {
+      "previous": "tonight's",
+      "next": "party",
+      "count": 36,
+      "quantizedProbability": 238
+    },
+    {
+      "previous": "took",
+      "next": "rima's",
+      "count": 37,
+      "quantizedProbability": 150
+    },
+    {
+      "previous": "took",
+      "next": "layla's",
+      "count": 32,
+      "quantizedProbability": 147
+    },
+    {
+      "previous": "took",
+      "next": "mary's",
+      "count": 31,
+      "quantizedProbability": 146
+    },
+    {
+      "previous": "uncle's",
+      "next": "house",
+      "count": 26,
+      "quantizedProbability": 228
+    },
+    {
+      "previous": "understand",
+      "next": "tom's",
+      "count": 33,
+      "quantizedProbability": 156
+    },
+    {
+      "previous": "valentine's",
+      "next": "day",
+      "count": 151,
+      "quantizedProbability": 252
+    },
+    {
+      "previous": "well",
+      "next": "let's",
+      "count": 32,
+      "quantizedProbability": 153
+    },
+    {
+      "previous": "western",
+      "next": "sahara's",
+      "count": 28,
+      "quantizedProbability": 191
+    },
+    {
+      "previous": "what",
+      "next": "tom's",
+      "count": 144,
+      "quantizedProbability": 138
+    },
+    {
+      "previous": "what're",
+      "next": "you",
+      "count": 143,
+      "quantizedProbability": 245
+    },
+    {
+      "previous": "what're",
+      "next": "the",
+      "count": 33,
+      "quantizedProbability": 218
+    },
+    {
+      "previous": "what's",
+      "next": "tom's",
+      "count": 90,
+      "quantizedProbability": 169
+    },
+    {
+      "previous": "what's",
+      "next": "algeria's",
+      "count": 77,
+      "quantizedProbability": 166
+    },
+    {
+      "previous": "what've",
+      "next": "you",
+      "count": 50,
+      "quantizedProbability": 249
+    },
+    {
+      "previous": "where",
+      "next": "tom's",
+      "count": 32,
+      "quantizedProbability": 136
+    },
+    {
+      "previous": "why's",
+      "next": "tom",
+      "count": 100,
+      "quantizedProbability": 239
+    },
+    {
+      "previous": "wife's",
+      "next": "name",
+      "count": 25,
+      "quantizedProbability": 212
+    },
+    {
+      "previous": "with",
+      "next": "tom's",
+      "count": 124,
+      "quantizedProbability": 133
+    },
+    {
+      "previous": "with",
+      "next": "mary's",
+      "count": 95,
+      "quantizedProbability": 128
+    },
+    {
+      "previous": "without",
+      "next": "tom's",
+      "count": 112,
+      "quantizedProbability": 173
+    },
+    {
+      "previous": "without",
+      "next": "mary's",
+      "count": 50,
+      "quantizedProbability": 158
+    },
+    {
+      "previous": "world's",
+      "next": "largest",
+      "count": 87,
+      "quantizedProbability": 216
+    },
+    {
+      "previous": "world's",
+      "next": "most",
+      "count": 83,
+      "quantizedProbability": 215
+    },
+    {
+      "previous": "world's",
+      "next": "population",
+      "count": 28,
+      "quantizedProbability": 195
+    },
+    {
+      "previous": "world's",
+      "next": "first",
+      "count": 27,
+      "quantizedProbability": 195
+    },
+    {
+      "previous": "yanni's",
+      "next": "windshield",
+      "count": 81,
+      "quantizedProbability": 198
+    },
+    {
+      "previous": "yanni's",
+      "next": "life",
+      "count": 61,
+      "quantizedProbability": 192
+    },
+    {
+      "previous": "yanni's",
+      "next": "house",
+      "count": 54,
+      "quantizedProbability": 190
+    },
+    {
+      "previous": "yanni's",
+      "next": "car",
+      "count": 53,
+      "quantizedProbability": 190
+    },
+    {
+      "previous": "yanni's",
+      "next": "dog",
+      "count": 48,
+      "quantizedProbability": 188
+    },
+    {
+      "previous": "yanni's",
+      "next": "parents",
+      "count": 37,
+      "quantizedProbability": 183
+    },
+    {
+      "previous": "yanni's",
+      "next": "mother",
+      "count": 34,
+      "quantizedProbability": 182
+    },
+    {
+      "previous": "yanni's",
+      "next": "family",
+      "count": 30,
+      "quantizedProbability": 179
+    },
+    {
+      "previous": "yanni's",
+      "next": "cat",
+      "count": 25,
+      "quantizedProbability": 176
+    },
+    {
+      "previous": "yanni's",
+      "next": "father",
+      "count": 25,
+      "quantizedProbability": 176
+    },
+    {
+      "previous": "yanni's",
+      "next": "mom",
+      "count": 25,
+      "quantizedProbability": 176
+    },
+    {
+      "previous": "year's",
+      "next": "eve",
+      "count": 98,
+      "quantizedProbability": 230
+    },
+    {
+      "previous": "year's",
+      "next": "day",
+      "count": 25,
+      "quantizedProbability": 205
+    },
+    {
+      "previous": "yesterday's",
+      "next": "meeting",
+      "count": 35,
+      "quantizedProbability": 226
+    },
+    {
+      "previous": "ziri's",
+      "next": "dog",
+      "count": 254,
+      "quantizedProbability": 210
+    },
+    {
+      "previous": "ziri's",
+      "next": "cat",
+      "count": 125,
+      "quantizedProbability": 197
+    },
+    {
+      "previous": "ziri's",
+      "next": "ivy",
+      "count": 76,
+      "quantizedProbability": 188
+    },
+    {
+      "previous": "ziri's",
+      "next": "parents",
+      "count": 57,
+      "quantizedProbability": 182
+    },
+    {
+      "previous": "ziri's",
+      "next": "house",
+      "count": 55,
+      "quantizedProbability": 182
+    },
+    {
+      "previous": "ziri's",
+      "next": "life",
+      "count": 48,
+      "quantizedProbability": 179
+    },
+    {
+      "previous": "ziri's",
+      "next": "eyes",
+      "count": 39,
+      "quantizedProbability": 175
+    },
+    {
+      "previous": "ziri's",
+      "next": "wife",
+      "count": 38,
+      "quantizedProbability": 175
+    },
+    {
+      "previous": "ziri's",
+      "next": "car",
+      "count": 36,
+      "quantizedProbability": 174
+    },
+    {
+      "previous": "ziri's",
+      "next": "body",
+      "count": 35,
+      "quantizedProbability": 173
+    },
+    {
+      "previous": "ziri's",
+      "next": "story",
+      "count": 34,
+      "quantizedProbability": 173
+    },
+    {
+      "previous": "ziri's",
+      "next": "face",
+      "count": 29,
+      "quantizedProbability": 170
+    },
+    {
+      "previous": "ziri's",
+      "next": "heart",
+      "count": 26,
+      "quantizedProbability": 168
+    },
+    {
+      "previous": "ziri's",
+      "next": "phone",
+      "count": 25,
+      "quantizedProbability": 167
+    }
+  ],
+  "outputs": {
+    "lexiconSHA256": "58dc07577f16feb83751a28c6a301b901d04c0cc9550aca638ba46771d3f1aa2",
+    "bigramsSHA256": "9a3ce6b537e731e2981061559010e2acf51f16247cd955b22c1d0680959194a6"
+  }
+}

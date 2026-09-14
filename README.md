@@ -184,6 +184,47 @@ The validator checks the required `.clex`, optional binary resources, neural-mod
 
 ## Add next-word prediction
 
+### Recover corpus coverage without recalibrating an existing pack
+
+When a frequency source splits apostrophe words into fragments, the dictionary
+can omit ordinary contractions and possessives even though the sentence corpus
+contains them. `tools/augment-corpus-coverage.py` adds every missing apostrophe
+form observed at least 25 times, using a scale measured across frequently
+observed words shared with the existing dictionary. It also appends measured
+sentence-start counts for **all** dictionary words. This is corpus metadata,
+not a spelling replacement list.
+
+Use explicit, immutable base dictionary and next-word files, and a licensed
+sentence corpus. For example:
+
+```sh
+python3 tools/augment-corpus-coverage.py --code en \
+  --base-lexicon /path/to/base/en.clex \
+  --base-bigrams /path/to/base/en.cngm \
+  --sentences /path/to/en_sentences.tsv \
+  --output-directory Lexicons \
+  --receipt source/en-corpus-coverage-receipt.json
+python3 tools/validate-pack.py en
+```
+
+The receipt records all input and output SHA-256 hashes, calibration data, and
+the evidence behind added entries and pairs. Keep it with the release sources.
+Existing unigram bytes, character lengths, letter-model bytes, and bigram
+probabilities remain identical; only word IDs are remapped. Existing follower
+cutoffs cannot decrease. At most 32 new observed pairs join an existing follower
+block; a new block has at most 64 pairs. The helper never trains a neural model
+or publishes a release.
+
+Sentence starts use an optional trailing CLEX1 section: `CBOS`, little-endian
+version `1`, word count, then one little-endian UInt32 observed count per word
+ID. Older CLEX1 readers ignore the section. Updated Clink readers distinguish
+unavailable metadata from a measured zero and read counts from the existing
+memory mapping. Legacy and imported packs remain valid without the section.
+
+Updating local assets does not update installed dictionaries. Publish the
+verified assets through the normal complete release manifest, and ensure Clink
+downloads that version before claiming the corpus-dependent repairs are live.
+
 A dictionary knows individual words. A next-word model learns that after “thank” people often type “you”. It needs real sentences, not a list of isolated words.
 
 1. Create `source/tok.sentences.txt` and put one complete sentence on each line. Punctuation is fine.
