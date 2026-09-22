@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/anti-ltd/clink-language-packs/main/icon-1024.png" width="96" alt="Clink app icon">
+  <img src="README-assets/clink-icon.png" width="96" alt="Clink app icon">
 </p>
 
 <h1 align="center">Clink language packs</h1>
@@ -263,6 +263,33 @@ Use this only when people type a phonetic reading and choose a different written
    ```
 
 This makes `Lexicons/ja.cime`. Clink shows at most the first 16 choices per reading, in the order you give them.
+
+### Simplified Chinese (`zh`) is different
+
+Clink converts Pinyin with a word model built into the app, not with a table, so
+a `zh.cime` table does not replace it. From a community repository, a table in
+the format above **adds** rows on top of that model:
+
+- Your choices for a reading come first, in your order, followed by the model's
+  own suggestions. Phrases the person has taught Clink stay ahead of yours.
+- Readings match without spaces or apostrophes, so `pin yin`, `pin'yin` and
+  `pinyin` are the same row. Write one, not all three.
+- The match is for the whole reading. A row for `pinyin` does not change what
+  appears while typing `pinyinshurufa`.
+- A choice does not need to be in `zh.clex`, and its length does not need to
+  match the number of syllables.
+- Rows apply to the Simplified QWERTY Pinyin board only, not to Traditional or
+  12-key Pinyin.
+
+Only list the readings you want to change. The official pack still carries an
+old full `zh.cime` that the app ignores; if you started from a copy of this
+repository, delete that file first and build your own from a small TSV, or
+every one of its 27,000 rows will sit ahead of the model's suggestions.
+
+A table in an official pack has no effect. To test, publish the pack from your
+own repository, add that repository in Clink, and install the pack. The
+keyboard reloads on its own after an install; switching away from Clink and back
+is enough.
 
 ## Add a neural model
 
