@@ -41,6 +41,7 @@ Clink ships English in the app, then downloads the languages you choose. A pack 
 | 🇸🇮 Slovenian ★★★★★ | 🇸🇰 Slovak ★★★★★ | 🇸🇪 Swedish ★★★★★ |
 | 🇹🇭 Thai ★★★★ | 🇮🇳 Tamil ★★★ | 🇮🇳 Telugu ★★★ |
 | 🇵🇭 Tagalog ★★★★★ | 🇹🇿 Swahili ★★★ | 🇵🇰 Urdu ★★★ |
+| 🇵🇰 Roman Urdu (Latin Urdu) ★★★★★ |
 | 🇵🇭 Filipino — in preparation |
 
 **Pack-depth key:** ★★★★★ dictionary + next-word model + neural model; ★★★★ dictionary + neural model; ★★★ dictionary + next-word model; ★★ dictionary only. Ratings describe shipped on-device assets, not the importance, quality, or fluency of a language.
@@ -103,6 +104,21 @@ python3 tools/validate-catalog.py
 Those downloads are ignored because they are reproducible raw inputs, not release
 assets. `tools/build-wave.py --train` builds reviewed entries and preserves an
 existing neural model unless `FORCE_RETRAIN=1` is set.
+
+Roman Urdu (`ur_latn`) is a separate Latin QWERTY typing pack alongside Urdu
+(`ur`), which uses its Urdu-script keyboard. Both work offline after installation. Android uses the dictionary and next-word
+model; Core ML neural ranking is an optional iOS enhancement.
+`make train-roman-urdu` builds the dictionary, observed next-word pairs and matching
+BPE neural model from Zareen Sharf's [Roman Urdu Data Set](https://doi.org/10.24432/C58325)
+(UCI, 2017), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+The download digest is pinned in `tools/prepare-roman-urdu.py`. Clink deduplicates
+and normalizes the comments, removes web/contact tokens, and derives dictionary
+frequencies from repeated words. It retains observed spelling variants and English
+code-switching; it does not borrow Hindi or Urdu-script prediction data. The
+source receipt records 18,983 distinct entries, 258,602 tokens and 9,129 dictionary
+words. This social-media corpus has a limited domain; its size is not a claim of
+native-speaker quality review. Emoji aliases and an input-method table are not
+included; Latin letters are typed directly.
 
 Hinglish (`hi_latn`) is intentionally separate from Devanagari Hindi: it uses a
 Latin QWERTY layout and requires real Roman Hindi–English data. `make

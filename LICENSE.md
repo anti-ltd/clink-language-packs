@@ -96,3 +96,14 @@ This license grants only copyright and similar rights that a copyright holder
 has authority to grant. It grants no patent or trademark rights. Nothing in
 this license limits a copyright holder's ability to use or license their own
 work separately.
+
+## Roman Urdu pack attribution
+
+`Lexicons/ur_latn.*` is adapted from **Sharf, Z. (2017). Roman Urdu Data Set
+[Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C58325.**
+The dataset and these derived corpus assets are available under
+[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/),
+which takes precedence over the Clink-only terms above for this material.
+Changes: normalization and deduplication; removal of web/contact/numeric tokens;
+frequency filtering; compilation into word/next-word data and a trained subword
+model. No endorsement by the dataset author or UCI is implied.

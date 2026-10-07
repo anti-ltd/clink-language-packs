@@ -1,6 +1,7 @@
 {
   "schema": 1,
   "attribution": [
+    {"name":"Zareen Sharf (2017), Roman Urdu Data Set, UCI","license":"CC-BY-4.0","url":"https://doi.org/10.24432/C58325"},
     {"name":"FrequencyWords / OpenSubtitles 2018","license":"CC-BY-SA-4.0","url":"https://github.com/hermitdave/FrequencyWords"},
     {"name":"Tatoeba sentence exports","license":"CC-BY-2.0-FR","url":"https://tatoeba.org/en/downloads"},
     {"name":"JMdict","license":"CC-BY-SA-3.0","url":"https://www.edrdg.org/jmdict/j_jmdict.html"},
@@ -45,6 +46,7 @@
     {"code":"lo","status":"complete","nextWordModel":false,"sources":["https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/lo/lo_50k.txt","https://downloads.tatoeba.org/exports/per_language/lao/lao_sentences.tsv.bz2"]},
     {"code":"my","status":"complete","nextWordModel":false,"sources":["https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/my/my_50k.txt","https://downloads.tatoeba.org/exports/per_language/mya/mya_sentences.tsv.bz2"]},
     {"code":"am","status":"complete","sources":["https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/am/am_50k.txt","https://downloads.tatoeba.org/exports/per_language/amh/amh_sentences.tsv.bz2"]},
+    {"code":"ur_latn","status":"complete","sources":["https://archive.ics.uci.edu/static/public/458/roman%2Burdu%2Bdata%2Bset.zip"],"sha256":{"corpus":"78e7cd1d7b0dc8e960a52c9151fc3114c70a3809111d3421581bbad931a6f5a8"}},
     {"code":"hi_latn","status":"complete","sources":["https://huggingface.co/datasets/LingoIITGN/PHINC/resolve/44b5471df75e508b9d6fcdbcc93df04bb1e84056/PHINC.csv"]},
     {"code":"gd","status":"complete","sources":["https://downloads.tatoeba.org/exports/per_language/gla/gla_sentences.tsv.bz2"]},
     {"code":"cy","status":"complete","sources":["https://downloads.tatoeba.org/exports/per_language/cym/cym_sentences.tsv.bz2"]},
