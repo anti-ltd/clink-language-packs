@@ -6,7 +6,19 @@ on:
         description: Immutable release version (for example 2026.08.22)
         required: true
   push:
+    branches: [main]
     tags: ['v*']
+    paths:
+      - 'Lexicons/**'
+      - 'catalog/**'
+      - 'source/**'
+      - 'tools/**'
+      - 'build-pack.py'
+      - '.github/workflows/release.yml'
+# Never interrupt an upload or let two runs publish over one another.
+concurrency:
+  group: language-pack-release
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -14,18 +26,41 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Resolve immutable release version
+        env:
+          REQUESTED_VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+          if [[ "$GITHUB_EVENT_NAME" == workflow_dispatch ]]; then
+            V="$REQUESTED_VERSION"
+          elif [[ "$GITHUB_REF_TYPE" == tag ]]; then
+            V="$GITHUB_REF_NAME"
+          else
+            # Stable on retries; unique even for two pushes on the same day.
+            V="v$(git show -s --format=%cd --date=format-local:%Y.%m.%d "$GITHUB_SHA").${GITHUB_RUN_ID}"
+          fi
+          [[ "$V" =~ ^[A-Za-z0-9][A-Za-z0-9._-]*$ ]] || {
+            echo "Invalid release version" >&2
+            exit 1
+          }
+          echo "RELEASE_VERSION=$V" >> "$GITHUB_ENV"
       - name: Build manifest and release assets
         run: |
           set -euo pipefail
-          V="${{ inputs.version || github.ref_name }}"; mkdir out
+          V="$RELEASE_VERSION"; mkdir out
           python3 tools/validate-catalog.py
+          for lexicon in Lexicons/*.clex; do
+            code="${lexicon##*/}"
+            [[ "$code" == ._* ]] && continue
+            python3 tools/validate-pack.py "${code%.clex}"
+          done
           python3 tools/build-release-manifest.py "$V" "${{ github.repository }}" out
       - name: Stage release assets without changing production latest
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          V="${{ inputs.version || github.ref_name }}"
+          V="$RELEASE_VERSION"
           # A public release becomes GitHub's "latest" immediately.  Keeping it
           # draft until every file is present prevents production clients from
           # ever observing a missing or partial manifest.
@@ -35,7 +70,7 @@ jobs:
               exit 1
             }
           else
-            gh release create "$V" --draft --generate-notes --title "$V"
+            gh release create "$V" --target "$GITHUB_SHA" --draft --generate-notes --title "$V"
           fi
 
           # GitHub throttles large batches of individual Core ML files.  Retry
@@ -65,6 +100,6 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          V="${{ inputs.version || github.ref_name }}"
+          V="$RELEASE_VERSION"
           test "$(gh release view "$V" --json isDraft --jq .isDraft)" = true
           gh release edit "$V" --draft=false

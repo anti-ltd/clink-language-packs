@@ -7,8 +7,8 @@ repo_dir="$(cd "$(dirname "$0")" && pwd)"
 cd "$repo_dir"
 
 branch="$(git branch --show-current)"
-if [[ -z "$branch" ]]; then
-  echo "Cannot publish from a detached HEAD." >&2
+if [[ "$branch" != main ]]; then
+  echo "Switch to main before publishing language packs." >&2
   exit 1
 fi
 
@@ -17,14 +17,6 @@ if ! git diff --cached --quiet; then
   git commit -m "Update language packs"
 fi
 
-tag="$(date -u +v%Y.%m.%d.%H%M%S)"
-suffix=1
-while git rev-parse -q --verify "refs/tags/$tag" >/dev/null; do
-  tag="$(date -u +v%Y.%m.%d.%H%M%S).$suffix"
-  ((suffix += 1))
-done
+git push origin "HEAD:refs/heads/$branch"
 
-git tag "$tag"
-git push origin "HEAD:refs/heads/$branch" "refs/tags/$tag"
-
-echo "Published $tag"
+echo "Pushed $branch. Relevant changes on main publish through GitHub Actions; check the workflow for completion."

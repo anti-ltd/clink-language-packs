@@ -12,8 +12,8 @@ if ($LASTEXITCODE -ne 0) {
     throw 'Could not determine the current Git branch.'
 }
 
-if ([string]::IsNullOrWhiteSpace($branch)) {
-    throw 'Cannot publish from a detached HEAD.'
+if ($branch -ne 'main') {
+    throw 'Switch to main before publishing language packs.'
 }
 
 & git add -A
@@ -31,26 +31,9 @@ if ($LASTEXITCODE -eq 1) {
     throw 'Failed to inspect staged changes.'
 }
 
-$tag = 'v' + [DateTime]::UtcNow.ToString('yyyy.MM.dd.HHmmss')
-$suffix = 1
-while ($true) {
-    & git rev-parse -q --verify "refs/tags/$tag" *> $null
-    if ($LASTEXITCODE -ne 0) {
-        break
-    }
-
-    $tag = ('v{0}.{1}' -f [DateTime]::UtcNow.ToString('yyyy.MM.dd.HHmmss'), $suffix)
-    $suffix++
-}
-
-& git tag $tag
+& git push origin "HEAD:refs/heads/$branch"
 if ($LASTEXITCODE -ne 0) {
-    throw "Failed to create tag $tag."
+    throw 'Failed to push the branch.'
 }
 
-& git push origin "HEAD:refs/heads/$branch" "refs/tags/$tag"
-if ($LASTEXITCODE -ne 0) {
-    throw 'Failed to push the branch and tag.'
-}
-
-Write-Host "Published $tag"
+Write-Host "Pushed $branch. Relevant changes on main publish through GitHub Actions; check the workflow for completion."

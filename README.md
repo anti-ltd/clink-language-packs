@@ -71,7 +71,7 @@ You do **not** need to understand machine learning, binary files, or GitHub rele
    ```
 
    You now have `Lexicons/tok.clex`. That is Clink's compact dictionary. You never write a `.clex` file yourself.
-5. Run `./update.sh` when you are ready to publish. It commits your changes, creates a version tag, and pushes it. GitHub Actions builds the release manifest, calculates every SHA-256 hash and file size, then publishes the files.
+5. On `main`, run `./update.sh` (or `./update.ps1` on Windows) when you are ready to publish. It commits and pushes your changes. Pushing changes to `Lexicons/`, `catalog/`, `source/`, `tools/`, `build-pack.py`, or the release workflow automatically starts a versioned release. GitHub Actions validates the packs, builds the manifest and hashes, then uploads everything to a draft before publishing it. Check the **Publish language packs** workflow for completion: a successful push alone does not mean the download is live. Documentation-only pushes do not publish. Explicit `v*` tags and manual workflow dispatch remain available.
 6. In Clink, open **General → Repositories**, add your public GitHub URL, then visit **Languages**. Your language appears under **Community**.
 
 That is enough to ship. Add the optional assets below when you have the data and a reason to use them.
