@@ -92,7 +92,8 @@ Everything lives in `Lexicons/`. The filename must begin with the same code: a J
 
 `catalog/language-wave.json` is the release authority for the pending language
 wave. It records the source URL, licence, required source files, and next action
-for every pack and IME. A `blocked` entry is intentionally absent from releases;
+for every pack and IME. A `blocked` entry and all its assets are excluded from releases, even when
+generated training output exists in `Lexicons/`;
 it becomes `complete` only after its checked source inputs have been reviewed and
 the generated assets pass `tools/validate-pack.py`. Validate the catalogue with:
 

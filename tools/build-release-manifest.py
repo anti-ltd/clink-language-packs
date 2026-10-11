@@ -28,7 +28,11 @@ blocked = {x["code"] for x in catalogue["packs"] + catalogue["imes"] if x["statu
 packs = []
 for clex in sorted(path for path in lexicons.glob("*.clex") if not path.name.startswith("._")):
     code = clex.stem
-    if code in blocked: raise SystemExit(f"blocked language {code} has release asset")
+    if code in blocked:
+        # Training output can exist before its source/model review is complete.
+        # The catalogue controls publication, not the presence of local files.
+        print(f"Skipping blocked language {code}", file=sys.stderr)
+        continue
     entries = []
     for path in sorted(lexicons.glob(code + ".*")):
         for file in (path.rglob("*") if path.is_dir() else [path]):

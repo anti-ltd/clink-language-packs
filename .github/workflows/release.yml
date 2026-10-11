@@ -48,6 +48,7 @@ jobs:
         run: |
           set -euo pipefail
           V="$RELEASE_VERSION"; mkdir out
+          python3 -B -m unittest discover -s tools/tests -v
           python3 tools/validate-catalog.py
           for lexicon in Lexicons/*.clex; do
             code="${lexicon##*/}"
