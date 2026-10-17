@@ -361,3 +361,7 @@ Adding a repository is still a trust decision. Only add repositories run by peop
 ## Publishing is automatic
 
 Keep `Lexicons/`, `tools/`, and `.github/workflows/` in your fork. Build or update a language pack, add or update `<code>.emoji.json` with the same code prefix as the dictionary, run the validation tools, and push to `main`. GitHub Actions includes every `Lexicons/<code>.*` asset in the release manifest, calculates its SHA-256 hash and byte count, and publishes the verified files.
+
+## Platform availability
+
+`platforms.json` sets the default platform for packs in this repository and optional overrides keyed by pack ID (language code or locale for language packs). Use `ios`, `android`, or `both`. The manifest builder writes `platform` on every entry; older entries without it mean `both`. Platform targeting affects repository discovery and downloads, not the portable format of a person’s own exported content.
