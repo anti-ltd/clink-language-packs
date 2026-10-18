@@ -174,6 +174,19 @@ Include common local words first, then useful international synonyms when they a
 
 Country names can be included as aliases for their flag. This is especially useful when the system locale does not provide the localized country name through `Locale`.
 
+### `names` (optional)
+
+`names` maps the same neutral glyphs to their localized spoken names. It lets the
+predictive bar distinguish the actual subject from a related search keyword.
+Older clients ignore this optional version-1 field; aliases remain available.
+Use natural localized names, preserving accents, rather than keyword lists.
+
+Bundled names are generated with `tools/add-emoji-names.py` from the app's
+vendored Unicode CLDR annotations and pinned CLDR release 48 annotations.
+`emoji-name-provenance.json` records source paths/URLs and SHA-256 hashes.
+These third-party names retain the Unicode license in `UNICODE-LICENSE.txt`.
+The generator leaves existing aliases and stopwords unchanged.
+
 ### `stopwords`
 
 `stopwords` contains language function words that should not trigger emoji suggestions on their own or dominate short phrases. Examples include articles, conjunctions, pronouns, and common prepositions.

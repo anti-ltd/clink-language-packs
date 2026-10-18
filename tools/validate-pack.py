@@ -34,6 +34,9 @@ if emoji.exists():
         stopwords = metadata.get("stopwords")
         if not isinstance(aliases, dict) or not all(isinstance(k, str) and isinstance(v, list) and v and all(isinstance(w, str) and w.strip() for w in v) for k, v in aliases.items()):
             errors.append(f"{emoji} aliases must map emoji strings to non-empty string arrays.")
+        names = metadata.get("names", {})
+        if not isinstance(names, dict) or not all(isinstance(k, str) and k in aliases and isinstance(v, str) and v.strip() for k, v in names.items()):
+            errors.append(f"{emoji} names must map known emoji to non-empty localized names.")
         if not isinstance(stopwords, list) or not all(isinstance(w, str) and w.strip() for w in stopwords):
             errors.append(f"{emoji} stopwords must be a string array.")
     except (OSError, json.JSONDecodeError) as error:
